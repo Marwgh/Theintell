@@ -1,37 +1,59 @@
 /*APP APP APP APP    APP APP APP APP    APP APP APP*/
-.navBar{
+/*HEADER HEADER HEADER     HEADER HEADER HEADER     HEADER HEADER HEADER*/
+.navBar {
   width: 100vw;
   height: 8vw;
   background-color: blueviolet;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
 }
 
-.homeTitle{
+.navB {
+  display: flex;
+  position: relative;
+  text-align: right;
+  justify-content: space-around;
+  padding-top: 2vw;
+}
+
+.navButton {
+  text-decoration: none;
+  color: black;
+  font-family: "quicksand";
+  font-weight: 500;
+}
+
+.logo {
+  width: auto;
+  height: 8vw;
+}
+
+.homeTitle {
   width: 100vw;
   height: 45vw;
-  background-color: red; 
+  background-color: red;
 }
 
-.homeStatistics{
+.homeStatistics {
   width: 100vw;
   height: 15vw;
-  background-color: yellow; 
+  background-color: yellow;
 }
 
-.homeKIP{
+.homeKIP {
   width: 100vw;
   height: 35vw;
-  background-color: beige; 
+  background-color: beige;
 }
 
-.homeSection{
+.homeSection {
   width: 100vw;
   height: 35vw;
-  background-color: green; 
+  background-color: green;
 }
 
-.footer{
+.footer {
   width: 100vw;
   height: 25vw;
-  background-color: darkblue; 
+  background-color: darkblue;
 }
-
