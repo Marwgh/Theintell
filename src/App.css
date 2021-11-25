@@ -4,29 +4,41 @@
 .navBar {
   width: 100%;
   height: 8vw;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   display: grid;
   grid-template-columns: 2fr 1fr;
   font-size: 1.2vw;
 }
-.homeButton{
+.homeButton {
   margin: 0.5vw 0 0 2vw;
   width: 6vw;
 }
 .navB {
   display: flex;
   position: relative;
-  text-align: right;
+  text-align: center;
+  /* flex-wrap: wrap; */
+  /* align-content: center; */
+  align-items: center;
   justify-content: space-around;
-  width: 20vw;
-  margin: 2.5vw 0 0 8vw;
+  width: 35vw;
+  margin: 0 5vw 0 8vw;
 }
 
 .navButton {
   text-decoration: none;
   color: black;
   font-family: "quicksand";
-  font-weight: 500;
+  /* font-weight: 500; */
+}
+
+.qr {
+  background-color: #ff5252;
+  padding: 0.5vw;
+  width: 9vw;
+  border-radius: 2vw;
+  text-align: center;
+  color: white;
 }
 
 .logo {
@@ -35,53 +47,52 @@
 }
 
 .homeTitle {
-    width: 100%;
+  width: 100%;
   height: 45vw;
   background-color: red;
 }
 
 .homeStatistics {
-    width: 100%;
+  width: 100%;
   height: 15vw;
   background-color: yellow;
 }
 
 .homeKIP {
-    width: 100%;
+  width: 100%;
   height: 35vw;
   background-color: beige;
 }
 
 .homeSection {
-    width: 100%;
+  width: 100%;
   height: 35vw;
   background-color: green;
 }
-
 
 /*FOOTER FOOTER       FOOTER FOOTER FOOTER    FOOTER FOOTER FOOTER*/
 
 .footer {
   width: 100%;
   height: 20.5vw;
-  background-color: #00004F;
-  color:white;
+  background-color: #00004f;
+  color: white;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
-  font-family: "Quicksand" , sans-serif; 
+  font-family: "Quicksand", sans-serif;
 }
-.fstFContainer{
+.fstFContainer {
   width: 20vw;
 
   position: relative;
   margin-left: 11vw;
-  margin-top: 2.5vw
+  margin-top: 2.5vw;
 }
-.fstFContainer div{
+.fstFContainer div {
   position: absolute;
   left: 5vw;
 }
-.fstFContainer select{
+.fstFContainer select {
   appearance: none;
   background-color: transparent;
   border: 1px solid white;
@@ -89,64 +100,62 @@
   width: 15vw;
   height: 2.5vw;
   color: white;
-  padding: 0 0 0 1vw ;
+  padding: 0 0 0 1vw;
   font-size: 1.3vw;
   font-weight: 500;
   font-family: "Quicksand";
 }
-.fstFContainer p{
+.fstFContainer p {
   font-weight: 700;
   font-size: 1.2vw;
   margin-top: 1.5vw;
 }
-.scdFContainer a{
+.scdFContainer a {
   text-decoration: none;
   color: white;
   font-size: 1vw;
   font-weight: 700;
-
 }
-.scdFContainer div{
+.scdFContainer div {
   display: grid;
 }
-.scdFContainer{
+.scdFContainer {
   margin-top: 3vw;
   position: relative;
 }
-.scdFContainer p{
+.scdFContainer p {
   position: absolute;
   bottom: 1.5vw;
   font-weight: 700;
   font-size: 1vw;
   left: 5vw;
 }
-.scdFContainer span{
+.scdFContainer span {
   display: block;
-  height:1px;
+  height: 1px;
   width: 8vw;
   background-color: rgba(255, 255, 255, 0.438);
   margin: 0.5vw 0 0.5vw 0;
 }
 
-.trdFContainer{
+.trdFContainer {
   margin-top: 2.5vw;
   display: flex;
 }
-.trdFContainer p{
+.trdFContainer p {
   height: 1.5vw;
   margin: 0;
   font-weight: 700;
-  font-size: 1.1vw ;
+  font-size: 1.1vw;
   margin-bottom: 1vw;
 }
-.trdFContainer div{
+.trdFContainer div {
   display: flex;
   flex-direction: column;
   margin-right: 1vw;
-
 }
-.phoneNum{
-  padding-top:3vw ;
+.phoneNum {
+  padding-top: 3vw;
 }
 
 .trdFContainer a {
@@ -154,12 +163,12 @@
   color: white;
   height: 1vw;
   font-weight: 700;
-  font-size: 1.1vw ;
+  font-size: 1.1vw;
   margin-top: 1vw;
-} 
+}
 
-.footerMonta{
+.footerMonta {
   width: 9vw;
   height: auto;
-  margin-bottom:1vw ;
+  margin-bottom: 1vw;
 }
