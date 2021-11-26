@@ -1,14 +1,15 @@
-import './App.css';
-import Footer from './Footer';
-import Navbar from './Navbar';
-function App() {
+
+export default function About() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Footer/>
+    <div className="about">
+
+      <div>
+
+        yes
+      </div>
+
 
     </div>
   );
 }
 
-export default App;

@@ -1,12 +1,14 @@
-export default function navBar() {
+export default function NavBar(props) {
+  console.log(props);
+
   return(
     <div className="navBar">
-        <a className="homeButton" href="/home"><img className="logo" src="./image/logoblue2.png" alt="logo"></img></a>
+        <div className="homeButton" onClick={ () => props.changePage("Home")} ><img className="logo" src="./image/logoblue2.png" alt="logo"></img></div>
         <div className="navB">
-          <a className="navButton" href="/about">About</a>
-          <a className="navButton" href="/howitworks">How It Works</a>
-          <a className="navButton" href="/contact">Contact</a>
-          <a className="navButton qr" href="/qr">Get Your QR</a>
+          <div className="navButton" onClick={  () => props.changePage("About")} >About</div>
+          <div className="navButton" onClick={  () => props.changePage("Howto")} >How It Works</div>
+          <div className="navButton" onClick={  () => props.changePage("Contact")} >Contact</div>
+          <div className="navButton qr" onMouseDown={  () => props.changePage("Order")} >Get Your QR</div>
         </div>
       </div>
 

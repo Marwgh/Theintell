@@ -30,6 +30,7 @@
   color: black;
   font-family: "quicksand";
   font-weight: 600;
+  cursor: pointer;
 }
 
 .qr {
@@ -44,19 +45,10 @@
 .logo {
   width: auto;
   height: 6vw;
+  cursor: pointer;
 }
 
-.homeKIP {
-  width: 100%;
-  height: 35vw;
-  background-color: beige;
-}
 
-.homeSection {
-  width: 100%;
-  height: 35vw;
-  background-color: green;
-}
 /* BODY BODY BODY BODY BODY      BODY BODY BODY BODY BODY      BODY BODY BODY BODY  */
 
 .homeTitle {
@@ -77,6 +69,7 @@
   font-size: 1.2vw;
   font-weight: 500;
   text-decoration: none;
+  cursor: pointer;
 }
 .homeText {
   width: 38vw;
@@ -111,8 +104,13 @@
   position: absolute;
   right: 20vw;
   top: -3vw;
+
 }
 
+.phoneHome img {
+  width: 25vw;
+  height: auto;
+}
 .charginCarHome {
   position: absolute;
   right: -8vw;
@@ -129,6 +127,7 @@
   height: 55vw;
   background-image: linear-gradient(#ffa8a0, white);
   position: relative;
+  margin-top: -1vw;
 }
 
 .homeCarjourneyText {
@@ -148,6 +147,61 @@
   font-size: 1.4vw;
   font-weight: 400;
   width: 32vw;
+}
+
+.homeHAW {
+  width: 100%;
+  height: 55vw;
+  position: relative;
+}
+
+.hawText {
+  position: absolute;
+  left: 13vw;
+  top: 15vw;
+}
+
+.getQrBtnHAW {
+  position: absolute;
+  left: 17vw;
+  bottom: -5vw;
+  background-color: #ff5252;
+  padding: 0.7vw 3vw 0.7vw 3vw;
+  width: 9vw;
+  border-radius: 2vw;
+  text-align: center;
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hawText  h1{
+  font-size: 2vw;
+  font-weight: 400;
+  margin-bottom: 0.5vw;
+  text-align: right;
+  
+}
+.hawText p{
+  font-size: 1.4vw;
+  font-weight: 400;
+  width: 32vw;
+  text-align: right;
+}
+
+
+.homeHAW img {
+  position: absolute;
+  right: 11vw;
+  top: 5vw;
+}
+
+.homeSection {
+  width: 100%;
+  height: 35vw;
+  background-color: green;
 }
 
 /*FOOTER FOOTER       FOOTER FOOTER FOOTER    FOOTER FOOTER FOOTER*/

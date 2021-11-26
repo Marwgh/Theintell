@@ -1,14 +1,10 @@
-import './App.css';
-import Footer from './Footer';
-import Navbar from './Navbar';
-function App() {
+
+export default function Contact() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Footer/>
+    <div className="contact">
+
 
     </div>
   );
 }
 
-export default App;

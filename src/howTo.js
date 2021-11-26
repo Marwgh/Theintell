@@ -1,14 +1,9 @@
-import './App.css';
-import Footer from './Footer';
-import Navbar from './Navbar';
-function App() {
+export default function Howto() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Footer/>
+    <div className="Howto">
 
     </div>
   );
 }
 
-export default App;
+
