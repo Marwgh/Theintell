@@ -55,18 +55,32 @@ export default function Home(props) {
         <h1>Trusted by:</h1>
       </div>
       <div className="homeSection">
-        <div> <img src="" alt="app show case"></img> </div>
+        <div> <img src="/svg/phonedisplay.svg" alt="app show case"></img> </div>
         <div className="homeSectionText">
         <h1>Title here</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
           </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
           </p>
-          {/* <div className="getQrBtnSection" onClick={ () => props.changePage("Howto")}>Get your code</div> */}
+          <div className="homeSectionQRButton" onClick={ () => props.changePage("Order")}>Get your code</div>
         </div>
       </div>
-      <div className="homeHIW"></div>
-      <div className="homeContact"></div>
+      <div className="homeHIW">
+        <div className="homeHIWinfo">
+          <h1>How It Works</h1>
+          <img src="/svg/3phonedisplay.svg" alt="apps displays"></img>
+          <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here. </p>
+          <div className="HIWButton" onClick={ () => props.changePage("Howto")}>How to use Karma</div>
+        </div>
+      </div>
+      <div className="homeContact">
+        <div className="contactText">
+          <h1>Contact Us</h1>
+          <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here. </p>
+          <div className="contactButton">Contact</div>
+        </div>
+        <img src="/svg/EnvelopeBlue.svg" alt="blue envelope"></img>
+      </div>
     </div>
   );
 }
