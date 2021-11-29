@@ -46,7 +46,7 @@ export default function Home(props) {
           </p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
           </p>
-          <div className="getQrBtnHAW" onClick={ () => props.changePage("Howto")}>Get your code</div>
+          <div className="getQrBtnHAW" onClick={ () => props.changePage("Order")}>Get your code</div>
         </div>
         <div>  <img src="/svg/hawPhones.svg" alt="app show case"></img> </div>
 
@@ -77,7 +77,7 @@ export default function Home(props) {
         <div className="contactText">
           <h1>Contact Us</h1>
           <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here. </p>
-          <div className="contactButton">Contact</div>
+          <div className="contactButton" onClick={ () => props.changePage("Contact")}>Contact</div>
         </div>
         <img src="/svg/EnvelopeBlue.svg" alt="blue envelope"></img>
       </div>
