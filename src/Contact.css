@@ -1,0 +1,28 @@
+.contactIntro {
+  height: 45vw;
+  width: 100%;
+  position: relative;
+}
+
+.introText {
+  position: absolute;
+  width: 37vw;
+  left: 13vw;
+  top: 5vw;
+}
+
+.introText h1 {
+  font-size: 3vw;
+  font-weight: 400;
+  text-align: left;
+}
+
+.introText p {
+  font-size: 1.7vw;
+  font-weight: 300;
+  text-align: left;
+}
+
+.FAQ {
+  width: 100%;
+}
