@@ -48,7 +48,14 @@ export default function Contact() {
           <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here.</p>
         </div>
         <div className="form">
-
+        <form>
+          <fieldset>
+            <div id="fullname"></div>
+            <div></div>
+            <div id="contact"></div>
+            <div></div>
+          </fieldset>
+        </form>
         </div>
       </div>
 
