@@ -135,7 +135,7 @@ fieldset {
   border: 0px transparent solid;
 }
 
-.form {
+.formContact {
   position: relative;
   width: 30vw;
   height: 30vh;
@@ -151,13 +151,13 @@ fieldset {
   display: flex;
 }
 
-label {
+.formContact label {
   margin-bottom: 0.3vw;
   color: white;
 }
 
-input {
-  height: 2.8vh;
+.formContact input {
+  height: 2.8vw;
   color: rgb(226, 226, 226);
   border-radius: 5px;
   border-color: transparent;
@@ -186,7 +186,7 @@ input {
 }
 
 .formTitle h1{
-font-size: 50px;
+font-size: 3.5vw;
 }
 
 .formTitle p{

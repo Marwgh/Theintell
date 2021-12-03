@@ -1,38 +1,154 @@
-.Order {font-family: "Quicksand";
-    overflow: hidden;
-    }
+.Order {
+font-family: "Quicksand";
+overflow: hidden;
+}
+
+/*HERO Styling*/
+
+.hero {
+position: relative;
+margin-bottom: 5vw;
+height: 39vw;
+}
+
+#herotext {
+position: absolute;
+width: 40vw;
+left: 8vw;
+top: 8vw;
+}
+
+#herotext h1 {
+font-size: 3.5vw;
+font-weight: 500 ;
+}
+#herotext p {
+font-size: 1.5vw;
+font-weight: 500 ;
+width: 36vw;
+}
+#heroimage img{
+position: absolute;
+right: 10vw;
+top: 5vw;
+width: 35vw;
+height: auto;
+}
+
+ /*Form styling*/
+
+#orderForm {
+position: relative;
+width: 70vw;
+height: 75vw;
+background-color: #FFA8A0;
+margin-left: 15vw;
+border-radius: 0.5vw;
+margin-bottom: 15vw;
+} 
+
+form {
+width: 38.5vw;
+margin: 0 15vw 0 15vw;
+padding-top: 3vw;
+}
 
 
-    /*HERO Styling*/
+#fullname input{
+width: 18vw;
+}
+   
+#lastname{
+    margin-left: 2vw;
+}
+#car_brand_selection label{
+color: black;
+font-size: 1.5vw;
+font-weight:500 ;
+margin-bottom: 0.7vw;
+}
+#car_brand_selection{
+display: grid;
+margin-bottom: 5vw;
+}
+#car_brand{
+appearance: none;
+height: 2.8vw;
+color: rgb(226, 226, 226); 
+border-radius: 0.35vw;    
+border-color: transparent;
+-webkit-box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15); 
+box-shadow: 0px 13px 21px -2px rgba(0,0,0,0.15);
+}
 
-    .hero {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 5vw;
+#car_brand  {
+color: #4141414b;
+font-size: 1.15vw;
+padding-left:1vw ;
+}
 
-        }
+.arrangeOrder {
+display: flex;
+flex-direction: column;
+margin-bottom: 1.5vw;
+margin-left: 0.8vw;
+}
+#orderForm input {
+height: 2.8vw;
+color: rgb(226, 226, 226); 
+border-radius: 0.35vw;    
+border-color: transparent;
+-webkit-box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15); 
+box-shadow: 0px 13px 21px -2px rgba(0,0,0,0.15);
+}
+#orderForm input::placeholder {
+color: #4141414b;
+font-size: 1.15vw;
+padding: 1vw;
+}
 
-    #herotext {
-        position: relative;
-        width: 40%;
-        margin-left: 10vw;
+.arrangeOrder label {
+margin-bottom: 0.3vw;
+color: white;
+font-size: 1.1vw;
+font-weight: 500;
+}
+  
+#address2 {
+display: flex;
+justify-content: space-between;
+}
+#address2 input {
+width: 15vw;
+}
 
-        }
+#termsncond{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+#termsncond input[type=checkbox]{
+    appearance: none;
+    color:white;
+    width: 3vw;
+    height: 3vw;
+    background-color: white;
+    margin-right:1vw ;
+}
 
+#termsncond div{
+    display: flex;
+    align-items: center;
+}
 
-
-    /*Form styling*/
-
-   #orderForm {
-       position: relative;
-       width: 70%;
-       background-color: #ff5252;
-       margin-left: 15vw;
-   } 
-
-   form {
-       width: 70%;
-       margin-left: 10vw;
-       padding: 2vw;
-   }
-    
+#orderForm button{
+    position: absolute;
+    right: 15vw;
+    bottom: 5vw;
+    border: none;
+    font-size: 1.2vw;
+    font-weight: 500;
+    background-color: #00044F;
+    padding: 0.6vw 1.9vw 0.6vw 1.9vw;
+    color: white;
+    border-radius: 0.9vw;
+}
