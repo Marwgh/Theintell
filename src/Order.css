@@ -1,0 +1,38 @@
+.Order {font-family: "Quicksand";
+    overflow: hidden;
+    }
+
+
+    /*HERO Styling*/
+
+    .hero {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5vw;
+
+        }
+
+    #herotext {
+        position: relative;
+        width: 40%;
+        margin-left: 10vw;
+
+        }
+
+
+
+    /*Form styling*/
+
+   #orderForm {
+       position: relative;
+       width: 70%;
+       background-color: #ff5252;
+       margin-left: 15vw;
+   } 
+
+   form {
+       width: 70%;
+       margin-left: 10vw;
+       padding: 2vw;
+   }
+    
