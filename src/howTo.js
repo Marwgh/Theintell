@@ -1,5 +1,14 @@
 import './HowTo.css';
 export default function Howto(props) {
+
+  /*<!---->
+      <div className="howitworks">
+        <div className="howitworksText">
+          <h1>How It Works</h1>
+          <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here.</p>
+          <div className="orderButton" onClick={ () => props.changePage("Order")}>Get your code</div>
+        </div>
+      </div>*/
   return (
     <div className="howTo">
       <div className="hiwIntro">
@@ -18,17 +27,10 @@ export default function Howto(props) {
         </div>
       </div>
 
-      <div className="howitworks">
-        <div className="howitworksText">
-          <h1>How It Works</h1>
-          <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here.</p>
-          <div className="orderButton" onClick={ () => props.changePage("Order")}>Get your code</div>
-        </div>
-      </div>
 
       <div className="explain">
         <div className="charger">
-          <div className="chargerText">
+          <div className="chargerText boxShadower">
             <h1>Title here</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
           </div>
@@ -39,9 +41,9 @@ export default function Howto(props) {
             <img src="./svg/qrcard.svg" alt="qr card"></img>
           </div>
         </div>
-        <span></span>
+        
         <div className="phone">
-          <div className="phoneText">
+          <div className="phoneText boxShadower">
             <h1>Title here</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
           </div>
@@ -52,9 +54,9 @@ export default function Howto(props) {
             <img src="./svg/phone.svg" alt="phone"></img>
           </div>
         </div>
-        <span></span>
+        
         <div className="reward">
-          <div className="rewardText">
+          <div className="rewardText boxShadower">
             <h1>Title here</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
           </div>
@@ -66,10 +68,26 @@ export default function Howto(props) {
           </div>
         </div>
       </div>
-      <div className="pinkrow"></div>
-      <div className="imgrow">
-        <img src="./image/" alt="backgroundimg"></img>
+      <div className="bluerow">
+        <h1>Why Should you use Karma?</h1>
+        <div className="kpsSection" >
+          <div>
+            <p>Easy to use</p>
+            <img alt="" src=""></img>
+          </div>
+          <div> 
+            <p>Digital solution</p>
+            <img alt="" src=""></img>
+          </div>
+          <div>
+            <p>Reward points</p>
+            <img alt="" src=""></img>
+          </div>
+        </div>
+        <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here. </p>
+        <div>How to use Karma</div>
       </div>
+      
     </div>
   );
 }
