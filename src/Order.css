@@ -47,7 +47,7 @@ border-radius: 0.5vw;
 margin-bottom: 15vw;
 } 
 
-form {
+#orderForm form {
 width: 38.5vw;
 margin: 0 15vw 0 15vw;
 padding-top: 3vw;
