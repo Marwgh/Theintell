@@ -325,6 +325,31 @@
   width: 45vw;
 }
 
+.apps {
+  position: relative;
+  /* grid-template-columns: 1fr 1fr; */
+  width: 20vw;
+}
+
+.apps img {
+  width: 10vw;
+  position: relative;
+}
+
+.googlePlay {
+  position: absolute;
+  left: 50vw;
+  top: 20vw;
+  z-index: 3;
+}
+
+.appStore {
+  position: absolute;
+  left: 2vw;
+  top: 20vw;
+  z-index: 2;
+}
+
 .homeTrust {
   background-color: #00004f;
   width: 100%;

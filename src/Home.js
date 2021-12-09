@@ -89,6 +89,10 @@ export default function Home(props) {
           </p>
           <div className="getQrBtnHAW" onClick={ () => props.changePage("About")}>Read more about us</div>
         </div>
+        <div className="apps">
+            <img className="googleplay" src="./svg/googlePlay.svg" alt="Google Play"></img>
+            <img className="appStore" src="./svg/appStore.svg" alt="App Store"></img>
+          </div>
         <div>  <img src="./svg/hawPhones.svg" alt="app show case"></img> </div>
 
       </div>
