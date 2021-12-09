@@ -9,28 +9,43 @@
 .introText {
   position: absolute;
   width: 37vw;
-  left: 13vw;
-  top: 7vw;
+  left: 10vw;
+  top: 10vw;
 }
 
 .introText h1 {
   font-size: 3vw;
   font-weight: 500;
-  text-align: center;
-  margin: 0vw;
+  margin: 0 0 1vw 0; 
+}
+
+.introText span {
+  display: block;
+  height: 0.25vw;
+  width: 32vw;
+  background-color: black;
+  margin-bottom: 1.5vw;
+}
+
+.introText h1 + p {
+  font-weight: 700;
+  font-size: 1.7vw;
+  margin-bottom:0.5vw ;
+  width: 40vw;
 }
 
 .introText p {
-  font-size: 1.7vw;
+  font-size: 1.45vw;
   font-weight: 500;
-  text-align: center;
   margin: 0vw;
+  width: 30vw;
 }
 
 .car {
   position: absolute;
   top: 28vw;
-  left: 14vw;
+  left: 22.5vw;
+  z-index: 2;
 }
 
 .car img {
@@ -86,7 +101,7 @@
   text-align: center;
 }
 
-.orderButton {
+.orderButton  {
   margin: 2vw 10vw 0vw 10vw;
   text-align: center;
   background-color: #00004f;
@@ -107,8 +122,57 @@
   width: 100%;
   position: relative;
   margin-bottom: 20vw;
+  margin-top: 12vw;
 }
 
+.explain > img {
+  position: absolute;
+  left: 45vw;
+  top: 20vw;
+}
+
+.explainToggleSection  {
+  position: absolute;
+  width: 40vw;
+  height:3.5vw;
+  background-color: #FFA8A0;
+  border-radius: 1.5vw;
+  display: flex;
+  justify-content: space-evenly;
+  left: 25vw;
+}
+
+#transitionScannertoOwner{
+  position: absolute;
+  width: 22vw;
+  height: 3.5vw;
+  background-color: #FF5252;
+  left: 0;
+  border-radius: 1.5vw;
+  z-index: 0;
+}
+
+.TogglingOwnertransition {
+  transition: transform 1s ease-in-out  ;
+  transform: translateX(18vw);
+}
+
+.TogglingScannertransition {
+  transition: transform 1s ;
+  transform: translateX(0vw);
+  animation: ease-in 5000s forwards;
+}
+
+.explainToggleSection p  {
+  z-index: 1;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  margin:0;
+  margin-top: 0.7vw;
+  font-size: 1.45vw;
+  cursor: pointer;
+}
 .charger {
   position: relative;
   height: 35vw;

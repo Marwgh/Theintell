@@ -1,19 +1,35 @@
 import './HowTo.css';
+import './HowToExplainationSection.js'
+import HowToExplainationSection from './HowToExplainationSection.js';
+import {useState} from "react";
+
 export default function Howto(props) {
 
-  /*<!---->
-      <div className="howitworks">
-        <div className="howitworksText">
-          <h1>How It Works</h1>
-          <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here.</p>
-          <div className="orderButton" onClick={ () => props.changePage("Order")}>Get your code</div>
-        </div>
-      </div>*/
+
+const [status , setStatus] = useState(true);
+function togglerQrExpleation (valeu) {
+  console.log(valeu);
+  setStatus(valeu);
+  if (valeu === false) {
+  document.querySelector("#transitionScannertoOwner").classList.add("TogglingOwnertransition");
+  document.querySelector("#transitionScannertoOwner").classList.remove("TogglingScannertransition");
+
+  } else {
+    document.querySelector("#transitionScannertoOwner").classList.remove("TogglingOwnertransition");
+  document.querySelector("#transitionScannertoOwner").classList.add("TogglingScannertransition");
+
+  }
+} 
+
+/**/
+
   return (
     <div className="howTo">
       <div className="hiwIntro">
         <div className="introText">
           <h1>How It Works</h1>
+          <p>The smartest solutions for charging queens.</p>
+          <span></span>
           <p>Learn how to use the code and the app feature and get access to easy solution for busy charging stations.</p>
         </div>
         <div className="car">
@@ -27,69 +43,26 @@ export default function Howto(props) {
         </div>
       </div>
 
-
       <div className="explain">
-        <div className="charger">
-          <div className="chargerText boxShadower">
-            <h1>Title here</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-          </div>
-          <div className="chargerImg">
-            <img src="./svg/charger.svg" alt="charger"></img>
-          </div>
-          <div className="qrcardImg">
-            <img src="./svg/qrcard.svg" alt="qr card"></img>
-          </div>
+        <div className="explainToggleSection">
+          <div id="transitionScannertoOwner"></div>
+          <p onClick={() => {togglerQrExpleation(true)}}>QR Code Scanner</p>
+          <p onClick={() => {togglerQrExpleation(false)}}>QR Code Owner</p>
         </div>
+        <img src="./svg/HIWtimeline.svg" alt=""></img>
         
-        <div className="phone">
-          <div className="phoneText boxShadower">
-            <h1>Title here</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-          </div>
-          <div className="plugImg">
-            <img src="./svg/plug.svg" alt="plug"></img>
-          </div>
-          <div className="phoneImg">
-            <img src="./svg/phone.svg" alt="phone"></img>
-          </div>
-        </div>
-        
-        <div className="reward">
-          <div className="rewardText boxShadower">
-            <h1>Title here</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-          </div>
-          <div className="carImg">
-            <img src="./svg/car.svg" alt="car"></img>
-          </div>
-          <div className="rewardImg">
-            <img src="./svg/reward.svg" alt="reward"></img>
-          </div>
-        </div>
+
+        <HowToExplainationSection status={status}/>
       </div>
+
       <div className="bluerow">
-        <h1>Why Should you use Karma?</h1>
-        <div className="kpsSection" >
-          <div>
-            <p>Easy to use</p>
-            <img alt="" src=""></img>
-          </div>
-          <div> 
-            <p>Digital solution</p>
-            <img alt="" src=""></img>
-          </div>
-          <div>
-            <p>Reward points</p>
-            <img alt="" src=""></img>
-          </div>
-        </div>
-        <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here. </p>
+        <h1>Help the EV community</h1>
+        <p>Karma charging was built  by EV enthusiasts
+        for  EV users, to ensure they will never have to wait for a charging spot again. </p>
         <div>How to use Karma</div>
       </div>
       
     </div>
-  );
+  )
+
 }
-
-
