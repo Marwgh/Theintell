@@ -24,8 +24,8 @@ export default function Home(props) {
       </div>
       <div className="homeCarjourney">
         <div className="homeCarjourneyText">
-          <h1>WE MAKE CHARGING EASIER THAN EVER</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+          <h1>A JOURNEY BASED ON KARMA</h1>
+          <p>A simple journey designed for you to find a charging spot even when the situation seems desperate!
           </p>
         </div>
         <div className="homeCarjourneyTL">
