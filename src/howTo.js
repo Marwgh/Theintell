@@ -14,7 +14,7 @@ export default function Howto(props) {
       <div className="hiwIntro">
         <div className="introText">
           <h1>How It Works</h1>
-          <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here.</p>
+          <p>Learn how to use the code and the app feature and get access to easy solution for busy charging stations.</p>
         </div>
         <div className="car">
           <img src="./svg/car.svg" alt="car"></img>
