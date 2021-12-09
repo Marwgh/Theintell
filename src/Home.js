@@ -36,7 +36,50 @@ export default function Home(props) {
           <div className="dot3"></div>
           <img className="timeline" src="./svg/timeline.svg" alt="timeline"></img>
         </div>
+        <div className="textboxPopUp">
+          <div className="step1">
+            <p>Find a charger</p>
+          </div>
+          <div className="step2">
+            <p>Scan the code</p>
+          </div>
+          <div className="step3">
+            <p>Get the charger</p>
+          </div>
+        </div>
       </div>
+
+      <div className="homeCarjourney">
+        <div className="homeCarjourneyText">
+          <h1>A JOURNEY BASED ON KARMA</h1>
+          <p>A simple journey designed for you to find a charging spot even when the situation seems desperate!
+          </p>
+        </div>
+        <div className="homeCarjourneyTL">
+          <img className="car1" src="./svg/car.svg" alt="car"></img>
+          <img className="chargerRed" src="./svg/chargerRed.svg" alt="car"></img>
+          <img className="phone1" src="./svg/phone.svg" alt="car"></img>
+          <img className="chargerGreen" src="./svg/chargerGreen.svg" alt="car"></img>
+          <img className="reward1" src="./svg/reward.svg" alt="car"></img>
+          <div className="dot11"></div>
+          <div className="dot21"></div>
+          <div className="dot31"></div>
+          <div className="dot4"></div>
+          <img className="timeline" src="./svg/timelineLong.svg" alt="timeline"></img>
+        </div>
+        {/* <div className="textboxPopUp">
+          <div className="step1">
+            <p>Find a charger</p>
+          </div>
+          <div className="step2">
+            <p>Scan the code</p>
+          </div>
+          <div className="step3">
+            <p>Get the charger</p>
+          </div>
+        </div> */}
+      </div>
+
       <div className="homeHAW">
         <div className="hawText">
           <h1>Who are we?</h1>
@@ -46,7 +89,7 @@ export default function Home(props) {
           </p>
           <div className="getQrBtnHAW" onClick={ () => props.changePage("About")}>Read more about us</div>
         </div>
-        <div>  <img src="/svg/hawPhones.svg" alt="app show case"></img> </div>
+        <div>  <img src="./svg/hawPhones.svg" alt="app show case"></img> </div>
 
       </div>
 
@@ -89,7 +132,7 @@ export default function Home(props) {
       </div>
 
       <div className="homeHIW">
-        <div> <img src="/svg/carscanning.svg" alt="app show case"></img> </div>
+        <div> <img src="./svg/carscanning.svg" alt="app show case"></img> </div>
         <div className="homeHIWText">
         <h1>How it works</h1>
           <p>We explain to you where can you use Karma, what do you need  and the journey you will be taking.
@@ -103,7 +146,7 @@ export default function Home(props) {
       <div className="homeGetCode">
         <div className="homeGetCodeinfo">
           <h1>Get your code</h1>
-          <img src="/svg/3phonedisplay.svg" alt="apps displays"></img>
+          <img src="./svg/3phonedisplay.svg" alt="apps displays"></img>
           <p>Becoming a part of the Karma community is a simple process that starts with a QR code.</p>
           <div className="GetCodeButton" onClick={ () => props.changePage("Howto")}>Get your code now</div>
         </div>
@@ -121,9 +164,9 @@ export default function Home(props) {
           <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here. </p>
           <div className="contactButton" onClick={ () => props.changePage("Contact")}>Contact</div>
         </div>
-        <img src="/svg/EnvelopeBlue.svg" alt="blue envelope"></img>
+        <img src="./svg/EnvelopeBlue.svg" alt="blue envelope"></img>
         <div className="contactBGimg">
-          <img src="/image/homecharge.jpg" alt="charge with blur"></img>
+          <img src="./image/homecharge.jpg" alt="charge with blur"></img>
         </div>
       </div>
     </div>
