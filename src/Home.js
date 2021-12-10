@@ -20,7 +20,7 @@ export default function Home(props) {
 
       </div>
 
-      <div className="homeCarjourney">
+      {/* <div className="homeCarjourney">
         <div className="homeCarjourneyText">
           <h1>A JOURNEY BASED ON KARMA</h1>
           <p>A simple journey designed for you to find a charging spot even when the situation seems desperate!
@@ -47,7 +47,7 @@ export default function Home(props) {
             <p>Get the charger</p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="homeCarjourney">
         <div className="homeCarjourneyText">
@@ -57,6 +57,7 @@ export default function Home(props) {
         </div>
         <div className="homeCarjourneyTL">
           <img className="car1" src="./svg/car.svg" alt="car"></img>
+          <img className="car2" src="./svg/car2.0.svg" alt="car"></img>
           <img className="chargerRed" src="./svg/chargerRed.svg" alt="car"></img>
           <img className="phone1" src="./svg/phone.svg" alt="car"></img>
           <img className="chargerGreen" src="./svg/chargerGreen.svg" alt="car"></img>
@@ -154,6 +155,9 @@ export default function Home(props) {
         <h1>Trusted by:</h1>
         <img className="arrowLeft" src="/svg/arrowleft.svg" alt="arrow left"></img>
         <img className="arrowRight" src="/svg/arrowRight.svg" alt="arrow Right"></img>
+        <img className="review1" src="./svg/review1.svg" alt="review"></img>
+        <img className="review2" src="./svg/review2.svg" alt="review"></img>
+        <img className="review3" src="./svg/review3.svg" alt="review"></img>
       </div>
 
       <div className="homeHIW">
