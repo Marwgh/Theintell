@@ -13,6 +13,7 @@
   position: fixed;
   z-index: 10;
   backdrop-filter: blur(5px);
+  z-index: 12;
 }
 
 .homeButton {
@@ -1052,14 +1053,24 @@
   width: 12vw;
   position: absolute;
   animation: driving2 5s ease-in-out infinite;
-  animation-delay: 1s;
+ 
   z-index: 1;
 }
 
 @keyframes driving2 {
   0% {
     left: 57vw;
-    top: 32vw;
+    top: 31vw;
+    transform: rotate(-20deg);
+  }
+  9% {
+    left: 57vw;
+    top: 31vw;
+    
+  }
+  10% {
+    left: 57vw;
+    top: 31vw;
     transform: rotate(-20deg);
   }
   50% {

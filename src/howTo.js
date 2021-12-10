@@ -55,11 +55,28 @@ function togglerQrExpleation (valeu) {
         <HowToExplainationSection status={status}/>
       </div>
 
-      <div className="bluerow">
-        <h1>Help the EV community</h1>
-        <p>Karma charging was built  by EV enthusiasts
-        for  EV users, to ensure they will never have to wait for a charging spot again. </p>
-        <div>How to use Karma</div>
+      <div className="whyKarmaSectionHIW">
+        <h1>Why should you use Karma?</h1>
+        <div className='kpsSection'>
+          <div className='boxShadower'>
+            <p>Easy to use</p>
+            <img src="./svg/qrHalfCar.svg" alt=""></img>
+          </div>
+          <div className='boxShadower'>
+            <p>Digital Solution</p>
+            <img src="./svg/QRhandphonePink.svg" alt=""></img>
+          </div>
+          <div className='boxShadower'>
+            <p>Reward points</p>
+            <img src="./svg/rewardPink.svg" alt=""></img>
+          </div>
+        </div>
+        <div className='kpsGetYourCode'>
+          <img src="./image/chargincarImage.jpg" alt=""></img>
+          <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here. </p>
+          <div>Get you code now!</div>
+        </div>
+
       </div>
       
     </div>
