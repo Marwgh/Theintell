@@ -6,6 +6,7 @@ overflow: hidden;
   height: 45vw;
   width: 100%;
   position: relative;
+  margin-top: 10vw;
 }
 
 .contactIntroText {
@@ -102,64 +103,162 @@ overflow: hidden;
   height: 10vw;
 }
 
+
+/*FAQ SECTION STYLING*/
+
+#faqsection {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 10vw;
+}
+
 .FAQ {
-  width: 100%;
-  background-color: #00004f;
-  width: 100%;
-  height: 9vw;
+  width: 40vw;
+  height: 30vw;
+  margin-right: 4vw;
   position: relative;
 }
 
 .FAQ h1 {
-  text-align: center;
-  color: white;
-  padding-top: 2vw;
+  text-align: left;
+  color: black;
   font-size: 3vw;
   font-weight: 500;
   padding-top: 2.5vw;
 }
 
+.FAQ p {
+  text-align: left;
+  color: black;
+  font-size: 1.4vw;
+  font-weight: 400;
+  padding-top: 1vw;
+}
+
+.questions {
+  position: relative;
+  width: 40vw;
+  height: 30vw;
+  border-radius: 2vw;
+  -webkit-box-shadow: -1px 4px 15px 2px rgba(0,0,0,0.33); 
+box-shadow: -1px 4px 15px 2px rgba(0,0,0,0.33);
+justify-content:baseline;
+}
+
+#questioncontainer {
+  position: relative;
+  padding-top: 6vw;
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  float: right;
+}
+
+.hrLine {
+  width: 70%;
+  margin: auto;
+
+}
+
+.quest {
+  color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 70%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+}
+
+.faqBody{
+  margin: auto;
+ width: 50%; 
+ padding: auto;
+}
+
+.quest:hover {
+    transform: scale(1.02);
+}
+
+/*faq-page - hidden by default */
+.faqBody {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+/* .quest::after {
+    content: '\02795';
+    /* Code for (+) */
+    /* font-size: 13px;
+    color: rgb(0, 0, 0);
+    float: right;
+    margin-left: 5px;
+    display: block;
+}
+.active::after {
+    content: "\2796";
+     */
+    /* Cpde for (-) */
+/* } */ 
+
+
 /*CONTACT FORM STYLING*/
+
+#formsec {
+  position: relative;
+  height: 50vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,168,160,1) 87%); 
+}
 
 .contactForm {
   position: relative;
-  width: 100%;
-  height: 60vh;
+  width: 50vw;
   display: flex;
 flex-direction: row;
-background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,168,160,1) 87%);
+color: black;
 }
 
-fieldset {
+.contactForm fieldset {
   border: 0px transparent solid;
+  padding: 2.5vw;
+  height: 25vw;
+  width: 30vw;
 }
 
-.formContact {
-  position: relative;
-  width: 30vw;
-  height: 30vh;
-  margin-left: 10vw;
+.contactForm form {
   margin-top: 5vw;
-}
+  background-color: white;
+  border-radius: 2vw;
+  -webkit-box-shadow: -1px 4px 15px 2px rgba(0,0,0,0.33); 
+box-shadow: -1px 4px 15px 2px rgba(0,0,0,0.33);
+}  
 
 #fullname {
   display: flex;
 }
 
+
 #userinfo {
   display: flex;
 }
 
-.formContact label {
+.contactForm label {
   margin-bottom: 0.3vw;
-  color: white;
+  color: black;
 }
 
-.formContact input {
+.contactForm input {
   height: 2.8vw;
   color: rgb(226, 226, 226);
-  border-radius: 5px;
+  border-radius: 0.5vw;
   border-color: transparent;
   -webkit-box-shadow: 0px 13px 21px -2px rgba(0,0,0,0.35); 
   box-shadow: 0px 13px 21px -2px rgba(0,0,0,0.35);
@@ -174,28 +273,42 @@ fieldset {
  
 #messagebox {
   height: 6vw;
+  width: 25vw;
 }
 
 /*Text section next to Form*/
+#faqsection {
+  position: relative;
+}
+
 
 .formTitle {
   position: relative;
   width: 40vw;
-  margin-left: 7vw;
+  margin-left: 4vw;
   margin-top: 5vw;
 }
 
 .formTitle h1{
 font-size: 3.5vw;
+color: black;
+text-align: right;
 }
 
 .formTitle p{
-  font-size: 20px;
+  font-size: 1.5vw;
+  color: black;
+  text-align: right;
   }
 
   #divider {
     position: relative;
     height: 0.2vw;
-    width: 90%;
+    width: 30vw;
+    margin-left: 9vw;
     background-color: black;
+  }
+
+  .contactForm input[type="text"] {
+    height: 5vw;
   }
