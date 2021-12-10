@@ -67,33 +67,36 @@ export default function Home(props) {
           <div className="dot4"></div>
           <img className="timeline" src="./svg/timelineLong.svg" alt="timeline"></img>
         </div>
-        {/* <div className="textboxPopUp">
-          <div className="step1">
+        <div className="textboxPopUp">
+          <div className="step11">
             <p>Find a charger</p>
           </div>
-          <div className="step2">
+          <div className="step21">
             <p>Scan the code</p>
           </div>
-          <div className="step3">
+          <div className="step31">
             <p>Get the charger</p>
           </div>
-        </div> */}
+          <div className="step4">
+            <p>Get the points</p>
+          </div>
+        </div>
       </div>
 
-      <div className="homeHAW">
-        <div className="hawText">
+      <div className="homeWAW">
+        <div className="WAWapps">
+            <img className="WAWgooglePlay" src="./svg/googlePlay.svg" alt="Google Play"></img>
+            <img className="WAWappStore" src="./svg/appStore.svg" alt="App Store"></img>
+        </div>
+        <div className="wawText">
           <h1>Who are we?</h1>
           <p>Karma charging was built  by EV enthusiasts for  EV users, to ensure they will never have to wait for a charging spot again.
           </p>
           <p>As a part of the Month Group, we are familiar to the community needs and problems and we embarked on a  journey to ease the life of EV owners.
           </p>
-          <div className="getQrBtnHAW" onClick={ () => props.changePage("About")}>Read more about us</div>
+          <div className="getQrBtnWAW" onClick={ () => props.changePage("About")}>Read more about us</div>
         </div>
-        <div className="apps">
-            <img className="googleplay" src="./svg/googlePlay.svg" alt="Google Play"></img>
-            <img className="appStore" src="./svg/appStore.svg" alt="App Store"></img>
-          </div>
-        <div>  <img src="./svg/hawPhones.svg" alt="app show case"></img> </div>
+        <div className="wawPhones">  <img src="./svg/hawPhones.svg" alt="app show case"></img> </div>
 
       </div>
 
@@ -101,44 +104,62 @@ export default function Home(props) {
         <div className="homeDataHeader">
           <h1>Don’t trust us?</h1>
           <h1>Trust the <span>community</span></h1>
-          <p>Karma charging was built  by EV enthusiasts for  EV users, to ensure they will never have to wait for a charging spot again. </p>
+          <p>Karma charging was built  by EV enthusiasts for  EV users, to ensure they will never have to wait for a charging spot again. Here is some data from EV users.</p>
         </div>
         <div className="homeDataInfo">
           <div className="column1">
-            <img src="/svg/" alt="chart"></img>
+            <div className="chart1">
+              <div className="datachart1"></div>
+              <p>75%</p>
+            </div>
             <div className="text1">
-              <h1>EV owner's</h1>
-              <p>We asked if you  would move your car even when not fully charged to allow one on low battery instead?</p>
+              <h1>Move</h1>
+              <p>Willing to move their car when not fully charged to allow one car with low battery.</p>
             </div>
           </div>
           <div className="column2">
-            <img src="/svg/" alt="chart"></img>
+            <div className="chart2">
+              <div className="datachart2"></div>
+              <p>67.6%</p>
+            </div>
             <div className="text2">
-              <h1>Lorem Ipsum</h1>
-              <p>Lorem Ipsum</p>
+              <h1>Points</h1>
+              <p>Would move their car for another in need if they could get points.</p>
             </div>
           </div>
           <div className="column3">
-            <img src="/svg/" alt="chart"></img>
+            <div className="chart3">
+              <div className="datachart3"></div>
+              <p>77.9%</p>
+            </div>
             <div className="text3">
-              <h1>Lorem Ipsum</h1>
-              <p>Karma charging was built by EV enthusiasts for EV users.</p>
+              <h1>Notification</h1>
+              <p>Willing to get notified if someone wants to use the charging spot.</p>
             </div>
           </div>
           <div className="column4">
-            <img src="/svg/" alt="chart"></img>
+            <div className="chart4">
+              <div className="datachart4"></div>
+              <p>55.9%</p>
+            </div>
             <div className="text4">
-              <h1>Lorem Ipsum</h1>
-              <p>Lorem Ipsum</p>
+              <h1>100% Charged</h1>
+              <p>Move car right after finished charging.</p>
             </div>
           </div>
         </div>
       </div>
 
+      <div className="homeTrust">
+        <h1>Trusted by:</h1>
+        <img className="arrowLeft" src="/svg/arrowleft.svg" alt="arrow left"></img>
+        <img className="arrowRight" src="/svg/arrowRight.svg" alt="arrow Right"></img>
+      </div>
+
       <div className="homeHIW">
         <div> <img src="./svg/carscanning.svg" alt="app show case"></img> </div>
         <div className="homeHIWText">
-        <h1>How it works</h1>
+          <h1>How it works</h1>
           <p>We explain to you where can you use Karma, what do you need  and the journey you will be taking.
           </p>
           <p>As well you can find some explanations on what is the QR code for and what king of sweet deals you can get by using it. 
@@ -148,18 +169,26 @@ export default function Home(props) {
       </div>
 
       <div className="homeGetCode">
-        <div className="homeGetCodeinfo">
-          <h1>Get your code</h1>
-          <img src="./svg/3phonedisplay.svg" alt="apps displays"></img>
-          <p>Becoming a part of the Karma community is a simple process that starts with a QR code.</p>
-          <div className="GetCodeButton" onClick={ () => props.changePage("Howto")}>Get your code now</div>
+        <div className="homeGetCodeText">
+          <h1>Order your Code!</h1>
+          <p>We wanted to make the process as simple and fast as possible so all you have to do to start helping the  EV community is to order your QR code!</p>
+          <p>Once you have it, you activate it in the app and wait for your Karma points.</p>
+          <div className="getCodeButton" onClick={ () => props.changePage("Order")}>Read more</div>
         </div>
+        <div className="getCodeEnvelope"><img src="./svg/Envelopeblueopen.svg" alt="envelope"></img></div>
+        <div className="getCodeQR"><img src="./svg/pinkqr.svg" alt="qr"></img></div>
       </div>
 
-      <div className="homeTrust">
-        <h1>Trusted by:</h1>
-        <img className="arrowLeft" src="/svg/arrowleft.svg" alt="arrow left"></img>
-        <img className="arrowRight" src="/svg/arrowRight.svg" alt="arrow Right"></img>
+      <div className="homeGetApp">
+        <div className="homeGetAppinfo">
+          <h1>Get the App</h1>
+          <img src="./svg/3phonedisplay.svg" alt="apps displays"></img>
+          <p>Karma was designed as an integration in the Monta app, but no worries! No matter that you are scanner or the owner of the code we made the flow easy for you!</p>
+        </div>
+        <div className="Getapps">
+            <img className="GetgooglePlay" src="./svg/googlePlay.svg" alt="Google Play"></img>
+            <img className="GetappStore" src="./svg/appStore.svg" alt="App Store"></img>
+        </div>
       </div>
 
       <div className="homeContact">
