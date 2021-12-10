@@ -423,13 +423,14 @@
 }
 
 .homeDataHeader p {
+  margin-top: 0.5vw;
   font-weight: 300;
-  font-size: 1vw;
+  font-size: 1.3vw;
 }
 
 .homeDataInfo {
   position: absolute;
-  top: 18vw;
+  top: 19vw;
   left: 16.5vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -455,6 +456,28 @@
   width: 4vw;
   background-color: #00004f;
   margin: 0 4vw 0 4vw;
+  border-radius: 1vw;
+  position: relative;
+}
+
+.datachart1 {
+  height: 18.75vw;
+  width: 4vw;
+  background-color: #3f51b5;
+  margin: 0 4vw 0 4vw;
+  border-radius: 1vw;
+  z-index: 1;
+  position: absolute;
+  left: -4vw;
+  top: 6.3vw;
+}
+
+.chart1 p {
+  position: absolute;
+  color: white;
+  z-index: 2;
+  top: 6.5vw;
+  left: 0.9vw;
 }
 
 .column2 {
@@ -476,6 +499,28 @@
   width: 4vw;
   background-color: #00004f;
   margin: 0 4vw 0 4vw;
+  border-radius: 1vw;
+  position: relative;
+}
+
+.datachart2 {
+  height: 16.9vw;
+  width: 4vw;
+  background-color: #3f51b5;
+  margin: 0 4vw 0 4vw;
+  border-radius: 1vw;
+  z-index: 1;
+  position: absolute;
+  left: -4vw;
+  top: 8.2vw;
+}
+
+.chart2 p {
+  position: absolute;
+  color: white;
+  z-index: 2;
+  top: 8vw;
+  left: 0.7vw;
 }
 
 .column3 {
@@ -497,6 +542,28 @@
   width: 4vw;
   background-color: #00004f;
   margin: 0 4vw 0 4vw;
+  border-radius: 1vw;
+  position: relative;
+}
+
+.datachart3 {
+  height: 19.475vw;
+  width: 4vw;
+  background-color: #3f51b5;
+  margin: 0 4vw 0 4vw;
+  border-radius: 1vw;
+  z-index: 1;
+  position: absolute;
+  left: -4vw;
+  top: 5.7vw;
+}
+
+.chart3 p {
+  position: absolute;
+  color: white;
+  z-index: 2;
+  top: 6vw;
+  left: 0.7vw;
 }
 
 .column4 {
@@ -517,6 +584,28 @@
   width: 4vw;
   background-color: #00004f;
   margin: 0 4vw 0 4vw;
+  border-radius: 1vw;
+  position: relative;
+}
+
+.datachart4 {
+  height: 13.975vw;
+  width: 4vw;
+  background-color: #3f51b5;
+  margin: 0 4vw 0 4vw;
+  border-radius: 1vw;
+  z-index: 1;
+  position: absolute;
+  left: -4vw;
+  top: 11.2vw;
+}
+
+.chart4 p {
+  position: absolute;
+  color: white;
+  z-index: 2;
+  top: 11vw;
+  left: 0.7vw;
 }
 
 .homeHIW {
@@ -899,20 +988,20 @@
   40% {
     left: 35vw;
     top: 30vw;
-    transform: rotate(-20deg);
+    transform: rotate(-10deg);
   }
   42% {
-    transform: rotate(15deg);
+    transform: rotate(10deg);
   }
-  60% {
-    left: 54vw;
-    top: 36vw;
-    transform: rotate(21deg);
+  100% {
+    left: 55vw;
+    top: 35vw;
+    transform: rotate(20deg);
   }
-  62% {
-    transform: rotate(-21deg);
+  /*62% {
+    transform: rotate(-20deg);
   }
-  80% {
+   80% {
     left: 79vw;
     top: 29vw;
     transform: rotate(-20deg);
@@ -924,7 +1013,7 @@
     left: 100vw;
     top: 29vw;
     transform: rotate(0deg);
-  }
+  } */
 }
 
 /*FOOTER FOOTER       FOOTER FOOTER FOOTER    FOOTER FOOTER FOOTER*/
