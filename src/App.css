@@ -215,14 +215,20 @@
 
 .step1 p {
   padding-top: 1.5vw;
+  font-size: 1.2vw;
+  font-weight: 300;
 }
 
 .step2 p {
   padding-top: 1.5vw;
+  font-size: 1.2vw;
+  font-weight: 300;
 }
 
 .step3 p {
   padding-top: 1.5vw;
+  font-size: 1.2vw;
+  font-weight: 300;
 }
 
 .homeCarjourneyTL .charger {
@@ -271,28 +277,39 @@
   left: 55vw;
 }
 
+.dot3 {
+  position: absolute;
+  z-index: 1;
+  height: 2.5vw;
+  width: 2.5vw;
+  background-color: #3f51b5;
+  border-radius: 50%;
+  top: 38.6vw;
+  left: 76.5vw;
+}
+
 .homeCarjourneyTL .timeline {
   position: absolute;
   top: 33vw;
   width: 100%;
 }
 
-.homeHAW {
+.homeWAW {
   width: 100%;
   height: 55vw;
   position: relative;
 }
 
-.hawText {
+.wawText {
   position: absolute;
   left: 13vw;
-  top: 15vw;
+  top: 9vw;
 }
 
-.getQrBtnHAW {
+.getQrBtnWAW {
   position: absolute;
   left: 17vw;
-  bottom: -5vw;
+  bottom: -8vw;
   background-color: #ff5252;
   padding: 0.7vw 1vw 0.7vw 1vw;
   width: 12vw;
@@ -305,48 +322,48 @@
   cursor: pointer;
 }
 
-.hawText h1 {
+.wawText h1 {
   font-size: 2vw;
   font-weight: 400;
   margin-bottom: 0.5vw;
   text-align: right;
 }
-.hawText p {
+.wawText p {
   font-size: 1.4vw;
   font-weight: 400;
   width: 32vw;
   text-align: right;
 }
 
-.homeHAW img {
+.homeWAW .wawPhones {
   position: absolute;
   right: 11vw;
   top: 5vw;
+}
+
+.wawPhones img {
   width: 45vw;
 }
 
-.apps {
-  position: relative;
-  /* grid-template-columns: 1fr 1fr; */
-  width: 20vw;
-}
-
-.apps img {
-  width: 10vw;
+.WAWapps {
   position: relative;
 }
 
-.googlePlay {
-  position: absolute;
-  left: 50vw;
-  top: 20vw;
-  z-index: 3;
+.WAWapps img {
+  width: 12vw;
 }
 
-.appStore {
+.WAWgooglePlay {
   position: absolute;
-  left: 2vw;
-  top: 20vw;
+  left: 20vw;
+  top: 29vw;
+  z-index: 2;
+}
+
+.WAWappStore {
+  position: absolute;
+  left: 33vw;
+  top: 29vw;
   z-index: 2;
 }
 
@@ -369,20 +386,20 @@
 .arrowLeft {
   position: absolute;
   left: 6vw;
-  top: 7vw;
+  top: 8vw;
   width: 3vw;
 }
 
 .arrowRight {
   position: absolute;
   right: 6vw;
-  top: 7vw;
+  top: 8vw;
   width: 3vw;
 }
 
 .homeData {
   background-color: #b5c0ff;
-  height: 65vw;
+  height: 57vw;
   position: relative;
 }
 
@@ -407,76 +424,105 @@
 
 .homeDataHeader p {
   font-weight: 300;
+  font-size: 1vw;
 }
 
 .homeDataInfo {
   position: absolute;
-  top: 24vw;
-  left: 11vw;
+  top: 18vw;
+  left: 16.5vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   text-align: center;
 }
 
 .column1 {
-  width: 15vw;
+  width: 12vw;
   padding-right: 6vw;
 }
 
 .text1 h1 {
   font-weight: 300;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 .text1 p {
   font-weight: 300;
-  font-size: 1.2vw;
+  font-size: 1vw;
+}
+
+.chart1 {
+  height: 25vw;
+  width: 4vw;
+  background-color: #00004f;
+  margin: 0 4vw 0 4vw;
 }
 
 .column2 {
-  width: 15vw;
+  width: 12vw;
   padding-right: 6vw;
 }
 
 .text2 h1 {
   font-weight: 300;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 .text2 p {
   font-weight: 300;
-  font-size: 1.2vw;
+  font-size: 1vw;
+}
+
+.chart2 {
+  height: 25vw;
+  width: 4vw;
+  background-color: #00004f;
+  margin: 0 4vw 0 4vw;
 }
 
 .column3 {
-  width: 15vw;
+  width: 12vw;
   padding-right: 6vw;
 }
 
 .text3 h1 {
   font-weight: 300;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 .text3 p {
   font-weight: 300;
-  font-size: 1.2vw;
+  font-size: 1vw;
+}
+
+.chart3 {
+  height: 25vw;
+  width: 4vw;
+  background-color: #00004f;
+  margin: 0 4vw 0 4vw;
 }
 
 .column4 {
-  width: 15vw;
+  width: 12vw;
 }
 
 .text4 h1 {
   font-weight: 300;
-  font-size: 2vw;
+  font-size: 1.5vw;
 }
 .text4 p {
   font-weight: 300;
-  font-size: 1.2vw;
+  font-size: 1vw;
+}
+
+.chart4 {
+  height: 25vw;
+  width: 4vw;
+  background-color: #00004f;
+  margin: 0 4vw 0 4vw;
 }
 
 .homeHIW {
   position: relative;
   width: 100%;
-  height: 80vw;
+  height: 40vw;
 }
 
 .homeHIWText {
@@ -523,12 +569,67 @@
 
 .homeGetCode {
   width: 100%;
-  height: 30vw;
+  height: 70vw;
+  position: relative;
+}
+
+.homeGetCodeText {
+  position: absolute;
+  left: 13vw;
+  top: 9vw;
+}
+
+.getCodeButton {
+  position: absolute;
+  left: 17vw;
+  bottom: -4vw;
+  background-color: #ff5252;
+  padding: 0.7vw 1vw 0.7vw 1vw;
+  width: 12vw;
+  border-radius: 2vw;
+  text-align: center;
+  color: white;
+  font-size: 1.2vw;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.homeGetCodeText h1 {
+  font-size: 2vw;
+  font-weight: 400;
+  margin-bottom: 0.5vw;
+  text-align: right;
+}
+.homeGetCodeText p {
+  font-size: 1.4vw;
+  font-weight: 400;
+  width: 32vw;
+  text-align: right;
+}
+
+.homeGetCode .getCodeEnvelope img {
+  position: absolute;
+  width: 20vw;
+  top: 10vw;
+  right: 13vw;
+}
+
+.homeGetCode .getCodeQR img {
+  position: absolute;
+  width: 17vw;
+  top: 9vw;
+  right: 22vw;
+}
+
+.homeGetApp {
+  width: 100%;
+  height: 35vw;
   background-color: #ffa8a0;
   position: relative;
 }
 
-.homeGetCodeinfo {
+.homeGetAppinfo {
   position: absolute;
   top: -30vw;
   text-align: center;
@@ -536,24 +637,24 @@
   left: 30vw;
 }
 
-.homeGetCodeinfo h1 {
+.homeGetAppinfo h1 {
   font-size: 2.5vw;
   font-weight: 500;
   margin-bottom: 0;
 }
 
-.homeGetCodeinfo img {
+.homeGetAppinfo img {
   width: 45vw;
 }
 
-.homeGetCodeinfo p {
+.homeGetAppinfo p {
   width: 31vw;
   margin: 0 7vw 0 7vw;
   font-size: 1.6vw;
   font-weight: 500;
 }
 
-.GetCodeButton {
+.GetAppButton {
   margin: 2vw 15.8vw 0 15.8vw;
   background-color: #00004f;
   padding: 0.7vw 1vw 0.7vw 1vw;
@@ -565,6 +666,28 @@
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
+}
+
+.Getapps {
+  position: relative;
+}
+
+.Getapps img {
+  width: 12vw;
+}
+
+.GetgooglePlay {
+  position: absolute;
+  left: 39vw;
+  top: 27vw;
+  z-index: 2;
+}
+
+.GetappStore {
+  position: absolute;
+  left: 53vw;
+  top: 27vw;
+  z-index: 2;
 }
 
 .homeContact {
@@ -650,16 +773,15 @@
   left: 40vw;
 }
 
-/* WHYYYYYYYYYYYYY */
 .dot31 {
-  position: relative;
+  position: absolute;
   z-index: 1;
   height: 2.5vw;
   width: 2.5vw;
   background-color: #3f51b5;
   border-radius: 50%;
-  top: 33vw;
-  left: 61vw;
+  top: 39vw;
+  left: 61.5vw;
 }
 
 .dot4 {
@@ -671,6 +793,54 @@
   border-radius: 50%;
   top: 32vw;
   left: 85vw;
+}
+
+.step11 {
+  position: absolute;
+  left: 21.5vw;
+  top: 26vw;
+}
+
+.step21 {
+  position: absolute;
+  left: 38.5vw;
+  top: 10vw;
+}
+
+.step31 {
+  position: absolute;
+  left: 60vw;
+  top: 9vw;
+}
+
+.step4 {
+  position: absolute;
+  left: 83vw;
+  top: -6vw;
+}
+
+.step11 p {
+  padding-top: 1.5vw;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+.step21 p {
+  padding-top: 1.5vw;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+.step31 p {
+  padding-top: 1.5vw;
+  font-size: 1.2vw;
+  font-weight: 300;
+}
+
+.step4 p {
+  padding-top: 1.5vw;
+  font-size: 1.2vw;
+  font-weight: 300;
 }
 
 .homeCarjourneyTL .chargerRed {
@@ -719,33 +889,41 @@
     top: 38vw;
   }
   20% {
-    left: 18vw;
+    left: 16vw;
     top: 38vw;
     transform: rotate(0deg);
   }
   21% {
-    transform: rotate(-17deg);
+    transform: rotate(-20deg);
   }
   40% {
-    left: 38vw;
-    top: 29vw;
+    left: 35vw;
+    top: 30vw;
     transform: rotate(-20deg);
   }
-  52% {
+  42% {
     transform: rotate(15deg);
   }
-  75% {
-    left: 70vw;
-    top: 35vw;
-    transform: rotate(20deg);
+  60% {
+    left: 54vw;
+    top: 36vw;
+    transform: rotate(21deg);
   }
-  76% {
-    transform: rotate(-20deg);
+  62% {
+    transform: rotate(-21deg);
   }
-  100% {
-    left: 90vw;
+  80% {
+    left: 79vw;
     top: 29vw;
     transform: rotate(-20deg);
+  }
+  82% {
+    transform: rotate(2deg);
+  }
+  100% {
+    left: 100vw;
+    top: 29vw;
+    transform: rotate(0deg);
   }
 }
 
