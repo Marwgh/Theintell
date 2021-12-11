@@ -117,6 +117,7 @@
   width: 22vw;
 }
 
+/* OLD OLD OLD OLD OLD OLD OLD OLD */
 .homeCarjourney {
   width: 100%;
   height: 50vw;
@@ -298,6 +299,7 @@
   top: 33vw;
   width: 100%;
 }
+/* OLD OLD OLD OLD OLD OLD OLD OLD */
 
 .homeWAW {
   width: 100%;
@@ -676,7 +678,7 @@
   position: absolute;
   bottom: -5vw;
   background-color: #ff5252;
-  padding: 0.7vw 3vw 0.7vw 3vw;
+  padding: 0.7vw 1vw 0.7vw 1vw;
   width: 9vw;
   border-radius: 2vw;
   text-align: center;
@@ -772,20 +774,6 @@
   margin: 0 7vw 0 7vw;
   font-size: 1.6vw;
   font-weight: 500;
-}
-
-.GetAppButton {
-  margin: 2vw 15.8vw 0 15.8vw;
-  background-color: #00004f;
-  padding: 0.7vw 1vw 0.7vw 1vw;
-  width: 12vw;
-  border-radius: 2vw;
-  text-align: center;
-  color: white;
-  font-size: 1.2vw;
-  font-weight: 500;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 .Getapps {
@@ -1053,7 +1041,6 @@
   width: 12vw;
   position: absolute;
   animation: driving2 5s ease-in-out infinite;
- 
   z-index: 1;
 }
 
@@ -1066,7 +1053,6 @@
   9% {
     left: 57vw;
     top: 31vw;
-    
   }
   10% {
     left: 57vw;
@@ -1085,6 +1071,395 @@
     left: 100vw;
     top: 25vw;
     transform: rotate(0deg);
+  }
+}
+
+/* MEDIA QUERY PHONE */
+@media only screen and (max-width: 768px) {
+  /* HOMETITLE */
+  .homeTitle {
+  }
+
+  .getQrBtnDescription {
+    padding: 0.7vw 1vw 0.7vw 1vw;
+    width: 13vw;
+    font-size: 1.7vw;
+  }
+  .homeText {
+    width: 60vw;
+    left: 5vw;
+    top: 7vw;
+  }
+  .homeText h1 {
+    font-size: 6vw;
+    margin-bottom: 1.5vw;
+  }
+  .homeText p {
+    font-size: 2vw;
+    width: 45vw;
+    margin: 0 0 3vw 0;
+  }
+
+  .standingHome {
+    display: none;
+  }
+
+  /* HOMECARJOURNEY */
+  .homeCarjourney {
+    display: none;
+  }
+
+  /* HOMEWAW */
+  .homeWAW {
+    height: 135vw;
+  }
+
+  .wawText {
+    left: 8vw;
+    top: 70vw;
+  }
+
+  .getQrBtnWAW {
+    left: 0vw;
+    bottom: -15vw;
+    width: 20vw;
+    font-size: 2vw;
+  }
+
+  .wawText h1 {
+    font-size: 5vw;
+    text-align: left;
+  }
+  .wawText p {
+    font-size: 3vw;
+    width: 80vw;
+    text-align: left;
+  }
+
+  .homeWAW .wawPhones {
+    position: absolute;
+    right: 16vw;
+    top: 5vw;
+  }
+
+  .wawPhones img {
+    width: 70vw;
+  }
+
+  .WAWapps img {
+    width: 24vw;
+  }
+
+  .WAWgooglePlay {
+    left: 7vw;
+    top: 111vw;
+  }
+
+  .WAWappStore {
+    left: 33vw;
+    top: 111vw;
+  }
+
+  /* HOMEDATA */
+  .homeData {
+    height: 90vw;
+  }
+
+  .homeDataHeader {
+    width: 80vw;
+    top: 4vw;
+    left: 10vw;
+  }
+
+  .homeDataHeader h1 {
+    font-size: 5vw;
+  }
+
+  .homeDataHeader p {
+    font-size: 3vw;
+  }
+
+  .homeDataInfo {
+    top: 32vw;
+    left: 7vw;
+  }
+
+  .column1 {
+    width: 17vw;
+    padding-right: 6vw;
+  }
+
+  .text1 h1 {
+    font-size: 3vw;
+  }
+  .text1 p {
+    font-size: 2vw;
+  }
+
+  .chart1 {
+    height: 30vw;
+    width: 6vw;
+    left: 2vw;
+  }
+
+  .datachart1 {
+    height: 22.5vw;
+    width: 6vw;
+    top: 7.5vw;
+  }
+
+  .chart1 p {
+    top: 6.5vw;
+    left: 1.1vw;
+    font-size: 2vw;
+  }
+
+  .column2 {
+    width: 17vw;
+    padding-right: 6vw;
+  }
+
+  .text2 h1 {
+    font-size: 3vw;
+  }
+  .text2 p {
+    font-size: 2vw;
+  }
+
+  .chart2 {
+    height: 30vw;
+    width: 6vw;
+    left: 2vw;
+  }
+
+  .datachart2 {
+    height: 20.28vw;
+    width: 6vw;
+    top: 9.8vw;
+  }
+
+  .chart2 p {
+    top: 9vw;
+    left: 0.5vw;
+    font-size: 2vw;
+  }
+
+  .column3 {
+    width: 17vw;
+    padding-right: 6vw;
+  }
+
+  .text3 h1 {
+    font-size: 3vw;
+  }
+  .text3 p {
+    font-size: 2vw;
+  }
+
+  .chart3 {
+    height: 30vw;
+    width: 6vw;
+    left: 2vw;
+  }
+
+  .datachart3 {
+    height: 23.37vw;
+    width: 6vw;
+    top: 6.7vw;
+  }
+
+  .chart3 p {
+    top: 6vw;
+    left: 0.5vw;
+    font-size: 2vw;
+  }
+
+  .column4 {
+    width: 17vw;
+  }
+
+  .text4 h1 {
+    font-size: 3vw;
+  }
+  .text4 p {
+    font-size: 2vw;
+  }
+
+  .chart4 {
+    height: 30vw;
+    width: 6vw;
+    left: 2vw;
+  }
+
+  .datachart4 {
+    height: 16.77vw;
+    width: 6vw;
+    top: 13.3vw;
+  }
+
+  .chart4 p {
+    top: 13vw;
+    left: 0.5vw;
+    font-size: 2vw;
+  }
+
+  /* HOMETRUST */
+  .homeTrust {
+  }
+
+  /* HOMEHIW */
+  .homeHIW {
+    height: 100vw;
+  }
+
+  .homeHIWText {
+    left: 8vw;
+    top: 55vw;
+  }
+
+  .homeHIWText h1 {
+    font-size: 5vw;
+    text-align: left;
+  }
+
+  .homeHIWText p {
+    font-size: 3vw;
+    width: 80vw;
+    text-align: left;
+  }
+
+  .homeHIW img {
+    left: 19vw;
+    top: 5vw;
+    width: 60vw;
+  }
+
+  .homeHIWButton {
+    bottom: -5vw;
+    left: 0vw;
+    width: 15vw;
+    font-size: 2vw;
+  }
+
+  /* HOMEGETCODE */
+  .homeGetCode {
+    height: 155vw;
+  }
+
+  .homeGetCodeText {
+    left: 8vw;
+    top: 50vw;
+  }
+
+  .getCodeButton {
+    bottom: -5vw;
+    left: 0vw;
+    width: 15vw;
+    font-size: 2vw;
+  }
+
+  .homeGetCodeText h1 {
+    font-size: 5vw;
+    text-align: left;
+  }
+  .homeGetCodeText p {
+    font-size: 3vw;
+    width: 80vw;
+    text-align: left;
+  }
+
+  .homeGetCode .getCodeEnvelope img {
+    width: 40vw;
+    top: 10vw;
+    right: 21vw;
+  }
+
+  .homeGetCode .getCodeQR img {
+    width: 37vw;
+    top: 7vw;
+    left: 23vw;
+  }
+
+  /* HOMEGETAPP */
+  .homeGetApp {
+    height: 60vw;
+  }
+
+  .homeGetAppinfo {
+    top: -55vw;
+    width: 80vw;
+    left: 10vw;
+  }
+
+  .homeGetAppinfo h1 {
+    font-size: 5vw;
+  }
+
+  .homeGetAppinfo img {
+    width: 80vw;
+  }
+
+  .homeGetAppinfo p {
+    width: 60vw;
+    margin: 0 10vw 0 10vw;
+    font-size: 3vw;
+  }
+
+  .Getapps img {
+    width: 25vw;
+  }
+
+  .GetgooglePlay {
+    left: 23vw;
+    top: 45vw;
+  }
+
+  .GetappStore {
+    left: 50vw;
+    top: 45vw;
+  }
+
+  /* HOMECONTACT */
+  .homeContact {
+    height: 40vw;
+  }
+
+  .contactText {
+    top: 4vw;
+    left: 10vw;
+  }
+
+  .contactText h1 {
+    font-size: 5vw;
+    font-weight: 400;
+  }
+
+  .contactText p {
+    font-size: 2.5vw;
+    font-weight: 500;
+    width: 55vw;
+  }
+
+  .contactButton {
+    left: 0vw;
+    bottom: -5vw;
+    font-size: 2vw;
+  }
+
+  .homeContact img {
+    position: absolute;
+    width: 27vw;
+    right: 6vw;
+    bottom: 10vw;
+  }
+
+  .contactBGimg img {
+    position: absolute;
+    top: -18vw;
+    width: 100%;
+    z-index: 1;
+    right: 0vw;
+    filter: blur(1vw);
   }
 }
 
