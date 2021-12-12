@@ -13,6 +13,9 @@ export default function Order() {
       <div id="heroimage">
         <img src="./svg/qrcard.svg" alt="qr card drawing"></img>
       </div>
+      <div id="girlBleuAgainstOrder">
+        <img src="./svg/leaning.svg" alt="qr card drawing"></img>
+      </div>
     </div>
 
     <div id="orderForm">

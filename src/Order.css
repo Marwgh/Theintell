@@ -8,14 +8,14 @@ overflow: hidden;
 .hero {
 position: relative;
 margin-bottom: 5vw;
-height: 39vw;
+height: 45vw;
 }
 
 #herotext {
 position: absolute;
 width: 40vw;
 left: 8vw;
-top: 8vw;
+top: 20vw;
 }
 
 #herotext h1 {
@@ -30,9 +30,18 @@ width: 36vw;
 #heroimage img{
 position: absolute;
 right: 10vw;
-top: 5vw;
-width: 35vw;
+top: 19vw;
+width: 28vw;
 height: auto;
+transform: rotate(90deg);
+}
+
+#girlBleuAgainstOrder img {
+    position: absolute;
+    right: 28vw;
+    top: 17vw;
+    width: 16vw;
+    height: auto;
 }
 
  /*Form styling*/
@@ -48,11 +57,14 @@ margin-bottom: 15vw;
 } 
 
 #orderForm form {
-width: 38.5vw;
-margin: 0 15vw 0 15vw;
+width: 44vw;
+margin: 0 13vw 0 13vw;
 padding-top: 3vw;
 }
 
+#orderForm fieldset {
+    border: none;
+}
 
 #fullname input{
 width: 18vw;
@@ -66,6 +78,7 @@ color: black;
 font-size: 1.5vw;
 font-weight:500 ;
 margin-bottom: 0.7vw;
+margin-top:2.5vw ;
 }
 #car_brand_selection{
 display: grid;
@@ -109,7 +122,6 @@ padding: 1vw;
 
 .arrangeOrder label {
 margin-bottom: 0.3vw;
-color: white;
 font-size: 1.1vw;
 font-weight: 500;
 }
