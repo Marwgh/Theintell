@@ -10,6 +10,20 @@ export default function NavBar(props) {
           <div className="navButton" onClick={  () => props.changePage("Contact")} >Contact</div>
           <div className="navButton qr" onMouseDown={  () => props.changePage("Order")} >Get Your QR</div>
         </div>
+        <nav>
+    <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <div id="menuB">
+          <div className="navButton" onClick={  () => props.changePage("About")} >About</div>
+          <div className="navButton" onClick={  () => props.changePage("Howto")} >How It Works</div>
+          <div className="navButton" onClick={  () => props.changePage("Contact")} >Contact</div>
+          <div className="navButton qr" onMouseDown={  () => props.changePage("Order")} >Get Your QR</div>
+        </div>
+    </div>
+</nav>
       </div>
 
       

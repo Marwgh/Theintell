@@ -27,6 +27,8 @@
         <span></span>
         <a href="/" >About</a>
         <span></span>
+        <a href="/">How it works</a>
+        <span></span>
         <a href="/" >Order the QR</a>
         <span></span>
         <a href="/" >Contact</a>

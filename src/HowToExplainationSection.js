@@ -38,7 +38,7 @@ export default function HowToExplainationSection(props) {
             <div className="carImg">
               <img src="./svg/car.svg" alt="car"></img>
             </div>
-            <div className="rewardImg">
+            <div className="chargingImg">
               <img src="./svg/charger.svg" alt="reward"></img>
             </div>
           </div>
