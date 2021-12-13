@@ -52,6 +52,59 @@ function expandFAQ (faqSelector) {
         </div>
       </div>
 
+      <section id="faqsection">
+      <div className="faqText">
+        <h1>Frequently Asked Questions</h1>
+        <div className="divider1"></div>
+        <p>Many people in the EV community end up facing similar problems in their day to day life. We tried answering some of the most popular questions here.</p>
+      </div>
+
+      <div className="questions">
+        <div id="questioncontainer">
+        <div id= "faq1">
+          <h1 className='quest' onClick={()=> {expandFAQ("#faq1 .faqBody")}}>How can I use my points?<span>+</span></h1>
+          <div className='faqBody'>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+                        aperiam.</p>
+          </div>
+        </div>
+        <hr className='hrLine'></hr>
+
+        <div id="faq2">
+          <h1 className='quest'>Can I have two codes on the same account?<span >+</span></h1>
+          <div className='faqBody' onClick={()=> {expandFAQ("faqu")}}>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+                        aperiam.</p>
+          </div>
+        </div>
+        <hr className='hrLine'></hr>
+
+        <div id= "faq3">
+          <h1 className='quest'>How do I activate the QR code?<span>+</span></h1>
+          <div className='faqBody'onClick={()=> {expandFAQ("faqu")}}>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+                        aperiam.</p>
+          </div>
+        </div>
+        <hr className='hrLine'></hr>
+
+        <div id= "faq4">
+          <h1 className='quest'>Can I refuse a moving request?<span>+</span></h1>
+          <div className='faqBody'>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
+                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
+                        aperiam.</p>
+          </div>
+        </div>
+        {/* <hr className='hrLine'></hr> */}
+        </div>
+
+      </div>
+      </section>
+
       <section id="formsec">
 
 <div className="contactForm">
@@ -86,15 +139,15 @@ function expandFAQ (faqSelector) {
         <label for="messagebox">Message Here</label>
         <input type="text" id="messagebox" placeholder="Type your message here"></input>
         </div>
-      <div id="contact"></div>
-      <div></div>
+      <div id="contactFormBTN">
+      <div>Submit</div>
+      </div>
     </fieldset>
   </form>
  
   <div className="formTitle">
-
     <h1>We couldn't answer your questions?</h1>
-    <div id="divider"></div>
+    <div className="divider2"></div>
     <p>If you have any inquiries about Karma Charging, or want to discuss a solution for your business, write to us here. One of our colleagues will reply to you shortly.</p>
 
   </div>
@@ -102,58 +155,7 @@ function expandFAQ (faqSelector) {
 </section>
 
 
-<section id="faqsection">
-      <div className="FAQ">
-        <h1>Frequently Asked Questions</h1>
-        <div id="divider"></div>
-        <p>Many people in the EV community end up facing similar problems in their day to day life. We tried answering some of the most popular questions here.</p>
-      </div>
 
-      <div className="questions">
-        <div id="questioncontainer">
-        <div id= "faq1">
-          <h1 className='quest' onClick={()=> {expandFAQ("#faq1 .faqBody")}}>How can I use my points?<span>+</span></h1>
-          <div className='faqBody'>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                        aperiam.</p>
-          </div>
-        </div>
-        <hr className='hrLine'></hr>
-
-        <div id= "faq2">
-          <h1 className='quest'>Can I have two codes on the same account?<span >+</span></h1>
-          <div className='faqBody' onClick={()=> {expandFAQ("faqu")}}>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                        aperiam.</p>
-          </div>
-        </div>
-        <hr className='hrLine'></hr>
-
-        <div id= "faq3">
-          <h1 className='quest'>How do I activate the QR code?<span>+</span></h1>
-          <div className='faqBody'onClick={()=> {expandFAQ("faqu")}}>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                        aperiam.</p>
-          </div>
-        </div>
-        <hr className='hrLine'></hr>
-
-        <div id= "faq4">
-          <h1 className='quest'>Can I refuse a moving request?<span>+</span></h1>
-          <div className='faqBody'>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                        aperiam.</p>
-          </div>
-        </div>
-        <hr className='hrLine'></hr>
-        </div>
-
-      </div>
-      </section>
     </div>
   );
 }

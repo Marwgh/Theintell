@@ -66,11 +66,12 @@ padding-top: 3vw;
     border: none;
 }
 
-#fullname input{
+#contactFMbtn #fullname input{
 width: 18vw;
+width: 15.5vw;
 }
    
-#lastname{
+#orderForm #lastname{
     margin-left: 2vw;
 }
 #car_brand_selection label{
@@ -126,7 +127,7 @@ font-size: 1.1vw;
 font-weight: 500;
 }
   
-#address2 {
+#orderForm #address2 {
 display: flex;
 justify-content: space-between;
 }
