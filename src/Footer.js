@@ -4,7 +4,7 @@
       
       <div className="fstFContainer">
         <div>
-          <img alt="" className="footerMonta" src="./image/karmapink.png"></img>
+          <img alt="Karmalogo" className="footerMonta" src="./image/karmapink.png"></img>
           <select>
             <option>Dansk</option>
             <option>English</option>

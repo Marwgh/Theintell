@@ -1,3 +1,4 @@
+import BarCharts from './BarCharts.js';
 import './Order.css';
 export default function Order() {
   return (
@@ -81,7 +82,7 @@ export default function Order() {
         </form>
     </div>
 
-
+    <BarCharts/>
   </div>
   );
 }

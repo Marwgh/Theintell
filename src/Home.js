@@ -1,4 +1,4 @@
-
+import BarCharts from './BarCharts.js';
 export default function Home(props) {
   return (
     <div className="home">
@@ -17,37 +17,7 @@ export default function Home(props) {
         <div className="standingHome">
           <img src="./svg/standingblue.svg" alt="Blue person standing"></img>
         </div>
-
       </div>
-
-      {/* <div className="homeCarjourney">
-        <div className="homeCarjourneyText">
-          <h1>A JOURNEY BASED ON KARMA</h1>
-          <p>A simple journey designed for you to find a charging spot even when the situation seems desperate!
-          </p>
-        </div>
-        <div className="homeCarjourneyTL">
-          <img className="car" src="./svg/car.svg" alt="car"></img>
-          <img className="charger" src="./svg/charger.svg" alt="car"></img>
-          <img className="phone" src="./svg/phone.svg" alt="car"></img>
-          <img className="reward" src="./svg/reward.svg" alt="car"></img>
-          <div className="dot1"></div>
-          <div className="dot2"></div>
-          <div className="dot3"></div>
-          <img className="timeline" src="./svg/timeline.svg" alt="timeline"></img>
-        </div>
-        <div className="textboxPopUp">
-          <div className="step1">
-            <p>Find a charger</p>
-          </div>
-          <div className="step2">
-            <p>Scan the code</p>
-          </div>
-          <div className="step3">
-            <p>Get the charger</p>
-          </div>
-        </div>
-      </div> */}
 
       <div className="homeCarjourney">
         <div className="homeCarjourneyText">
@@ -101,60 +71,20 @@ export default function Home(props) {
 
       </div>
 
-      <div className="homeData">
-        <div className="homeDataHeader">
-          <h1>Don’t trust us?</h1>
-          <h1>Trust the <span>community</span></h1>
-          <p>Karma charging was built  by EV enthusiasts for  EV users, to ensure they will never have to wait for a charging spot again. Here is some data from EV users.</p>
-        </div>
-        <div className="homeDataInfo">
-          <div className="column1">
-            <div className="chart1">
-              <div className="datachart1"></div>
-              <p>75%</p>
-            </div>
-            <div className="text1">
-              <h1>Move</h1>
-              <p>Willing to move their car when not fully charged to allow one car with low battery.</p>
-            </div>
-          </div>
-          <div className="column2">
-            <div className="chart2">
-              <div className="datachart2"></div>
-              <p>67.6%</p>
-            </div>
-            <div className="text2">
-              <h1>Points</h1>
-              <p>Would move their car for another in need if they could get points.</p>
-            </div>
-          </div>
-          <div className="column3">
-            <div className="chart3">
-              <div className="datachart3"></div>
-              <p>77.9%</p>
-            </div>
-            <div className="text3">
-              <h1>Notification</h1>
-              <p>Willing to get notified if someone wants to use the charging spot.</p>
-            </div>
-          </div>
-          <div className="column4">
-            <div className="chart4">
-              <div className="datachart4"></div>
-              <p>55.9%</p>
-            </div>
-            <div className="text4">
-              <h1>100% Charged</h1>
-              <p>Move car right after finished charging.</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      <BarCharts/>
 
       <div className="homeTrust">
         <h1>Trusted by:</h1>
-        <img className="arrowLeft" src="/svg/arrowleft.svg" alt="arrow left"></img>
-        <img className="arrowRight" src="/svg/arrowRight.svg" alt="arrow Right"></img>
+        {/* <img className="arrowLeft" src="/svg/arrowleft.svg" alt="arrow left"></img> */}
+        <div className="arrowLeft">
+          <span></span>
+          <span></span>
+        </div>
+        {/* <img className="arrowRight" src="/svg/arrowRight.svg" alt="arrow Right"></img> */}
+        <div className="arrowRight">
+          <span></span>
+          <span></span>
+        </div>
         <img className="review1" src="./svg/review1.svg" alt="review"></img>
         <img className="review2" src="./svg/review2.svg" alt="review"></img>
         <img className="review3" src="./svg/review3.svg" alt="review"></img>

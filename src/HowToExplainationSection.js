@@ -49,7 +49,7 @@ export default function HowToExplainationSection(props) {
       <div>
         <div className="charger">
             <div className="chargerText boxShadower">
-              <h1>Get a notifiaction</h1>
+              <h1>Get a notification</h1>
               <p>The first thing that will happen is that you will get a notification. If you want and can move your car then you accept the demande. </p>
             </div>
             <div className="handPhonePurpleImgHIW">

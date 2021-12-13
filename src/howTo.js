@@ -11,24 +11,20 @@ function togglerQrExpleation (valeu) {
   console.log(valeu);
   setStatus(valeu);
   if (valeu === false) {
+  document.querySelector("body").classList.add("statusFalse");
+  document.querySelector("body").classList.remove("statusTrue");
+  } else {
+  document.querySelector("body").classList.add("statusTrue");
+  document.querySelector("body").classList.remove("statusFalse");
+  }
+
+  if (valeu === false) {
     document.querySelector("#transitionScannertoOwner").classList.add("TogglingOwnertransition");
     document.querySelector("#transitionScannertoOwner").classList.remove("TogglingScannertransition");
-    document.querySelector(".explain").style.height="140vw";
-    if (window.matchMedia("(max-width: 768px)").matches){
-      document.querySelector(".explain").style.height="370vw";
-    } else {
-      document.querySelector(".explain").style.height="140vw";
-    }
 
   } else {
     document.querySelector("#transitionScannertoOwner").classList.remove("TogglingOwnertransition");
     document.querySelector("#transitionScannertoOwner").classList.add("TogglingScannertransition");
-    document.querySelector(".explain").style.height="100vw";
-    if (window.matchMedia("(max-width: 768px)").matches){
-      document.querySelector(".explain").style.height="260vw";
-    } else {
-      document.querySelector(".explain").style.height="100vw";
-    }
   }
 } 
 

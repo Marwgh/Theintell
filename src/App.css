@@ -3,6 +3,8 @@
   font-family: "Quicksand";
   overflow: hidden;
 }
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap");
+
 /*HEADER HEADER HEADER     HEADER HEADER HEADER     HEADER HEADER HEADER*/
 #menuToggle {
   display: none;
@@ -394,18 +396,63 @@
   font-weight: 500;
 }
 
-.arrowLeft {
+/* .arrowLeft {
   position: absolute;
   left: 6vw;
   top: 11vw;
   width: 3vw;
+} */
+
+.arrowLeft span {
+  display: block;
+  background-color: white;
+  position: absolute;
+  border-radius: 2.5vw;
 }
 
-.arrowRight {
+.arrowLeft span:first-child {
+  left: 3.2vw;
+  top: 11.2vw;
+  width: 3.5vw;
+  height: 0.5vw;
+  transform: rotate(135deg) translate(-0.12vw, -0.11vw);
+}
+
+.arrowLeft span:nth-last-child(1) {
+  left: 5vw;
+  top: 11.9vw;
+  width: 0.5vw;
+  height: 3.5vw;
+  transform: rotate(315deg) translate(-0.12vw, -0.11vw);
+}
+
+/* .arrowRight {
   position: absolute;
   right: 6vw;
   top: 11vw;
   width: 3vw;
+} */
+.arrowRight span {
+  display: block;
+  background-color: white;
+  position: absolute;
+  border-radius: 2.5vw;
+}
+
+.arrowRight span:first-child {
+  right: 3.4vw;
+  top: 11.5vw;
+  width: 3.5vw;
+  height: 0.5vw;
+  transform: rotate(45deg) translate(-0.12vw, -0.11vw);
+}
+
+.arrowRight span:nth-last-child(1) {
+  right: 5vw;
+  top: 11.9vw;
+  width: 0.5vw;
+  height: 3.5vw;
+  transform: rotate(225deg) translate(-0.12vw, -0.11vw);
 }
 
 .review1 {
@@ -1484,17 +1531,6 @@
     border-radius: 0.3vw;
   }
 
-  #menuToggle a {
-    text-decoration: none;
-    color: var(--scolor1);
-    transition: color 0.3s ease;
-  }
-
-  #menuToggle a:hover {
-    color: var(--color2);
-    font-weight: bold;
-  }
-
   #menuToggle input {
     display: block;
     width: 4vw;
@@ -1572,11 +1608,11 @@
 
 .footer {
   width: 100%;
-  height: 20.5vw;
+  height: 70vw;
   background-color: #00004f;
   color: white;
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-columns: 1fr;
   font-family: "Quicksand", sans-serif;
 }
 .fstFContainer {
@@ -1586,73 +1622,97 @@
   margin-left: 11vw;
   margin-top: 2.5vw;
 }
+
+.fstFContainer img {
+  width: 30vw;
+}
+
+.fstFContainer p {
+  display: none;
+}
+
+.fstFContainer > div :last-child {
+  display: none;
+}
+
 .fstFContainer div {
   position: absolute;
-  left: 5vw;
+  left: 0vw;
 }
 .fstFContainer select {
   appearance: none;
   background-color: transparent;
   border: 1px solid white;
   border-radius: 0.25vw;
-  width: 15vw;
-  height: 2.5vw;
+  width: 20vw;
+  height: 4vw;
   color: white;
   padding: 0 0 0 1vw;
-  font-size: 1.3vw;
+  font-size: 3vw;
   font-weight: 500;
   font-family: "Quicksand";
 }
 .fstFContainer p {
   font-weight: 700;
-  font-size: 1.2vw;
+  font-size: 3vw;
   margin-top: 1.5vw;
 }
 .scdFContainer a {
   text-decoration: none;
   color: white;
-  font-size: 1vw;
+  font-size: 2.5vw;
   font-weight: 700;
+  margin-bottom: 1vw;
 }
 .scdFContainer div {
   display: grid;
 }
 .scdFContainer {
-  margin-top: 3vw;
   position: relative;
-  margin-left: 2vw;
+  margin-left: 11vw;
+  margin-top: 10vw;
+  height: 15vw;
 }
 .scdFContainer p {
   position: absolute;
-  bottom: 1.5vw;
+  bottom: -34vw;
   font-weight: 700;
-  font-size: 1vw;
-  left: 5vw;
+  font-size: 2.5vw;
+  left: 26vw;
 }
 .scdFContainer span {
-  display: block;
-  height: 1px;
-  width: 8vw;
-  background-color: rgba(255, 255, 255, 0.438);
-  margin: 0.5vw 0 0.5vw 0;
+  display: none;
 }
 
 .trdFContainer {
-  margin-top: 2.5vw;
+  margin-top: 3vw;
   display: flex;
 }
+
+.trdFContainer :first-child {
+  display: none;
+}
+
+.trdFContainer :last-child :first-child {
+  display: block;
+}
+
 .trdFContainer p {
-  height: 1.5vw;
+  height: 4vw;
   margin: 0;
   font-weight: 700;
-  font-size: 1.1vw;
-  margin-bottom: 0.8vw;
+  font-size: 2vw;
+  margin-bottom: 0.5vw;
 }
 .trdFContainer div {
   display: flex;
   flex-direction: column;
-  margin-right: 1vw;
-  margin-left: 2vw;
+  margin-left: 11vw;
+  margin-top: 1vw;
+}
+
+br {
+  display: none;
 }
 .phoneNum {
   padding-top: 3vw;
