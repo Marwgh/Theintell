@@ -78,17 +78,18 @@
   font-size:1.2vw ;
 
 }
-.aboutMPeoples{
+
+.collabImage {
   position: absolute;
   right: 11vw;
   width: 30vw;
   top: 10vw;
 }
+
 .aboutMPeoples img{
   width: auto;
   height: 24vw;
 }
-
 
 .aboutMlogoMonta {
   position: absolute;
@@ -222,6 +223,7 @@
   right: 24vw;
   top: 4vw;
 }
+
 .aboutDigital :last-child :last-child{
   position: absolute;
   width: 6vw;
@@ -232,5 +234,221 @@
   transform: rotate(32deg);
 }
 
+/* MEDIA QUERIES MOBILE MEDIA QUERIES MOBILE MEDIA QUERIES MOBILE */
+
+@media only screen and (max-width: 768px) {
+
+  /*HEADER SERCTION HEADER SECTION HEADER SECTION HEADER SECTION*/
+
+  .aboutHeader{
+    width: 100%;
+    height: 45vw;
+    top: 7vw;
+    color: white;
+    overflow: hidden;
+  }
+  .aboutHeader > img{
+    width:100vw;
+    height: auto;
+    top: -10vw;
+    z-index: -1;
+  }
+  .aboutHeader h1{
+    z-index: 1;
+    font-size: 5vw;
+    top: 10vw;
+    left: 24vw;
+  }
+  
+  .aboutHeader p{
+    z-index: 1;
+    top: 17vw;
+    left: 25vw;
+    width: 50vw;
+    font-size: 2.5vw;
+  }
 
 
+
+  /*ABOUT MONTA*/
+
+  .aboutMonta{
+    text-align: left;
+    height: 80vw;
+    top: 10vw;
+  }
+
+  .aboutMText {
+    width: 35vw;
+    left: 25vw;
+    top: 50vw;
+  }
+
+  .aboutMText > div{
+    right: 13vw;
+    background-color: #FF5252;
+    color: white;
+    padding: 0.75vw 1vw 0.75vw 1vw; 
+    width: 20vw;
+  border-radius: 2vw;
+  font-size:2.2vw ;
+  text-decoration: none;
+  
+  }
+
+  .aboutMText h1{
+    font-size: 4vw;
+    font-weight: 500;
+    top: 14vw;
+    left: 11vw;
+  }
+  
+  .aboutMText p{
+    top: 20vw;
+    left: 11vw;
+    width: 50vw;
+    font-size: 2.5vw;
+  }
+ 
+  .collabImage {
+    right: 28vw;
+    width: 40vw;
+    top: 10vw;
+  }
+  
+  .aboutMPeoples img{
+    width: auto;
+    height: 34vw;
+  }
+  
+  .aboutMlogoMonta {
+    width: 5vw;
+    height: 5vw;
+    right: 42vw;
+    top: 1vw;
+  }
+  
+  .aboutMlogoMonta img{
+    width: 5vw;
+    height: auto;
+  }
+  
+  .aboutMlogoKarma {
+    width: 7vw;
+    height: 7vw;
+    right: -6vw;
+    top: 5vw;
+  }
+  
+  .aboutMlogoKarma img{
+    width: 7.5vw;
+    height: auto;
+  }
+  
+  /*CLIMATE CLIMATE CLIMATE*/
+
+
+.aboutClimate{
+  width: 100%;
+  height: 80vw; 
+}
+
+.aboutClimate h1{
+  font-size: 4vw;
+  font-weight: 500;
+  width: 40vw;
+  top: 14vw;
+  left: 11vw;
+}
+
+.aboutClimate p{
+  top: 20vw;
+  left: 11vw;
+  width: 45vw;
+  font-size: 2.5vw;
+  margin-bottom: 6vw;
+}
+
+.aboutClimate a{
+  background-color: #FF5252;
+  color: white;
+  padding: 0.75vw 1vw 0.75vw 1vw; 
+  width: 10.8vw;
+  border-radius: 2vw;
+  font-size:2.2vw ;
+  text-decoration: none;
+}
+
+.aboutClimate > div  {
+  position: relative;
+}
+
+.aboutClimate :last-child {
+  width: 35vw;
+    right: 26vw;
+    top: 80vw;
+}
+
+.aboutClimate :first-child :first-child  {
+  width: 23vw;
+  z-index: 1;
+  left: 22vw;
+  top: 49.5vw;
+}
+
+
+.aboutClimate :first-child :last-child  {
+  width: 42vw;
+  z-index: -1;
+  left: 32vw;
+  top: 58vw;
+}
+
+/*DIGITAL SOLUTION DIGITAL SOLUTION DIGITAL SOLUTION */
+
+.aboutDigital{
+  width: 100%;
+  height: 170vw;
+}
+
+.aboutDigital h1{
+  font-size: 4vw;
+  text-align: left;
+}
+
+.aboutDigital p{
+  width: 45vw;
+  font-size: 2.5vw;
+  text-align: left;
+}
+
+.aboutDigital div:first-child { 
+  position: absolute;
+  right: 50vw;
+  width: 25vw;
+  top: 315vw;
+  justify-self: none;
+}
+
+.aboutDigital div:last-child {
+  position: relative;
+}
+
+.aboutDigital :last-child :first-child {
+  width: 22vw;
+  height: auto;
+  z-index: -1;
+  left: 30vw;
+  top: 62vw;
+}
+
+.aboutDigital :last-child :last-child {
+  width: 17vw;
+  height: auto;
+  z-index: -1;
+  left: 42vw;
+  top: 68vw;
+  transform: rotate(32deg);
+}
+
+  }
