@@ -450,11 +450,12 @@
   min-height: 100vw;
 }
 
-/* MEDIA QUERY PHONE */
+/* MEDIA QUERY PHONE  MEDIA QUERY PHONE  MEDIA QUERY PHONE  MEDIA QUERY PHONE  MEDIA QUERY PHONE  MEDIA QUERY PHONE  MEDIA QUERY PHONE  MEDIA QUERY PHONE */
 @media only screen and (max-width: 768px) {
   /* HIWINTRO */
   .hiwIntro {
     height: 80vw;
+    margin-top: 3vw;
   }
 
   .introText {
@@ -521,19 +522,21 @@
   }
 
   .explainToggleSection {
-    width: 40vw;
-    height: 3.5vw;
-    left: 30vw;
-  }
+    width: 70vw;
+    height: 6.5vw;
+    left: 15vw;
+    border-radius: 4vw;
+}
 
   #transitionScannertoOwner {
-    width: 22vw;
-    height: 3.5vw;
+    width: 35vw;
+    height: 6.5vw;
     left: 0;
-  }
+    border-radius: 4vw;
+}
 
   .TogglingOwnertransition {
-    transform: translateX(18vw);
+    transform: translateX(35vw);
   }
 
   .TogglingScannertransition {
@@ -541,7 +544,9 @@
   }
 
   .explainToggleSection p {
-    font-size: 1.45vw;
+    font-size: 2.45vw;
+    margin-top: 2vw;
+    margin-right: 1vw;
   }
   .charger {
     height: 90vw;
