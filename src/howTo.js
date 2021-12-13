@@ -11,13 +11,24 @@ function togglerQrExpleation (valeu) {
   console.log(valeu);
   setStatus(valeu);
   if (valeu === false) {
-  document.querySelector("#transitionScannertoOwner").classList.add("TogglingOwnertransition");
-  document.querySelector("#transitionScannertoOwner").classList.remove("TogglingScannertransition");
+    document.querySelector("#transitionScannertoOwner").classList.add("TogglingOwnertransition");
+    document.querySelector("#transitionScannertoOwner").classList.remove("TogglingScannertransition");
+    document.querySelector(".explain").style.height="140vw";
+    if (window.matchMedia("(max-width: 768px)").matches){
+      document.querySelector(".explain").style.height="370vw";
+    } else {
+      document.querySelector(".explain").style.height="140vw";
+    }
 
   } else {
     document.querySelector("#transitionScannertoOwner").classList.remove("TogglingOwnertransition");
-  document.querySelector("#transitionScannertoOwner").classList.add("TogglingScannertransition");
-
+    document.querySelector("#transitionScannertoOwner").classList.add("TogglingScannertransition");
+    document.querySelector(".explain").style.height="100vw";
+    if (window.matchMedia("(max-width: 768px)").matches){
+      document.querySelector(".explain").style.height="260vw";
+    } else {
+      document.querySelector(".explain").style.height="100vw";
+    }
   }
 } 
 
@@ -69,7 +80,7 @@ function togglerQrExpleation (valeu) {
           <div className='boxShadower'>
             <p>Reward points</p>
             <img src="./svg/rewardPink.svg" alt=""></img>
-          </div>
+          </div> 
         </div>
         <div className='kpsGetYourCode'>
           <img src="./image/chargincarImage.jpg" alt=""></img>
