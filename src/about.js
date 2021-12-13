@@ -16,7 +16,7 @@ export default function About() {
             <p>Karma is a product created by Monta, to help users get more better experience in charging. We want to help users get more access to the chargers  even when taken.   </p>
             <div>Get to know Monta</div>
           </div>
-          <div>
+          <div className="collabImage">
             <div className="aboutMlogoMonta boxShadower">
               <img alt="" src="./svg/Monta_Logo_Secondary_White.svg"></img>
             </div>

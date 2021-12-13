@@ -32,8 +32,6 @@ function togglerQrExpleation (valeu) {
   }
 } 
 
-/**/
-
   return (
     <div className="howTo">
       <div className="hiwIntro">

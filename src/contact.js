@@ -23,6 +23,7 @@ function expandFAQ (faqSelector) {
           <h1>How can we help you?</h1>
           <p>Learn about Karma and how you can help your fellow electric cars owners to charge their car. Come and discover the amazing opportunity's and get your own QR code! </p>
         </div>
+        <div id="contactImage">
         <div className="customers">
           <img src="./svg/customers.svg" alt="customers"></img>
         </div>
@@ -47,6 +48,7 @@ function expandFAQ (faqSelector) {
           <svg> 
             <path d="M5 20 l120 0" stroke-dasharray="16, 16" fill="none" stroke="#3f51b5" stroke-width="2"/>
           </svg>
+        </div>
         </div>
       </div>
 

@@ -148,7 +148,6 @@ justify-content:baseline;
 
 #questioncontainer {
   position: relative;
-  padding-top: 6vw;
   display: flex;
   flex-direction: column;
 }
@@ -311,4 +310,28 @@ text-align: right;
 
   .contactForm input[type="text"] {
     height: 5vw;
+  }
+
+
+  /*MEDIA QUERIES PHONE MEDIA QUERIES PHONE MEDIA QUERIES PHONE*/
+
+  @media only screen and (max-width: 768px) {
+  
+  .contactIntro {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  #formsec {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  #faqsection {
+    display: flex;
+    flex-direction: column;
+
+  }
   }
