@@ -9,6 +9,7 @@
   position: relative;
   width: 100%;
   height: 45vw;
+  top: 6vw;
   color: white;
   overflow: hidden;
 }
@@ -44,6 +45,7 @@
   width: 100%;
   text-align: right;
   height: 50vw;
+  top: 7vw;
 }
 
 .aboutMText {
@@ -71,7 +73,6 @@
   right: 0;
   background-color: #FF5252;
   color: white;
-  text-decoration: underline;
   padding: 0.75vw 1vw 0.75vw 1vw; 
   width: 10.8vw;
   border-radius: 2vw;
@@ -97,8 +98,8 @@
   height: 5vw;
   padding:1.5vw;
   border-radius: 0.7vw;
-  right: 40vw;
-  top: 12vw;
+  right: 30vw;
+  top: -2vw;
 }
 .aboutMlogoMonta img{
   width: 5vw;
@@ -111,7 +112,7 @@
   height: 6vw;
   padding:1vw;
   border-radius: 0.7vw;
-  right: 6vw;
+  right: -6vw;
   top: 5vw;
 }
 
@@ -127,7 +128,7 @@
   grid-template-columns: 1fr 1fr;
   width: 100%;
   height: 35vw;
-  
+  margin-top: 10vw;
 }
 
 .aboutClimate h1{
@@ -148,11 +149,11 @@
 .aboutClimate a{
   background-color: #FF5252;
   color: white;
-  text-decoration: underline;
   padding: 0.75vw 1vw 0.75vw 1vw; 
   width: 10.8vw;
   border-radius: 2vw;
-  font-size:1.2vw ;
+  font-size:1.2vw;
+  text-decoration: none;
 
 }
 
@@ -187,6 +188,7 @@
   grid-template-columns: 1fr 1fr;
   width: 100%;
   height: 40vw;
+  margin-top: 10vw;
   
 }
 
@@ -291,8 +293,7 @@
     padding: 0.75vw 1vw 0.75vw 1vw; 
     width: 20vw;
   border-radius: 2vw;
-  font-size:2.2vw ;
-  text-decoration: none;
+  font-size:2.2vw;
   
   }
 
@@ -375,8 +376,7 @@
   padding: 0.75vw 1vw 0.75vw 1vw; 
   width: 10.8vw;
   border-radius: 2vw;
-  font-size:2.2vw ;
-  text-decoration: none;
+  font-size:2.2vw;
 }
 
 .aboutClimate > div  {

@@ -125,11 +125,11 @@
   margin-top: 12vw;
 }
 
-.explain > img {
+.hiwTimeline {
   position: absolute;
-  left: 47vw;
+  left: 41vw;
   top: 20vw;
-  height: 90vw;
+  height: 170vw;
 }
 
 .explainToggleSection {
@@ -174,9 +174,37 @@
   font-size: 1.45vw;
   cursor: pointer;
 }
+/*APP Section*/
+
+.getApp {
+  position: relative;
+  width: 100%;
+  height: 35vw;
+}
+
+.getAppText {
+  position: absolute;
+  width: 30vw;
+  text-align: left;
+  top: 20vw;
+  left: 58vw;
+  padding: 4vw;
+  border-radius: 1.5vw;
+}
+
+.appImage {
+  width: 19vw;
+  position: absolute;
+  top: 26vw;
+  left: 25vw;
+}
+
+/*Charger Section*/
+
 .charger {
   position: relative;
   height: 35vw;
+  top: 48vw;
 }
 
 .chargerText {
@@ -216,15 +244,17 @@
   position: absolute;
   z-index: 1;
   width: 8vw;
-  top: 24.5vw;
-  right: 35vw;
+  top: 64vw;
+  right: 26vw;
 }
+
+/*SCAN THE CODE*/
 
 .phone {
   position: relative;
   height: 40vw;
   text-align: left;
-  margin-top: 10vw;
+  margin-top: 50vw;
 }
 
 .phoneText {
@@ -275,6 +305,8 @@
   top: 12vw;
   left: 18vw;
 }
+
+/*REWARD SECTION */
 
 .reward {
   position: relative;
@@ -337,15 +369,17 @@
 }
 
 /* POINT EXPLAIN */
+
 .pointExplain {
   height: 50vw;
   position: relative;
+  margin-top: 10vw;
 }
 
 .imgExplain img {
   position: absolute;
   width: 15vw;
-  left: 18vw;
+  left: 25vw;
 }
 
 .textExplain {
@@ -372,8 +406,9 @@
 .whyKarmaSectionHIW {
   width: 100%;
   height: 70vw;
+  top: 80vw;
+  margin-bottom: 80vw;
   position: relative;
-
   overflow: hidden;
 }
 
@@ -510,6 +545,7 @@
   .buildings img {
     width: 40vw;
   }
+
   /*EXPLAIN*/
   .explain {
     height: 260vw;

@@ -54,7 +54,6 @@ function togglerQrExpleation (valeu) {
           <p onClick={() => {togglerQrExpleation(true)}}>QR Code Scanner</p>
           <p onClick={() => {togglerQrExpleation(false)}}>QR Code Owner</p>
         </div>
-        <img src="./svg/HIWtimeline.svg" alt=""></img>
         
 
         <HowToExplainationSection status={status}/>

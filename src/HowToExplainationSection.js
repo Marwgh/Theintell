@@ -4,6 +4,17 @@ export default function HowToExplainationSection(props) {
   if (props.status === true) {
     return(
       <div>
+         <img className="hiwTimeline" src="./svg/Timeline2.svg" alt=""></img>
+   <div className="getAPP">
+            <div className="appImage">
+              <img src="./svg/charger.svg" alt="charger"></img>
+            </div>
+            <div className="getAppText boxShadower">
+              <h1>Get the App</h1>
+              <p>The first thing you will need to do is look for a QR code located on the charging lid. This QR code indicates that this car is owned by a Karma code Owner.</p>
+            </div>
+          </div>
+
         <div className="charger">
             <div className="chargerText boxShadower">
               <h1>Find a QR code</h1>
@@ -47,6 +58,20 @@ export default function HowToExplainationSection(props) {
   } else if (props.status === false) {
     return(
       <div>
+          <img className="hiwTimeline" src="./svg/Timeline.svg" alt=""></img>
+  <div className="getAPP">
+            <div className="appImage">
+              <img src="./svg/charger.svg" alt="charger"></img>
+            </div>
+            <div className="qrcardImg">
+              <img src="./svg/qrcard.svg" alt="qr card"></img>
+            </div>
+            <div className="getAppText boxShadower">
+              <h1>Get the App</h1>
+              <p>The first thing you will need to do is look for a QR code located on the charging lid. This QR code indicates that this car is owned by a Karma code Owner.</p>
+            </div>
+          </div>
+
         <div className="charger">
             <div className="chargerText boxShadower">
               <h1>Get a notification</h1>

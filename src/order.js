@@ -28,7 +28,7 @@ export default function Order(props) {
                 <option>Tesla</option>
                 <option>Chevrolet</option>
                 <option>Ford</option>
-                <option>Porshe</option>
+                <option>Porsche</option>
                 <option>Mercedes-Benz</option>
                 <option>BMW</option>
                 <option>Audi</option>
