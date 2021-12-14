@@ -1,37 +1,37 @@
-    export default function Footer() {
+    export default function Footer(props) {
   return(
     <div className="footer">
       
       <div className="fstFContainer">
         <div>
-          <img alt="" className="footerMonta" src="./image/karmapink.png"></img>
+          <img alt="Monta logo" className="footerMonta" src="./image/karmapink.png"></img>
           <select>
-            <option>Dansk</option>
             <option>English</option>
+            <option>Danish</option>
             <option>French</option>
           </select>
         
 
         
         
-          <p>Downlaod:</p>
+          <p>Download:</p>
           <div>
-            <img></img>
-            <img></img>
+            <img src="./svg/AppStoreWhite.svg" alt="APP Store"></img>
+            <img src="./svg/GooglePlayWhite.svg" alt="Google Play"></img>
           </div>
         </div>
       </div>
       <div className="scdFContainer">
         <div>
-        <a href="/" >Home</a>
+        <div onClick={  () => props.changePage("Home")} >Home</div>
         <span></span>
-        <a href="/" >About</a>
+        <div onClick={  () => props.changePage("About")} >About</div>
         <span></span>
-        <a href="/">How it works</a>
+        <div onClick={  () => props.changePage("HowTo")} >How It Works</div>
         <span></span>
-        <a href="/" >Order the QR</a>
+        <div onClick={  () => props.changePage("Order")} >Get Your QR</div>
         <span></span>
-        <a href="/" >Contact</a>
+        <div onClick={  () => props.changePage("Contact")} >Contact</div>
         <span></span>
         </div>
         

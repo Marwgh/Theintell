@@ -17,15 +17,20 @@ const changePage = (destination) => {
   console.log(destination);
   if (destination === "Home") {
     setPage(0);
+    window.scrollTo(0,0);
     console.log("yes im home");
   } else if (destination === "About") {
     setPage(1);
+    window.scrollTo(0,0);
   } else if (destination === "Howto") {
     setPage(2);
+    window.scrollTo(0,0);
   } else if (destination === "Contact") {
     setPage(3);
+    window.scrollTo(0,0);
   } else if (destination === "Order") {
     setPage(4);
+    window.scrollTo(0,0);
   }
 };
 
@@ -35,7 +40,7 @@ const changePage = (destination) => {
         <Navbar  changePage={changePage}/>
         <Home changePage={changePage}/>
         
-        <Footer/> 
+        <Footer changePage={changePage}/> 
   
       </div>
     );
@@ -45,7 +50,7 @@ const changePage = (destination) => {
         <Navbar changePage={changePage}/>
         <About/>
         
-        <Footer/> 
+        <Footer changePage={changePage}/> 
   
       </div>
     );
@@ -53,9 +58,9 @@ const changePage = (destination) => {
     return (
       <div className="App">
         <Navbar changePage={changePage}/>
-        <Howto/>
+        <Howto changePage={changePage}/>
         
-        <Footer/> 
+        <Footer changePage={changePage}/> 
   
       </div>
     );
@@ -65,7 +70,7 @@ const changePage = (destination) => {
         <Navbar changePage={changePage}/>
         <Contact/>
         
-        <Footer/> 
+        <Footer changePage={changePage}/> 
   
       </div>
     );
@@ -75,7 +80,7 @@ const changePage = (destination) => {
         <Navbar changePage={changePage}/>
         <Order/>
         
-        <Footer/> 
+        <Footer changePage={changePage}/> 
   
       </div>
     );
