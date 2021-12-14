@@ -360,6 +360,7 @@
   width: 100%;
   height: 55vw;
   position: relative;
+  margin-top: 10vw; 
 }
 
 .wawText {
@@ -434,6 +435,7 @@
   width: 100%;
   height: 22vw;
   position: relative;
+  
 }
 
 .homeTrust h1 {
@@ -745,6 +747,7 @@
   position: relative;
   width: 100%;
   height: 40vw;
+  margin-bottom: 10vw;
 }
 
 .homeHIWText {
@@ -793,6 +796,7 @@
   width: 100%;
   height: 70vw;
   position: relative;
+  margin-top: -5vw;
 }
 
 .homeGetCodeText {
@@ -1344,6 +1348,7 @@
   /* HOMEWAW */
   .homeWAW {
     height: 135vw;
+   
   }
 
   .wawText {
@@ -1542,6 +1547,7 @@
   /* HOMEHIW */
   .homeHIW {
     height: 105vw;
+     
   }
 
   .homeHIWText {
