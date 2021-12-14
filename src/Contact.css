@@ -140,7 +140,7 @@ overflow: hidden;
 
 .faqText {
   position: absolute;
-  width: 40vw;
+  width: 32.5vw;
   height: 30vw;
 }
 
@@ -151,6 +151,16 @@ overflow: hidden;
 .faqText p{
   font-size: 1.89vw;
 }
+
+.divider1 {
+  position: absolute;
+  background-color: black;
+  width: 33vw;
+  height: 0.20vw;
+  top: 15vw;
+}
+
+/*SECTION FAQ SECTION FAQ SECTION FAQ*/
 
 .questions {
   position: absolute;
@@ -174,14 +184,6 @@ font-size: 1vw;
   margin-top: 3.5vw;
 }
 
-.divider1 {
-  position: absolute;
-  background-color: black;
-  width: 35vw;
-  height: 0.50vw;
-  top: 15vw;
-}
-
 .divider2 {
   position: absolute;
 }
@@ -192,7 +194,6 @@ font-size: 1vw;
 
 .hrLine {
   width: 30vw;
-  
 }
 
 .quest {
@@ -217,6 +218,7 @@ font-size: 1vw;
 }
 
 /*faq-page - hidden by default */
+
 .faqBody {
     padding: 0 18px;
     background-color: white;
@@ -281,17 +283,16 @@ box-shadow: -1px 4px 15px 2px rgba(0,0,0,0.33);
 
 #userinfo input {
   height: 3vw;
-  width: 14.3vw;
+  width: 14.8vw;
 }
 
-#phonenr {
+.contactForm #phonenr {
   margin-left: 2vw;
 }
 
 #companyName input {
   height: 3vw;
   width: 32vw;
-
 }
 
 .contactForm label {
@@ -333,16 +334,16 @@ box-shadow: -1px 4px 15px 2px rgba(0,0,0,0.33);
  
 #messagebox {
   height: 6vw;
-  width: 25vw;
+  width: 32vw;
 }
 
 /*Text section next to Form*/
 
 .formTitle {
   position: absolute;
-  width: 40vw;
-  left: 50vw;
-  top: 8vw;
+  width: 33vw;
+  left: 57vw;
+  top: 10vw;
 }
 
 .formTitle h1{
@@ -359,9 +360,9 @@ text-align: right;
 
 .divider2 {
     position: absolute;
-    height: 0.3vw;
+    height: 0.20vw;
     width: 30vw;
-    left: 10vw;
+    left: 3vw;
     top: 13vw;
     background-color: black;
   }
@@ -374,6 +375,8 @@ text-align: right;
   /*MEDIA QUERIES PHONE MEDIA QUERIES PHONE MEDIA QUERIES PHONE*/
 
   @media only screen and (max-width: 768px) {
+
+    /*CONTACT HERO CONTACT HERO CONTACT HERO*/
     
     .contactIntro {
       height: 72vw;
@@ -458,7 +461,6 @@ text-align: right;
     }
     
     .contactForm {
-      position: relative;
       width: 50vw;
     color: black;
     }
@@ -471,39 +473,48 @@ text-align: right;
     }
     
     .contactForm form {
-      position: absolute;
-      top: 55vw;
-      left: 5vw;
+      top: 50vw;
+      left: 10vw;
       height: 73vw;
+      width: 80vw;
       border-radius: 2vw;
     }  
-    
-    #fullname {
-      display: flex;
+
+    .contactForm fieldset {
+left: 2vw;
+top: 2vw;
     }
 
-    #userinfo {
-      display: flex;
+    .contactForm input {
+      font-size: 2.2vw;
+    }
+    
+    .contactForm #fullname input {
+      width: 30vw;
+      height: 4vw;
+      margin-left: 1vw;
+    }
+
+   .contactForm #userinfo input {
+      width: 30vw;
+      height: 4vw;
+      margin-left: 1vw;
+    }
+
+    .contactForm #companyName input {
+      width: 30vw;
+      height: 4vw;
+      margin-left: 1vw;
     }
     
     .contactForm label {
       margin-bottom: 0.3vw;
       color: black;
       font-size: 2.5vw;
-    }
-    
-    .contactForm input {
-      height: 2.5vw;
-      font-size: 2.2vw;
-      color: rgb(226, 226, 226);
-      border-radius: 0.5vw;
-    }
-    
-    #email input {
-      padding: 1.5vw;
+      margin-left: 1vw;
     }
 
-    .arrange {
+    .contactForm .arrange {
       display: flex;
       flex-direction: column;
       margin-bottom: 3vw;
@@ -514,14 +525,23 @@ text-align: right;
       height: 15vw;
       width: 65vw;
     }
+
+    #contactFormBTN {
+      padding: 0.5vw 1vw 0.5vw 1vw; 
+      width: 15vw;
+      top: 62vw;
+      left: 53vw;
+      border-radius: 2vw;
+      font-size: 3vw;
+      text-align: center;
+    }
     
     /*Text section next to Form*/
  
     .formTitle {
-      position: absolute;
       top: 8vw;
       width: 55vw;
-      left: 9vw;
+      left: 23vw;
     }
     
     .formTitle h1{
@@ -536,15 +556,13 @@ text-align: right;
       text-align: left;
       }
     
-      #divider {
-        position: absolute;
-        height: 0.2vw;
+      .divider2 {
+        height: 0.20vw;
         width: 40vw;
-        left: -9vw;
-        top: 16vw;
-        background-color: black;
+        left: 0vw;
+        top: 16.5vw;
       }
-    
+
       .contactForm input[type="text"] {
         height: 5vw;
       }
@@ -566,13 +584,35 @@ background-color: white;
 border-radius: 3vw;
       }
 
-      .FAQ {
-        position: absolute;
-        width: 50vw;
-        height: 30vw;
-        right: 5vw;
+       
+      .questions {
+        width: 75vw;
+        height: 60vw;
+        left: 12vw;
+        top: 45vw;
+        margin-bottom: 2vw;
+        border-radius: 2vw;
+      justify-content:baseline;
       }
       
+      .quest {
+        color: #444;
+          cursor: pointer;
+          padding: 2vw 0vw 2vw 0vw;
+          height: 5vw;
+          width:52vw;
+          margin-top: 2vw;
+          margin-left: 10vw;
+          transition: 0.4s;
+          font-size: 2.5vw;
+      }
+      
+.hrLine {
+  width: 52vw;
+  margin-left: 10vw;
+}
+
+  /*FAQ MOBILE TEXT FAQ MOBILE TEXT FAQ MOBILE TEXT*/
       .faqText {
         position: absolute;
         width: 50vw;
@@ -589,6 +629,12 @@ border-radius: 3vw;
         font-size: 2.5vw;
       }
 
+      .divider1 {
+        height: 0.20vw;
+        width: 40vw;
+        left: 0vw;
+        top: 16.5vw;
+      }
 
       .FAQ p {
         text-align: left;
@@ -597,34 +643,6 @@ border-radius: 3vw;
         font-weight: 400;
         padding-top: 1vw;
       }
-      
-      .questions {
-        background-color: white;
-        position: absolute;
-        width: 75vw;
-        left: 12vw;
-        top: 42vw;
-        margin-bottom: 2vw;
-        height: auto;
-        border-radius: 2vw;
-      justify-content:baseline;
-      }
-      
-      .quest {
-        color: #444;
-          cursor: pointer;
-          padding: 25px 20px;
-          width: 70%;
-          transition: 0.4s;
-          font-size: 2.5vw;
-      }
-      
-      .faqBody{
-        margin: auto;
-       width: 50%; 
-       padding: auto;
-      }
-      
 
     
   }
