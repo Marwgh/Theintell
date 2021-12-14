@@ -88,6 +88,7 @@ margin-bottom: 5vw;
 #car_brand{
 appearance: none;
 height: 2.8vw;
+width: 42vw;
 color: rgb(226, 226, 226); 
 border-radius: 0.35vw;    
 border-color: transparent;
@@ -100,6 +101,29 @@ color: #414141;
 font-size: 1.15vw;
 padding-left:1vw ;
 }
+
+
+#orderForm #fullname input {
+    width: 19vw;
+}
+
+
+#orderForm #e_mail  {
+    width: 41vw;
+}
+
+#orderForm #phonenumber  {
+    width: 41vw;
+}
+
+#orderForm #c_name  {
+    width: 41vw;
+}
+
+#orderForm #address  {
+    width: 41vw;
+}
+
 
 .arrangeOrder {
 display: flex;
@@ -121,6 +145,8 @@ font-size: 1.15vw;
 padding: 1vw;
 }
 
+
+
 .arrangeOrder label {
 margin-bottom: 0.3vw;
 font-size: 1.1vw;
@@ -138,6 +164,7 @@ width: 15vw;
 #termsncond{
     font-size: 1.5vw;
     font-weight: 500;
+    position: relative;
 }
 #termsncond input[type=checkbox]{
     appearance: none;
@@ -162,8 +189,8 @@ width: 15vw;
     color: black;
     display: block;
     position: absolute;
-    left: 14.8vw;
-    bottom: 13vw;
+    left: 1vw;
+    bottom: 0.2vw;
 }
 
 #termsncond div{
@@ -184,6 +211,7 @@ width: 15vw;
     border-radius: 0.9vw;
     cursor: pointer;
 }
+/*MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY*/
 
 @media only screen and (max-width: 768px) {
 
@@ -251,9 +279,9 @@ width: 15vw;
             border: none;
         }
         
-        #contactFMbtn #fullname input{
+        #orderForm #fullname input{
         width: 18vw;
-        width: 15.5vw;
+        width: 39.25vw;
         }
            
         #orderForm #lastname{
@@ -261,7 +289,7 @@ width: 15vw;
         }
         #car_brand_selection label{
         color: black;
-        font-size: 1.5vw;
+        font-size: 2.5vw;
         font-weight:500 ;
         margin-bottom: 0.7vw;
         margin-top:2.5vw ;
@@ -291,22 +319,22 @@ width: 15vw;
         margin-left: 0.8vw;
         }
         #orderForm input {
-        height: 2.8vw;
+        height: 6vw;
         color: rgb(226, 226, 226); 
-        border-radius: 0.35vw;    
+        border-radius: 1.5vw;    
         border-color: transparent;
         -webkit-box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15); 
         box-shadow: 0px 13px 21px -2px rgba(0,0,0,0.15);
         }
         #orderForm input::placeholder {
         color: #4141414b;
-        font-size: 1.15vw;
+        font-size: 2.65vw;
         padding: 1vw;
         }
         
         .arrangeOrder label {
         margin-bottom: 0.3vw;
-        font-size: 1.1vw;
+        font-size: 2.5vw;
         font-weight: 500;
         }
           
@@ -315,18 +343,18 @@ width: 15vw;
         justify-content: space-between;
         }
         #address2 input {
-        width: 15vw;
+        width: 39vw;
         }
         
         #termsncond{
-            font-size: 1.5vw;
+            font-size: 2.5vw;
             font-weight: 500;
         }
         #termsncond input[type=checkbox]{
             appearance: none;
             color:white;
-            width: 3vw;
-            height: 3vw;
+            width: 6vw;
+            height: 6vw;
             background-color: white;
             margin-right:1vw ;
         }
@@ -341,12 +369,19 @@ width: 15vw;
             right: 15vw;
             bottom: 5vw;
             border: none;
-            font-size: 1.2vw;
+            font-size: 2.7vw;
             font-weight: 500;
             background-color: #00044F;
-            padding: 0.6vw 1.9vw 0.6vw 1.9vw;
+            padding: 1.6vw 2.9vw 1.6vw 2.9vw;
             color: white;
-            border-radius: 0.9vw;
+            border-radius: 1.9vw;
+        }
+        #termsncond input[type=checkbox]:checked ~ ::after{
+
+            font-size: 5vw;
+
+            left: 2vw;
+            bottom: 0.6vw;
         }
 
 }
