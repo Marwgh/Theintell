@@ -7,7 +7,7 @@ export default function HowToExplainationSection(props) {
          <img className="hiwTimeline" src="./svg/Timeline2.svg" alt=""></img>
    <div className="getAPP">
             <div className="appImage">
-              <img src="./svg/charger.svg" alt="charger"></img>
+              <img src="./image/getappx1.png" alt="getapp"></img>
             </div>
             <div className="getAppText boxShadower">
               <h1>Get the App</h1>
@@ -21,23 +21,17 @@ export default function HowToExplainationSection(props) {
               <p>The first thing you will need to do is look for a QR code located on the charging lid. This QR code indicates that this car is owned by a Karma code Owner.</p>
             </div>
             <div className="chargerImg">
-              <img src="./svg/charger.svg" alt="charger"></img>
-            </div>
-            <div className="qrcardImg">
-              <img src="./svg/qrcard.svg" alt="qr card"></img>
+              <img src="./image/scanCodex1.png" alt="charger"></img>
             </div>
           </div>
           
           <div className="phone">
             <div className="phoneText boxShadower">
-              <h1>Scan the Qr code</h1>
+              <h1>Wait for the notification</h1>
               <p>When you have found the QR code scan it with the app. you will then be able to send a notification to the car owner telling him that you would like to take this spot.</p>
             </div>
             <div className="plugImg">
-              <img src="./svg/plug.svg" alt="plug"></img>
-            </div>
-            <div className="phoneImg">
-              <img src="./svg/phone.svg" alt="phone"></img>
+              <img src="./image/notificationx1.png" alt="plug"></img>
             </div>
           </div>
           

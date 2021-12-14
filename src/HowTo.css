@@ -4,6 +4,7 @@
   height: 45vw;
   width: 100%;
   position: relative;
+  margin-top: 5vw;
 }
 
 .introText {
@@ -192,11 +193,22 @@
   border-radius: 1.5vw;
 }
 
-.appImage {
-  width: 19vw;
+.appImage img {
   position: absolute;
-  top: 26vw;
-  left: 25vw;
+  width: 35vw;
+  height: auto;
+  top: 14vw;
+  left: 10vw;
+}
+
+.getAppText h1 {
+  font-size: 3vw;
+  font-weight: 500;
+}
+
+.getAppText p {
+  font-size: 1.4vw;
+  font-weight: 500;
 }
 
 /*Charger Section*/
@@ -227,17 +239,26 @@
   font-weight: 500;
 }
 .handPhonePurpleImgHIW img {
-  width: 14vw;
   position: absolute;
+  width: 18vw;
   top: 12vw;
   right: 21vw;
 }
 
 .chargerImg img {
-  width: 19vw;
+  width: 35vw;
+  height: auto;
   position: absolute;
-  top: 15vw;
-  right: 21vw;
+  top: 4vw;
+  right: 8vw;
+}
+
+.qrcardchargeImg img {
+  position: absolute;
+  z-index: 1;
+  width: 9vw;
+  top:25vw;
+  right: 22vw;
 }
 
 .qrcardImg img {
@@ -277,10 +298,10 @@
 }
 
 .plugImg img {
-  width: 28vw;
+  width: 36vw;
   position: absolute;
-  top: 13vw;
-  left: 18vw;
+  top: 5vw;
+  left: 11vw;
 }
 
 .confirmNGoCarImg img {
