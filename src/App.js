@@ -11,6 +11,46 @@ import Howto from './HowTo';
 
 function App() {
 
+
+function treateData () {
+  const form = document.querySelector("form");
+  console.log(form.checkValidity());
+  if (form.checkValidity() === true) {
+    console.log("i am here ");
+    post( {
+      car_brand: form.elements.car_brand.value,
+      full_name: form.elements.first_name.value + form.elements.last_name.value,
+      Email_address: form.elements.e_mail.value,
+      phoneNum: form.elements.phonenumber.value,
+      CompanyName: form.elements.c_name.value,
+      address: form.elements.address.value,
+      zipcode: form.elements.zipcode.value,
+      city: form.elements.city.value
+      
+    });
+    
+  }
+  
+
+}
+
+
+function post(data) {
+    const postData = JSON.stringify(data);
+            fetch("https://karma-7414.restdb.io/rest/karma", {
+              method: "post",
+              headers: {
+                "Content-Type": "application/json; charset=utf-8",
+                "x-apikey": "61b8c70d86e3467b41d8e082",
+                "cache-control": "no-cache",
+              },
+              body: postData,
+            })
+              .then((res) => res.json())
+              .then((data) => {console.log(data);});
+      }
+    
+
   const [page , setPage] = useState(0);
 
 const changePage = (destination) => {
@@ -78,7 +118,7 @@ const changePage = (destination) => {
     return (
       <div className="App">
         <Navbar changePage={changePage}/>
-        <Order/>
+        <Order treateData={treateData}/>
         
         <Footer changePage={changePage}/> 
   

@@ -1,6 +1,6 @@
 import BarCharts from './BarCharts.js';
 import './Order.css';
-export default function Order() {
+export default function Order(props) {
   return (
     <div id="order">
     <div className="hero">
@@ -25,7 +25,21 @@ export default function Order() {
             <div id="car_brand_selection" className="arrangeOrder">
               <label for="car_brand">Select your car from the list</label>
               <select id="car_brand" required="required">
-                <option>hhh</option>
+                <option>Tesla</option>
+                <option>Chevrolet</option>
+                <option>Ford</option>
+                <option>Porshe</option>
+                <option>Mercedes-Benz</option>
+                <option>BMW</option>
+                <option>Audi</option>
+                <option>Volkswagen</option>
+                <option>Mini</option>
+                <option>Nissan</option>
+                <option>Honda</option>
+                <option>Toyota</option>
+                <option>Jaguar</option>
+                <option>Hyundai</option>
+                <option>Kia</option>
               </select>
             </div>
 
@@ -46,7 +60,7 @@ export default function Order() {
             </div>
             <div id="phonenr" className="arrangeOrder">
               <label for="phonenumber">Phone Number</label>
-              <input type="text" id="phonenumber" placeholder="+45 19 44 45 04" required="required"></input>
+              <input type="number" id="phonenumber" placeholder="+45 19 44 45 04" required="required"></input>
             </div>
             <div id="company_name" className="arrangeOrder">
               <label for="c_name">Company Name (Optional)</label>
@@ -61,7 +75,7 @@ export default function Order() {
             <div id="address2">
               <div id="zipcode" className="arrangeOrder">
                 <label for="zipcode">Zip Code</label>
-                <input type="text" id="zipcode" placeholder="2300"></input>
+                <input type="number" id="zipcode" placeholder="2300"></input>
               </div>
               <div id="city" className="arrangeOrder">
                 <label for="city">City</label>
@@ -77,7 +91,7 @@ export default function Order() {
               </div>             
             </div>
 
-            <button type="submit">Order QR Code</button>
+            <button type="button" onClick={ () => {props.treateData()}}>Order QR Code</button>
           </fieldset>
         </form>
     </div>
