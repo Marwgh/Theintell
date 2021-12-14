@@ -376,6 +376,22 @@ width: 15vw;
             color: white;
             border-radius: 1.9vw;
         }
+
+        #orderForm #e_mail  {
+            width: 82vw;
+        }
+        
+        #orderForm #phonenumber  {
+            width: 82vw;
+        }
+        
+        #orderForm #c_name  {
+            width: 82vw;
+        }
+        
+        #orderForm #address  {
+            width: 82vw;
+        }
         #termsncond input[type=checkbox]:checked ~ ::after{
 
             font-size: 5vw;
