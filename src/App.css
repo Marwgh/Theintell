@@ -107,7 +107,7 @@
 }
 
 .home {
-  margin-top: 6.5vw;
+
 }
 .homeTitle {
   width: 100%;
@@ -157,6 +157,9 @@
 background: linear-gradient(151deg, rgba(0, 0, 0, 0.712) 0%, rgba(255,255,255,0) 100%);
 z-index: 1;
 }
+
+
+
 .homeBackgroundImg video {
   width: 110%;
   height: auto;
@@ -1604,7 +1607,7 @@ z-index: 1;
   .homeGetCode .getCodeQR img {
     width: 37vw;
     top: 7vw;
-    left: 23vw;
+    left: 40vw;
   }
 
   /* HOMEGETAPP */
