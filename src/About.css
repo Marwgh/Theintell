@@ -244,7 +244,7 @@
   .aboutHeader {
     width: 100%;
     height: 45vw;
-    top: 7vw;
+    top: 14vw;
     color: white;
     overflow: hidden;
   }
@@ -283,14 +283,15 @@
     top: 50vw;
   }
 
-  .aboutMText > div {
+  .aboutMText > a {
     right: 13vw;
     background-color: #ff5252;
     color: white;
-    padding: 0.75vw 1vw 0.75vw 1vw;
+    padding: 0.75vw 1.7vw 0.75vw 1.7vw;
     width: 20vw;
     border-radius: 2vw;
     font-size: 2.2vw;
+    text-decoration: none;
   }
 
   .aboutMText h1 {
@@ -370,7 +371,7 @@
   .aboutClimate a {
     background-color: #ff5252;
     color: white;
-    padding: 0.75vw 1vw 0.75vw 1vw;
+    padding: 0.75vw 1.7vw 0.75vw 1.7vw;
     width: 10.8vw;
     border-radius: 2vw;
     font-size: 2.2vw;
@@ -404,7 +405,7 @@
 
   .aboutDigital {
     width: 100%;
-    height: 170vw;
+    height: 140vw;
   }
 
   .aboutDigital h1 {
@@ -420,9 +421,9 @@
 
   .aboutDigital div:first-child {
     position: absolute;
-    right: 50vw;
+    left: 15vw;
     width: 25vw;
-    top: 315vw;
+    top: 305vw;
     justify-self: none;
   }
 
@@ -435,15 +436,15 @@
     height: auto;
     z-index: -1;
     left: 30vw;
-    top: 62vw;
-  }
+    top: 49vw;
+}
 
   .aboutDigital :last-child :last-child {
     width: 12vw;
     height: auto;
     z-index: -1;
     left: 48.5vw;
-    top: 60vw;
+    top: 47vw;
     transform: rotate(32deg);
   }
 }

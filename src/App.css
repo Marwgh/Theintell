@@ -1354,6 +1354,7 @@ z-index: 1;
     bottom: -15vw;
     width: 20vw;
     font-size: 2vw;
+    padding: 0.7vw 1.7vw 0.7vw 1.7vw;
   }
 
   .wawText h1 {
@@ -1567,8 +1568,9 @@ z-index: 1;
   .homeHIWButton {
     bottom: -5vw;
     left: 0vw;
-    width: 15vw;
+    width: 13vw;
     font-size: 2vw;
+    padding: 0.7vw 1vw 0.7vw 1vw;
   }
 
   /* HOMEGETCODE */
@@ -1584,9 +1586,10 @@ z-index: 1;
   .getCodeButton {
     bottom: -5vw;
     left: 0vw;
-    width: 15vw;
+    width: 13vw;
     font-size: 2vw;
-  }
+    padding: 0.7vw 1vw 0.7vw 1vw;
+}
 
   .homeGetCodeText h1 {
     font-size: 5vw;

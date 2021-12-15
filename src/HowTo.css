@@ -621,7 +621,7 @@
     position: absolute;
     width: 26vw;
     top: 7vw;
-    right: 35vw;
+    right: 37vw;
 }
 
   .chargerText h1 {
@@ -641,6 +641,7 @@
     width: 40vw;
     top: 12vw;
     right: 23vw;
+    left: 29vw;
   }
 
   .qrcardImg img {
@@ -652,7 +653,7 @@
     width: 29vw;
     position: absolute;
     top: 1vw;
-    left: 35vw;
+    left: 33vw;
 }
 
   .phone {
