@@ -617,6 +617,13 @@
     left: 15vw;
   }
 
+  .ownerNotification img {
+    position: absolute;
+    width: 26vw;
+    top: 7vw;
+    right: 35vw;
+}
+
   .chargerText h1 {
     font-size: 5vw;
   }
@@ -641,6 +648,12 @@
     top: 33vw;
     right: 50vw;
   }
+  .confirmImg img {
+    width: 29vw;
+    position: absolute;
+    top: 1vw;
+    left: 35vw;
+}
 
   .phone {
     height: 90vw;
@@ -663,10 +676,10 @@
   }
 
   .plugImg img {
-    width: 42vw;
-    top: 20vw;
-    left: 35vw;
-  }
+    width: 51vw;
+    top: 5vw;
+    left: 27vw;
+}
 
   .confirmNGoCarImg img {
     width: 50vw;
@@ -718,10 +731,10 @@
   }
 
   .rewardImg img {
-    width: 24vw;
-    top: 22vw;
-    right: 48vw;
-  }
+    width: 38vw;
+    top: 2vw;
+    right: 29vw;
+}
 
   .explain span {
     height: 0.3vw;
@@ -736,10 +749,10 @@
 
   .imgExplain img {
     position: absolute;
-    width: 25vw;
-    left: 35vw;
-    top: 10vw;
-  }
+    width: 49vw;
+    left: 26vw;
+    top: 1vw;
+}
 
   .textExplain {
     width: 60vw;
@@ -755,6 +768,7 @@
   .textExplain p {
     font-size: 2.5vw;
   }
+  
 
   /* WHYKARMASECTIONHIW */
   /* PINKROW PINKROW PINKROW    PINKROW PINKROW PINKROW */
@@ -766,6 +780,43 @@
     margin-bottom: 20vw;
     font-size: 5vw;
   }
+
+  .hiwTimeline {
+    display: none;
+}
+
+.getAPP {
+  height: 65vw;
+  width: 100vw;
+}
+
+.appImage img {
+  position: absolute;
+  width: 54vw;
+  height: auto;
+  top: 14vw;
+  left: 21vw;
+}
+
+.getAppText {
+  position: absolute;
+  width: 60vw;
+  text-align: center;
+  top: 75vw;
+  left: 15vw;
+  padding: 4vw;
+  border-radius: 1.5vw;
+}
+
+.getAppText h1 {
+  font-size: 4.5vw;
+  font-weight: 500;
+}
+.getAppText p {
+  font-size: 3vw;
+  font-weight: 500;
+}
+
 
   .kpsSection {
     width: 100%;
@@ -803,9 +854,9 @@
     font-size: 2.5vw;
   }
   .statusFalse .explain {
-    min-height: 370vw;
+    min-height: 400vw;
   }
   .statusTrue .explain {
-    min-height: 260vw;
+    min-height: 290vw;
   }
 }
