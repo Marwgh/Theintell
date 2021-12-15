@@ -389,20 +389,20 @@
 
   .contactIntroText {
     position: absolute;
-    width: 45vw;
-    left: 29vw;
+    width: 60vw;
+    left: 19vw;
     top: 35vw;
-  }
+}
 
   .contactIntroText h1 {
     font-size: 4vw;
     font-weight: 500;
-    text-align: left;
+    text-align: center;
   }
 
   .contactIntroText p {
-    width: 42vw;
-    font-size: 2.2vw;
+    width: 60vw;
+    font-size: 3vw;
     font-weight: 500;
     text-align: left;
   }
@@ -547,10 +547,10 @@
   /*Text section next to Form*/
 
   .formTitle {
-    top: 8vw;
-    width: 55vw;
-    left: 23vw;
-  }
+    top: 10vw;
+    width: 68vw;
+    left: 11vw;
+}
 
   .formTitle h1 {
     font-size: 4.5vw;
@@ -559,7 +559,7 @@
   }
 
   .formTitle p {
-    font-size: 2.5vw;
+    font-size: 3vw;
     color: black;
     text-align: left;
   }
@@ -618,6 +618,10 @@
     font-size: 2.5vw;
     font-weight: 500;
   }
+  #faq2 .quest {
+    width: 53.8vw;
+    margin-left: 8.9vw;
+}
 
   .hrLine {
     width: 52vw;
@@ -627,11 +631,11 @@
   /*FAQ MOBILE TEXT FAQ MOBILE TEXT FAQ MOBILE TEXT*/
   .faqText {
     position: absolute;
-    width: 50vw;
+    width: 56vw;
     height: 30vw;
-    left: 25vw;
+    left: 13vw;
     top: 5vw;
-  }
+}
 
   .faqText h1 {
     font-size: 4.5vw;
@@ -639,7 +643,7 @@
   }
 
   .faqText p {
-    font-size: 2.5vw;
+    font-size: 3vw;
     font-weight: 500;
   }
 
