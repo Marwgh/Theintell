@@ -1,403 +1,397 @@
 .Order {
-font-family: "Quicksand";
-overflow: hidden;
+  font-family: "Quicksand";
+  overflow: hidden;
 }
 
 /*HERO Styling*/
 
 .hero {
-position: relative;
-margin-bottom: 5vw;
-height: 45vw;
+  position: relative;
+  margin-bottom: 5vw;
+  height: 45vw;
 }
 
 #herotext {
-position: absolute;
-width: 40vw;
-left: 8vw;
-top: 20vw;
+  position: absolute;
+  width: 40vw;
+  left: 8vw;
+  top: 20vw;
 }
 
 #herotext h1 {
-font-size: 3.5vw;
-font-weight: 500 ;
+  font-size: 3.5vw;
+  font-weight: 500;
 }
 #herotext p {
-font-size: 1.5vw;
-font-weight: 500 ;
-width: 36vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  width: 36vw;
 }
-#heroimage img{
-position: absolute;
-right: 10vw;
-top: 19vw;
-width: 28vw;
-height: auto;
-transform: rotate(90deg);
+#heroimage img {
+  position: absolute;
+  right: 10vw;
+  top: 19vw;
+  width: 28vw;
+  height: auto;
+  transform: rotate(90deg);
 }
 
 #girlBleuAgainstOrder img {
-    position: absolute;
-    right: 28vw;
-    top: 17vw;
-    width: 16vw;
-    height: auto;
+  position: absolute;
+  right: 28vw;
+  top: 17vw;
+  width: 16vw;
+  height: auto;
 }
 
- /*Form styling*/
+/*Form styling*/
 
 #orderForm {
-position: relative;
-width: 70vw;
-height: 75vw;
-background-color: #FFA8A0;
-margin-left: 15vw;
-border-radius: 0.5vw;
-margin-bottom: 15vw;
-} 
+  position: relative;
+  width: 70vw;
+  height: 75vw;
+  background-color: #ffa8a0;
+  margin-left: 15vw;
+  border-radius: 0.5vw;
+  margin-bottom: 15vw;
+}
 
 #orderForm form {
-width: 44vw;
-margin: 0 13vw 0 13vw;
-padding-top: 3vw;
+  width: 44vw;
+  margin: 0 13vw 0 13vw;
+  padding-top: 3vw;
 }
 
 #orderForm fieldset {
-    border: none;
+  border: none;
 }
 
-#contactFMbtn #fullname input{
-width: 18vw;
-width: 15.5vw;
-}
-   
-#orderForm #lastname{
-    margin-left: 2vw;
-}
-#car_brand_selection label{
-color: black;
-font-size: 1.5vw;
-font-weight:500 ;
-margin-bottom: 0.7vw;
-margin-top:2.5vw ;
-}
-#car_brand_selection{
-display: grid;
-margin-bottom: 5vw;
-}
-#car_brand{
-appearance: none;
-height: 2.8vw;
-width: 42vw;
-color: rgb(226, 226, 226); 
-border-radius: 0.35vw;    
-border-color: transparent;
--webkit-box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15); 
-box-shadow: 0px 13px 21px -2px rgba(0,0,0,0.15);
+#contactFMbtn #fullname input {
+  width: 18vw;
+  width: 15.5vw;
 }
 
-#car_brand  {
-color: #414141;
-font-size: 1.15vw;
-padding-left:1vw ;
+#orderForm #lastname {
+  margin-left: 2vw;
+}
+#car_brand_selection label {
+  color: black;
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin-bottom: 0.7vw;
+  margin-top: 2.5vw;
+}
+#car_brand_selection {
+  display: grid;
+  margin-bottom: 5vw;
+}
+#car_brand {
+  appearance: none;
+  height: 2.8vw;
+  width: 42vw;
+  color: rgb(226, 226, 226);
+  border-radius: 0.35vw;
+  border-color: transparent;
+  -webkit-box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15);
 }
 
+#car_brand {
+  color: #414141;
+  font-size: 1.15vw;
+  padding-left: 1vw;
+}
 
 #orderForm #fullname input {
-    width: 19vw;
+  width: 19vw;
 }
 
-
-#orderForm #e_mail  {
-    width: 41vw;
+#orderForm #e_mail {
+  width: 41vw;
 }
 
-#orderForm #phonenumber  {
-    width: 41vw;
+#orderForm #phonenumber {
+  width: 41vw;
 }
 
-#orderForm #c_name  {
-    width: 41vw;
+#orderForm #c_name {
+  width: 41vw;
 }
 
-#orderForm #address  {
-    width: 41vw;
+#orderForm #address {
+  width: 41vw;
 }
-
 
 .arrangeOrder {
-display: flex;
-flex-direction: column;
-margin-bottom: 1.5vw;
-margin-left: 0.8vw;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5vw;
+  margin-left: 0.8vw;
 }
 #orderForm input {
-height: 2.8vw;
-color: black;
-border-radius: 0.35vw;    
-border-color: transparent;
--webkit-box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15); 
-box-shadow: 0px 13px 21px -2px rgba(0,0,0,0.15);
+  height: 2.8vw;
+  color: black;
+  border-radius: 0.35vw;
+  border-color: transparent;
+  -webkit-box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15);
 }
 #orderForm input::placeholder {
-color: #4141414b;
-font-size: 1.15vw;
-padding: 1vw;
+  color: #4141414b;
+  font-size: 1.15vw;
+  font-weight: 500;
+  padding: 1vw;
 }
-
-
 
 .arrangeOrder label {
-margin-bottom: 0.3vw;
-font-size: 1.1vw;
-font-weight: 500;
+  margin-bottom: 0.3vw;
+  font-size: 1.1vw;
+  font-weight: 500;
 }
-  
+
 #orderForm #address2 {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 #address2 input {
-width: 15vw;
+  width: 15vw;
 }
 
-#termsncond{
-    font-size: 1.5vw;
-    font-weight: 500;
-    position: relative;
+#termsncond {
+  font-size: 1.5vw;
+  font-weight: 500;
+  position: relative;
 }
-#termsncond input[type=checkbox]{
-    appearance: none;
-    color:white;
-    width: 3vw;
-    height: 3vw;
-    background-color: white;
-    margin-right:1vw ;
+#termsncond input[type="checkbox"] {
+  appearance: none;
+  color: white;
+  width: 3vw;
+  height: 3vw;
+  background-color: white;
+  margin-right: 1vw;
 }
-#termsncond input[type=checkbox]::after{
-    content: "";
-    font-size: 2vw;
-    color: black;
-    height: 2vw;
-    width: 2vw;
-    display: block;
-}
-
-#termsncond input[type=checkbox]:checked ~ ::after{
-    content: "x";
-    font-size: 3vw;
-    color: black;
-    display: block;
-    position: absolute;
-    left: 1vw;
-    bottom: 0.2vw;
+#termsncond input[type="checkbox"]::after {
+  content: "";
+  font-size: 2vw;
+  font-weight: 500;
+  color: black;
+  height: 2vw;
+  width: 2vw;
+  display: block;
 }
 
-#termsncond div{
-    display: flex;
-    align-items: center;
+#termsncond input[type="checkbox"]:checked ~ ::after {
+  content: "x";
+  font-size: 3vw;
+  font-weight: 500;
+  color: black;
+  display: block;
+  position: absolute;
+  left: 1vw;
+  bottom: 0.2vw;
 }
 
-#orderForm button{
-    position: absolute;
-    right: 15vw;
-    bottom: 5vw;
-    border: none;
-    font-size: 1.2vw;
-    font-weight: 500;
-    background-color: #00044F;
-    padding: 0.6vw 1.9vw 0.6vw 1.9vw;
-    color: white;
-    border-radius: 0.9vw;
-    cursor: pointer;
+#termsncond div {
+  display: flex;
+  align-items: center;
+}
+
+#orderForm button {
+  position: absolute;
+  right: 15vw;
+  bottom: 5vw;
+  border: none;
+  font-size: 1.2vw;
+  font-weight: 500;
+  background-color: #00044f;
+  padding: 0.6vw 1.9vw 0.6vw 1.9vw;
+  color: white;
+  border-radius: 0.9vw;
+  cursor: pointer;
 }
 /*MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY  MEDIA QUERRY*/
 
 @media only screen and (max-width: 768px) {
+  /*HERO Styling*/
 
-/*HERO Styling*/
-
-.hero {
+  .hero {
     position: relative;
     margin-bottom: 5vw;
     height: 150vw;
-    }
-    
-    #herotext {
+  }
+
+  #herotext {
     position: absolute;
     width: 76vw;
     left: 12vw;
     top: 20vw;
     text-align: center;
-    }
-    
-    #herotext h1 {
+  }
+
+  #herotext h1 {
     font-size: 8vw;
-    font-weight: 500 ;
+    font-weight: 500;
     margin-bottom: 0;
-    }
-    #herotext p {
+  }
+  #herotext p {
     font-size: 3.5vw;
-    font-weight: 500 ;
+    font-weight: 500;
     width: 76vw;
-    }
-    #heroimage img {
-        position: absolute;
-        right: 10vw;
-        top: 89vw;
-        width: 57vw;
-        height: auto;
-        transform: rotate(
-    90deg);
-    }
-    
-    #girlBleuAgainstOrder img {
-        position: absolute;
-        right: 46vw;
-        top: 86vw;
-        width: 31vw;
-        height: auto;
-    }
-    /*FORM PHONE  FORM PHONE  FORM PHONE  FORM PHONE  FORM PHONE  FORM PHONE  FORM PHONE  FORM PHONE  FORM PHONE*/
-    #orderForm {
-        position: relative;
-        width: 90vw;
-        height: 125vw;
-        background-color: #FFA8A0;
-        margin-left: 5vw;
-        border-radius: 4.5vw;
-        margin-bottom: 15vw;
-    }
-        
-        #orderForm form {
-        width: 90vw;
-        margin: 0;
-        padding-top: 3vw;
-        }
-        
-        #orderForm fieldset {
-            border: none;
-        }
-        
-        #orderForm #fullname input{
-        width: 18vw;
-        width: 39.25vw;
-        }
-           
-        #orderForm #lastname{
-            margin-left: 2vw;
-        }
-        #car_brand_selection label{
-        color: black;
-        font-size: 2.5vw;
-        font-weight:500 ;
-        margin-bottom: 0.7vw;
-        margin-top:2.5vw ;
-        }
-        #car_brand_selection{
-        display: grid;
-        margin-bottom: 5vw;
-        }
-        #car_brand{
-        appearance: none;
-        height: 5.8vw;
-        color: rgb(226, 226, 226); 
-        border-radius: 1.35vw;    
-        border-color: transparent;
-        -webkit-box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15); 
-        box-shadow: 0px 13px 21px -2px rgba(0,0,0,0.15);
-        background-color: white;
-        font-size: 2.15vw;
-        } 
-        
+  }
+  #heroimage img {
+    position: absolute;
+    right: 10vw;
+    top: 89vw;
+    width: 57vw;
+    height: auto;
+    transform: rotate(90deg);
+  }
 
-        
-        .arrangeOrder {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 1.5vw;
-        margin-left: 0.8vw;
-        }
-        #orderForm input {
-        height: 6vw;
-        color: rgb(226, 226, 226); 
-        border-radius: 1.5vw;    
-        border-color: transparent;
-        -webkit-box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15); 
-        box-shadow: 0px 13px 21px -2px rgba(0,0,0,0.15);
-        }
-        #orderForm input::placeholder {
-        color: #4141414b;
-        font-size: 2.65vw;
-        padding: 1vw;
-        }
-        
-        .arrangeOrder label {
-        margin-bottom: 0.3vw;
-        font-size: 2.5vw;
-        font-weight: 500;
-        }
-          
-        #orderForm #address2 {
-        display: flex;
-        justify-content: space-between;
-        }
-        #address2 input {
-        width: 39vw;
-        }
-        
-        #termsncond{
-            font-size: 2.5vw;
-            font-weight: 500;
-        }
-        #termsncond input[type=checkbox]{
-            appearance: none;
-            color:white;
-            width: 6vw;
-            height: 6vw;
-            background-color: white;
-            margin-right:1vw ;
-        }
-        
-        #termsncond div{
-            display: flex;
-            align-items: center;
-        }
-        
-        #orderForm button{
-            position: absolute;
-            right: 15vw;
-            bottom: 5vw;
-            border: none;
-            font-size: 2.7vw;
-            font-weight: 500;
-            background-color: #00044F;
-            padding: 1.6vw 2.9vw 1.6vw 2.9vw;
-            color: white;
-            border-radius: 1.9vw;
-        }
+  #girlBleuAgainstOrder img {
+    position: absolute;
+    right: 46vw;
+    top: 86vw;
+    width: 31vw;
+    height: auto;
+  }
+  /*FORM PHONE  FORM PHONE  FORM PHONE  FORM PHONE  FORM PHONE  FORM PHONE  FORM PHONE  FORM PHONE  FORM PHONE*/
+  #orderForm {
+    position: relative;
+    width: 90vw;
+    height: 125vw;
+    background-color: #ffa8a0;
+    margin-left: 5vw;
+    border-radius: 4.5vw;
+    margin-bottom: 15vw;
+  }
 
-        #orderForm #e_mail  {
-            width: 82vw;
-        }
-        
-        #orderForm #phonenumber  {
-            width: 82vw;
-        }
-        
-        #orderForm #c_name  {
-            width: 82vw;
-        }
-        
-        #orderForm #address  {
-            width: 82vw;
-        }
-        #termsncond input[type=checkbox]:checked ~ ::after{
+  #orderForm form {
+    width: 90vw;
+    margin: 0;
+    padding-top: 3vw;
+  }
 
-            font-size: 5vw;
+  #orderForm fieldset {
+    border: none;
+  }
 
-            left: 2vw;
-            bottom: 0.6vw;
-        }
+  #orderForm #fullname input {
+    width: 18vw;
+    width: 39.25vw;
+  }
 
+  #orderForm #lastname {
+    margin-left: 2vw;
+  }
+  #car_brand_selection label {
+    color: black;
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin-bottom: 0.7vw;
+    margin-top: 2.5vw;
+  }
+  #car_brand_selection {
+    display: grid;
+    margin-bottom: 5vw;
+  }
+  #car_brand {
+    appearance: none;
+    height: 5.8vw;
+    color: rgb(226, 226, 226);
+    border-radius: 1.35vw;
+    border-color: transparent;
+    -webkit-box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    font-size: 2.15vw;
+    font-weight: 500;
+  }
+
+  .arrangeOrder {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5vw;
+    margin-left: 0.8vw;
+  }
+  #orderForm input {
+    height: 6vw;
+    color: rgb(226, 226, 226);
+    border-radius: 1.5vw;
+    border-color: transparent;
+    -webkit-box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.15);
+  }
+  #orderForm input::placeholder {
+    color: #4141414b;
+    font-size: 2.65vw;
+    font-weight: 500;
+    padding: 1vw;
+  }
+
+  .arrangeOrder label {
+    margin-bottom: 0.3vw;
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+
+  #orderForm #address2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  #address2 input {
+    width: 39vw;
+  }
+
+  #termsncond {
+    font-size: 2.5vw;
+    font-weight: 500;
+  }
+  #termsncond input[type="checkbox"] {
+    appearance: none;
+    color: white;
+    width: 6vw;
+    height: 6vw;
+    background-color: white;
+    margin-right: 1vw;
+  }
+
+  #termsncond div {
+    display: flex;
+    align-items: center;
+  }
+
+  #orderForm button {
+    position: absolute;
+    right: 15vw;
+    bottom: 5vw;
+    border: none;
+    font-size: 2.7vw;
+    font-weight: 500;
+    background-color: #00044f;
+    padding: 1.6vw 2.9vw 1.6vw 2.9vw;
+    color: white;
+    border-radius: 1.9vw;
+  }
+
+  #orderForm #e_mail {
+    width: 82vw;
+  }
+
+  #orderForm #phonenumber {
+    width: 82vw;
+  }
+
+  #orderForm #c_name {
+    width: 82vw;
+  }
+
+  #orderForm #address {
+    width: 82vw;
+  }
+  #termsncond input[type="checkbox"]:checked ~ ::after {
+    font-size: 5vw;
+    font-weight: 500;
+    left: 2vw;
+    bottom: 0.6vw;
+  }
 }
