@@ -47,7 +47,7 @@ export default function Home(props) {
             </div>
         </div>
       <video autoPlay loop muted>
-            <source src='./video/montaVideo.mp4'></source>
+            <source src='./video/montaVideoPhone.mp4'></source>
           </video>  
       </div>
 
