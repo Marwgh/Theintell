@@ -80,7 +80,7 @@ export default function HowToExplainationSection(props) {
               <p>Go to your car and meet the scanner. Unplug your car then confirm with the scanner that you are moving your car. Finally move your car. </p>
             </div>
             <div className="confirmImg">
-              <img src="./image/accept:decline.png" alt="acceptnot"></img>
+              <img src="./image/acceptORdecline.png" alt="acceptnot"></img>
             </div>
           </div>
           
