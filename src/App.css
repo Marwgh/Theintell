@@ -106,8 +106,8 @@
   position: absolute;
 }
 
-.home {
-
+.homeVideoPhone{
+  display: none;
 }
 .homeTitle {
   width: 100%;
@@ -1303,7 +1303,14 @@ z-index: 1;
 
   /* HOMETITLE HOMETITLE  HOMETITLE HOMETITLE  HOMETITLE HOMETITLE  HOMETITLE HOMETITLE  HOMETITLE HOMETITLE  HOMETITLE HOMETITLE  HOMETITLE HOMETITLE  HOMETITLE HOMETITLE*/
   .homeTitle {
-    margin-top: 14vw;
+   display: none;
+  }
+  .homeVideoPhone{
+    display:block;
+  }
+  .homeVideoPhone video{
+    height: 150vw;
+    width: 100vw;
   }
 
   .filter{
@@ -1918,7 +1925,8 @@ z-index: 1;
     height: auto;
     margin-bottom: 1vw;
   }
-  #scrollMorepls {
-    display: none;
+  #scrollMorepls p {
+    font-size: 2.5vw;
   }
+  
 }

@@ -12,7 +12,7 @@ export default function Home(props) {
  <div className="homeTitle filter"></div>
       <div className="homeTitle">
         <div className="homeText">
-          <h1>WE MAKE CHARGING EASIER THAN EVER</h1>
+          <h1>SCAN A CODE GET A SPOT</h1>
           <p>Learn about Karma and how you can help your fellow electric cars owners to charge their car.
             Come and discover the amazing opportunity's and get your own Qr code! 
           </p>
@@ -34,6 +34,21 @@ export default function Home(props) {
             <span id="longBarPls"></span>
             </div>
         </div>
+      </div>
+      <div className='homeVideoPhone'>
+      <div id="scrollMorepls">
+            <div>
+              <p>Scroll</p>
+              <div>
+                <span></span>
+                <span></span>
+              </div>
+            <span id="longBarPls"></span>
+            </div>
+        </div>
+      <video autoPlay loop muted>
+            <source src='./video/montaVideo.mp4'></source>
+          </video>  
       </div>
 
       <div className="homeCarjourney">
