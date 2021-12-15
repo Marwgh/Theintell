@@ -54,11 +54,8 @@ export default function HowToExplainationSection(props) {
       <div>
           <img className="hiwTimeline" src="./svg/Timeline.svg" alt=""></img>
   <div className="getAPP">
-            <div className="appImage">
-              <img src="./svg/charger.svg" alt="charger"></img>
-            </div>
-            <div className="qrcardImg">
-              <img src="./svg/qrcard.svg" alt="qr card"></img>
+  <div className="appImage">
+              <img src="./image/getappx1.png" alt="getapp"></img>
             </div>
             <div className="getAppText boxShadower">
               <h1>Get the App</h1>
@@ -71,8 +68,8 @@ export default function HowToExplainationSection(props) {
               <h1>Get a notification</h1>
               <p>The first thing that will happen is that you will get a notification. If you want and can move your car then you accept the demande. </p>
             </div>
-            <div className="handPhonePurpleImgHIW">
-              <img src="./svg/handphonePurple.svg" alt="charger"></img>
+            <div className="ownerNotification">
+              <img src="./image/notification.png" alt="ownernotification"></img>
             </div>
             
           </div>
@@ -82,11 +79,8 @@ export default function HowToExplainationSection(props) {
               <h1>Confirm and Go</h1>
               <p>Go to your car and meet the scanner. Unplug your car then confirm with the scanner that you are moving your car. Finally move your car. </p>
             </div>
-            <div className="confirmNGoCarImg">
-              <img src="./svg/car.svg" alt="plug"></img>
-            </div>
-            <div className="chargerImgHIW">
-              <img src="./svg/charger.svg" alt="phone"></img>
+            <div className="confirmImg">
+              <img src="./image/accept:decline.png" alt="acceptnot"></img>
             </div>
           </div>
           
@@ -95,16 +89,13 @@ export default function HowToExplainationSection(props) {
               <h1>Karma Points</h1>
               <p>After helping another EV driver get access to the charger you will receive points. The lower the battery you have left th higher Karma Points you receive. </p>
             </div>
-            <div className="carImg">
-              <img src="./svg/car.svg" alt="car"></img>
-            </div>
             <div className="rewardImg">
-              <img src="./svg/reward.svg" alt="reward"></img>
+              <img src="./image/getPoints.png" alt="reward"></img>
             </div>
           </div>
           <div className="pointExplain">
             <div className="imgExplain">
-              <img src="./svg/reward.svg" alt="reward"></img>
+              <img src="./image/pointUse.png" alt="reward"></img>
             </div>
             <div className="textExplain boxShadower">
               <h1>How to use Karma Points?</h1>
