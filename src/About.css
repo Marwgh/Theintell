@@ -1,11 +1,11 @@
 /*ABOUT ABOUT  ABOUT ABOUT  ABOUT ABOUT  ABOUT ABOUT  ABOUT ABOUT  ABOUT ABOUT  ABOUT ABOUT*/
-.about{
+.about {
   font-family: "Quicksand";
 }
 
 /*HEADER HEADER  HEADER HEADER  HEADER HEADER  HEADER HEADER  HEADER HEADER  HEADER HEADER*/
 
-.aboutHeader{
+.aboutHeader {
   position: relative;
   width: 100%;
   height: 45vw;
@@ -13,14 +13,14 @@
   color: white;
   overflow: hidden;
 }
-.aboutHeader > img{
+.aboutHeader > img {
   position: absolute;
-  width:100vw;
+  width: 100vw;
   height: auto;
   top: -10vw;
   z-index: -1;
 }
-.aboutHeader h1{
+.aboutHeader h1 {
   position: absolute;
   z-index: 1;
   font-size: 2.5vw;
@@ -29,18 +29,19 @@
   left: 11vw;
 }
 
-.aboutHeader p{
+.aboutHeader p {
   position: absolute;
   z-index: 1;
   top: 20vw;
   left: 11vw;
   width: 30vw;
   font-size: 1.45vw;
+  font-weight: 500;
 }
 
 /* MONTA MONTA  MONTA MONTA  MONTA MONTA  MONTA MONTA  MONTA MONTA  MONTA MONTA  MONTA MONTA  MONTA MONTA */
 
-.aboutMonta{
+.aboutMonta {
   position: relative;
   width: 100%;
   text-align: right;
@@ -54,30 +55,30 @@
   left: 15vw;
   top: 7.5vw;
 }
-.aboutMText h1{
+.aboutMText h1 {
   font-size: 2.5vw;
   font-weight: 500;
   top: 14vw;
   left: 11vw;
 }
 
-.aboutMText p{
+.aboutMText p {
   top: 20vw;
   left: 11vw;
   width: 32vw;
   font-size: 1.45vw;
+  font-weight: 500;
 }
 
-.aboutMText > div{
+.aboutMText > div {
   position: absolute;
   right: 0;
-  background-color: #FF5252;
+  background-color: #ff5252;
   color: white;
-  padding: 0.75vw 1vw 0.75vw 1vw; 
+  padding: 0.75vw 1vw 0.75vw 1vw;
   width: 10.8vw;
   border-radius: 2vw;
-  font-size:1.2vw ;
-
+  font-size: 1.2vw;
 }
 
 .collabImage {
@@ -87,7 +88,7 @@
   top: 10vw;
 }
 
-.aboutMPeoples img{
+.aboutMPeoples img {
   width: auto;
   height: 24vw;
 }
@@ -96,12 +97,12 @@
   position: absolute;
   width: 5vw;
   height: 5vw;
-  padding:1.5vw;
+  padding: 1.5vw;
   border-radius: 0.7vw;
   right: 30vw;
   top: -2vw;
 }
-.aboutMlogoMonta img{
+.aboutMlogoMonta img {
   width: 5vw;
   height: auto;
 }
@@ -110,20 +111,20 @@
   position: absolute;
   width: 6vw;
   height: 6vw;
-  padding:1vw;
+  padding: 1vw;
   border-radius: 0.7vw;
   right: -6vw;
   top: 5vw;
 }
 
-.aboutMlogoKarma img{
+.aboutMlogoKarma img {
   width: 6.5vw;
   height: auto;
 }
 
 /*CLIMATE CLIMATE  CLIMATE CLIMATE   CLIMATE CLIMATE   CLIMATE CLIMATE   CLIMATE CLIMATE   CLIMATE CLIMATE   CLIMATE CLIMATE */
 
-.aboutClimate{
+.aboutClimate {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
@@ -131,33 +132,33 @@
   margin-top: 10vw;
 }
 
-.aboutClimate h1{
+.aboutClimate h1 {
   font-size: 2.5vw;
   font-weight: 500;
   top: 14vw;
   left: 11vw;
 }
 
-.aboutClimate p{
+.aboutClimate p {
   top: 20vw;
   left: 11vw;
   width: 32vw;
   font-size: 1.45vw;
   margin-bottom: 6vw;
+  font-weight: 500;
 }
 
-.aboutClimate a{
-  background-color: #FF5252;
+.aboutClimate a {
+  background-color: #ff5252;
   color: white;
-  padding: 0.75vw 1vw 0.75vw 1vw; 
+  padding: 0.75vw 1vw 0.75vw 1vw;
   width: 10.8vw;
   border-radius: 2vw;
-  font-size:1.2vw;
+  font-size: 1.2vw;
   text-decoration: none;
-
 }
 
-.aboutClimate > div  {
+.aboutClimate > div {
   position: relative;
 }
 
@@ -165,15 +166,14 @@
   position: absolute;
 }
 
-.aboutClimate :first-child :first-child  {
+.aboutClimate :first-child :first-child {
   width: 18vw;
   height: auto;
   z-index: 1;
   left: 13.25vw;
 }
 
-
-.aboutClimate :first-child :last-child  {
+.aboutClimate :first-child :last-child {
   width: 20vw;
   height: auto;
   z-index: -1;
@@ -183,16 +183,15 @@
 
 /*DIGITAL DIGITAL  DIGITAL DIGITAL  DIGITAL DIGITAL  DIGITAL DIGITAL  DIGITAL DIGITAL  DIGITAL DIGITAL */
 
-.aboutDigital{
+.aboutDigital {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
   height: 40vw;
   margin-top: 10vw;
-  
 }
 
-.aboutDigital h1{
+.aboutDigital h1 {
   font-size: 2.5vw;
   font-weight: 500;
   top: 14vw;
@@ -200,15 +199,16 @@
   text-align: right;
 }
 
-.aboutDigital p{
+.aboutDigital p {
   top: 20vw;
   left: 11vw;
   width: 32vw;
   font-size: 1.45vw;
   text-align: right;
+  font-weight: 500;
 }
 
-.aboutDigital :first-child{
+.aboutDigital :first-child {
   width: 32vw;
   justify-self: end;
 }
@@ -217,7 +217,7 @@
   position: relative;
 }
 
-.aboutDigital :last-child :first-child{
+.aboutDigital :last-child :first-child {
   position: absolute;
   width: 16vw;
   height: auto;
@@ -226,7 +226,7 @@
   top: 4vw;
 }
 
-.aboutDigital :last-child :last-child{
+.aboutDigital :last-child :last-child {
   position: absolute;
   width: 6vw;
   height: auto;
@@ -239,30 +239,29 @@
 /* MEDIA QUERIES MOBILE MEDIA QUERIES MOBILE MEDIA QUERIES MOBILE */
 
 @media only screen and (max-width: 768px) {
-
   /*HEADER SERCTION HEADER SECTION HEADER SECTION HEADER SECTION*/
 
-  .aboutHeader{
+  .aboutHeader {
     width: 100%;
     height: 45vw;
     top: 7vw;
     color: white;
     overflow: hidden;
   }
-  .aboutHeader > img{
-    width:100vw;
+  .aboutHeader > img {
+    width: 100vw;
     height: auto;
     top: -10vw;
     z-index: -1;
   }
-  .aboutHeader h1{
+  .aboutHeader h1 {
     z-index: 1;
     font-size: 5vw;
     top: 10vw;
     left: 24vw;
   }
-  
-  .aboutHeader p{
+
+  .aboutHeader p {
     z-index: 1;
     top: 17vw;
     left: 25vw;
@@ -270,11 +269,9 @@
     font-size: 2.5vw;
   }
 
-
-
   /*ABOUT MONTA*/
 
-  .aboutMonta{
+  .aboutMonta {
     text-align: left;
     height: 80vw;
     top: 10vw;
@@ -286,169 +283,167 @@
     top: 50vw;
   }
 
-  .aboutMText > div{
+  .aboutMText > div {
     right: 13vw;
-    background-color: #FF5252;
+    background-color: #ff5252;
     color: white;
-    padding: 0.75vw 1vw 0.75vw 1vw; 
+    padding: 0.75vw 1vw 0.75vw 1vw;
     width: 20vw;
-  border-radius: 2vw;
-  font-size:2.2vw;
-  
+    border-radius: 2vw;
+    font-size: 2.2vw;
   }
 
-  .aboutMText h1{
+  .aboutMText h1 {
     font-size: 4vw;
     font-weight: 500;
     top: 14vw;
     left: 11vw;
   }
-  
-  .aboutMText p{
+
+  .aboutMText p {
     top: 20vw;
     left: 11vw;
     width: 50vw;
     font-size: 2.5vw;
+    font-weight: 500;
   }
- 
+
   .collabImage {
     right: 28vw;
     width: 40vw;
     top: 10vw;
   }
-  
-  .aboutMPeoples img{
+
+  .aboutMPeoples img {
     width: auto;
     height: 34vw;
   }
-  
+
   .aboutMlogoMonta {
     width: 5vw;
     height: 5vw;
     right: 42vw;
     top: 1vw;
   }
-  
-  .aboutMlogoMonta img{
+
+  .aboutMlogoMonta img {
     width: 5vw;
     height: auto;
   }
-  
+
   .aboutMlogoKarma {
     width: 7vw;
     height: 7vw;
     right: -6vw;
     top: 5vw;
   }
-  
-  .aboutMlogoKarma img{
+
+  .aboutMlogoKarma img {
     width: 7.5vw;
     height: auto;
   }
-  
+
   /*CLIMATE CLIMATE CLIMATE*/
 
+  .aboutClimate {
+    width: 100%;
+    height: 80vw;
+  }
 
-.aboutClimate{
-  width: 100%;
-  height: 80vw; 
-}
+  .aboutClimate h1 {
+    font-size: 4vw;
+    font-weight: 500;
+    width: 40vw;
+    top: 14vw;
+    left: 11vw;
+  }
 
-.aboutClimate h1{
-  font-size: 4vw;
-  font-weight: 500;
-  width: 40vw;
-  top: 14vw;
-  left: 11vw;
-}
+  .aboutClimate p {
+    top: 20vw;
+    left: 11vw;
+    width: 45vw;
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin-bottom: 6vw;
+  }
 
-.aboutClimate p{
-  top: 20vw;
-  left: 11vw;
-  width: 45vw;
-  font-size: 2.5vw;
-  margin-bottom: 6vw;
-}
+  .aboutClimate a {
+    background-color: #ff5252;
+    color: white;
+    padding: 0.75vw 1vw 0.75vw 1vw;
+    width: 10.8vw;
+    border-radius: 2vw;
+    font-size: 2.2vw;
+  }
 
-.aboutClimate a{
-  background-color: #FF5252;
-  color: white;
-  padding: 0.75vw 1vw 0.75vw 1vw; 
-  width: 10.8vw;
-  border-radius: 2vw;
-  font-size:2.2vw;
-}
+  .aboutClimate > div {
+    position: relative;
+  }
 
-.aboutClimate > div  {
-  position: relative;
-}
-
-.aboutClimate :last-child {
-  width: 35vw;
+  .aboutClimate :last-child {
+    width: 35vw;
     right: 26vw;
     top: 80vw;
-}
-
-.aboutClimate :first-child :first-child  {
-  width: 23vw;
-  z-index: 1;
-  left: 22vw;
-  top: 49.5vw;
-}
-
-
-.aboutClimate :first-child :last-child  {
-  width: 42vw;
-  z-index: -1;
-  left: 32vw;
-  top: 58vw;
-}
-
-/*DIGITAL SOLUTION DIGITAL SOLUTION DIGITAL SOLUTION */
-
-.aboutDigital{
-  width: 100%;
-  height: 170vw;
-}
-
-.aboutDigital h1{
-  font-size: 4vw;
-  text-align: left;
-}
-
-.aboutDigital p{
-  width: 45vw;
-  font-size: 2.5vw;
-  text-align: left;
-}
-
-.aboutDigital div:first-child { 
-  position: absolute;
-  right: 50vw;
-  width: 25vw;
-  top: 315vw;
-  justify-self: none;
-}
-
-.aboutDigital div:last-child {
-  position: relative;
-}
-
-.aboutDigital :last-child :first-child {
-  width: 22vw;
-  height: auto;
-  z-index: -1;
-  left: 30vw;
-  top: 62vw;
-}
-
-.aboutDigital :last-child :last-child {
-  width: 17vw;
-  height: auto;
-  z-index: -1;
-  left: 42vw;
-  top: 68vw;
-  transform: rotate(32deg);
-}
-
   }
+
+  .aboutClimate :first-child :first-child {
+    width: 23vw;
+    z-index: 1;
+    left: 22vw;
+    top: 49.5vw;
+  }
+
+  .aboutClimate :first-child :last-child {
+    width: 42vw;
+    z-index: -1;
+    left: 32vw;
+    top: 58vw;
+  }
+
+  /*DIGITAL SOLUTION DIGITAL SOLUTION DIGITAL SOLUTION */
+
+  .aboutDigital {
+    width: 100%;
+    height: 170vw;
+  }
+
+  .aboutDigital h1 {
+    font-size: 4vw;
+    text-align: left;
+  }
+
+  .aboutDigital p {
+    width: 45vw;
+    font-size: 2.5vw;
+    text-align: left;
+  }
+
+  .aboutDigital div:first-child {
+    position: absolute;
+    right: 50vw;
+    width: 25vw;
+    top: 315vw;
+    justify-self: none;
+  }
+
+  .aboutDigital div:last-child {
+    position: relative;
+  }
+
+  .aboutDigital :last-child :first-child {
+    width: 22vw;
+    height: auto;
+    z-index: -1;
+    left: 30vw;
+    top: 62vw;
+  }
+
+  .aboutDigital :last-child :last-child {
+    width: 12vw;
+    height: auto;
+    z-index: -1;
+    left: 48.5vw;
+    top: 60vw;
+    transform: rotate(32deg);
+  }
+}
