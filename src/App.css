@@ -136,7 +136,7 @@
   position: absolute;
   left: 12vw;
   top: 15vw;
-  z-index: 1;
+  z-index: 2;
   color: white;
 }
 .homeText h1 {
@@ -150,15 +150,18 @@
   width: 35vw;
   margin: 0 0 3vw 0;
 }
-.homeBackgroundImg {
-  position: absolute;
-  bottom: -11.5vw;
-  left: -9vw;
-}
 
-.homeBackgroundImg img {
+.filter{
+  position: absolute;
+  background: rgb(0,0,0);
+background: linear-gradient(151deg, rgba(0, 0, 0, 0.712) 0%, rgba(255,255,255,0) 100%);
+z-index: 1;
+}
+.homeBackgroundImg video {
   width: 110%;
   height: auto;
+  border: none;
+  
 }
 
 .standingHome {
@@ -786,13 +789,13 @@
 
 .homeGetCodeText {
   position: absolute;
-  left: 13vw;
+  left: 53vw;
   top: 9vw;
 }
 
 .getCodeButton {
   position: absolute;
-  left: 17vw;
+
   bottom: -4vw;
   background-color: #ff5252;
   padding: 0.7vw 1vw 0.7vw 1vw;
@@ -810,27 +813,26 @@
   font-size: 2vw;
   font-weight: 500;
   margin-bottom: 0.5vw;
-  text-align: right;
 }
 .homeGetCodeText p {
   font-size: 1.4vw;
   font-weight: 500;
   width: 32vw;
-  text-align: right;
+
 }
 
 .homeGetCode .getCodeEnvelope img {
   position: absolute;
   width: 20vw;
   top: 10vw;
-  right: 13vw;
+  left: 22vw;
 }
 
 .homeGetCode .getCodeQR img {
   position: absolute;
   width: 17vw;
   top: 9vw;
-  right: 22vw;
+  left:  13vw;
 }
 
 .homeGetApp {

@@ -1,8 +1,15 @@
 import BarCharts from './BarCharts.js';
 export default function Home(props) {
+  /*<div className="homeBackgroundImg">
+          <img src="./image/homecarchargeQR.jpg" alt="Car charger with QR"></img>
+        </div>
+        <div className="standingHome display:none">
+          <img src="./svg/standingblue.svg" alt="Blue person standing"></img>
+        </div>
+        */
   return (
     <div className="home">
-
+ <div className="homeTitle filter"></div>
       <div className="homeTitle">
         <div className="homeText">
           <h1>WE MAKE CHARGING EASIER THAN EVER</h1>
@@ -12,11 +19,11 @@ export default function Home(props) {
           <div className="getQrBtnDescription" onClick={ () => props.changePage("Howto")}>Get your code</div>
         </div>
         <div className="homeBackgroundImg">
-          <img src="./image/homecarchargeQR.jpg" alt="Car charger with QR"></img>
+          <video autoPlay loop muted>
+            <source src='./video/montaVideo.mp4'></source>
+          </video>
         </div>
-        <div className="standingHome">
-          <img src="./svg/standingblue.svg" alt="Blue person standing"></img>
-        </div>
+        
         <div id="scrollMorepls">
             <div>
               <p>Scroll</p>
