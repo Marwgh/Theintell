@@ -18,7 +18,7 @@ export default function NavBar(props) {
         <span></span>
         <div id="menuB">
           <div className="navButton" onClick={  () => props.changePage("About")} >About</div>
-          <div className="navButton" onClick={  () => props.changePage("Howto")} >How It Works</div>
+          <div className="navButton" onClick={  () => props.changePage("HowTo")} >How It Works</div>
           <div className="navButton" onClick={  () => props.changePage("Contact")} >Contact</div>
           <div className="navButton qr" onMouseDown={  () => props.changePage("Order")} >Get Your QR</div>
         </div>

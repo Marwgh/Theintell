@@ -570,7 +570,7 @@
   font-size: 1.5vw;
 }
 .text1 p {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1vw;
 }
 
@@ -614,7 +614,7 @@
   font-size: 1.5vw;
 }
 .text2 p {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1vw;
 }
 
@@ -658,7 +658,7 @@
   font-size: 1.5vw;
 }
 .text3 p {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1vw;
 }
 
@@ -701,7 +701,7 @@
   font-size: 1.5vw;
 }
 .text4 p {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1vw;
 }
 
@@ -1360,6 +1360,7 @@
   /* HOMEWAW */
   .homeWAW {
     height: 145vw;
+    margin-top: 25vw;
   }
 
   .wawText {
@@ -1370,8 +1371,8 @@
   .getQrBtnWAW {
     left: 0vw;
     bottom: -15vw;
-    width: 29vw;
-    font-size: 3vw;
+    width: 20vw;
+    font-size: 3.5vw;
     padding: 0.7vw 2.4vw 0.7vw 2.4vw;
   }
 
@@ -1411,7 +1412,7 @@
 
   /* HOMEDATA */
   .homeData {
-    height: 90vw;
+    height: 110vw;
   }
 
   .homeDataHeader {
@@ -1426,10 +1427,11 @@
 
   .homeDataHeader p {
     font-size: 3vw;
+    margin-top: 5vw;
   }
 
   .homeDataInfo {
-    top: 32vw;
+    top: 45vw;
     left: 7vw;
   }
 
@@ -1554,11 +1556,12 @@
 
   /* HOMETRUST */
   .homeTrust {
+    display: none;
   }
 
   /* HOMEHIW */
   .homeHIW {
-    height: 115vw;
+    height: 120vw;
   }
 
   .homeHIWText {
@@ -1586,35 +1589,33 @@
   .homeHIWButton {
     bottom: -5vw;
     left: 0vw;
-    width: 17vw;
-    font-size: 3vw;
+    width: 20vw;
+    font-size: 3.5vw;
     padding: 0.7vw 1.7vw 0.7vw 1.7vw;
   }
 
   /* HOMEGETCODE */
   .homeGetCode {
-    height: 170vw;
+    height: 195vw;
   }
 
   .homeGetCodeText {
     left: 8vw;
-    top: 50vw;
+    top: 70vw;
   }
+
+
+
+
+
 
   .getCodeButton {
     bottom: -5vw;
     left: 0vw;
-<<<<<<< HEAD
-    width: 17vw;
-    font-size: 3vw;
+    width: 20vw;
+    font-size: 3.5vw;
     padding: 0.7vw 1.7vw 0.7vw 1.7vw;
 }
-=======
-    width: 13vw;
-    font-size: 2vw;
-    padding: 0.7vw 1vw 0.7vw 1vw;
-  }
->>>>>>> 445b3271b011f2ca48894988271f3b2950cddf88
 
   .homeGetCodeText h1 {
     font-size: 5vw;
@@ -1628,13 +1629,13 @@
 
   .homeGetCode .getCodeEnvelope img {
     width: 40vw;
-    top: 10vw;
+    top: 20vw;
     right: 21vw;
   }
 
   .homeGetCode .getCodeQR img {
     width: 37vw;
-    top: 7vw;
+    top: 15vw;
     left: 40vw;
   }
 
@@ -1679,11 +1680,11 @@
 
   /* HOMECONTACT */
   .homeContact {
-    height: 40vw;
+    height: 60vw;
   }
 
   .contactText {
-    top: 4vw;
+    top: 14vw;
     left: 10vw;
   }
 
@@ -1701,9 +1702,10 @@
   .contactButton {
     left: 0vw;
     bottom: -5vw;
-    font-size: 3vw;
+    width: 20vw;
+    font-size: 3.5vw;
     padding: 0.7vw 1.7vw 0.7vw 1.7vw;
-    width: 14vw;
+    
 }
 
   .homeContact img {
@@ -1715,7 +1717,7 @@
 
   .contactBGimg img {
     position: absolute;
-    top: -18vw;
+    top: -5vw;
     width: 100%;
     z-index: 1;
     right: 0vw;
@@ -1735,7 +1737,7 @@
   #menuToggle {
     display: block;
     position: fixed;
-    top: 5vw;
+    top: 6vw;
     left: 90vw;
     z-index: 1;
     border-radius: 0.3vw;
@@ -1755,8 +1757,8 @@
 
   #menuToggle span {
     display: block;
-    width: 9.25vw;
-    height: 1.5vw;
+    width: 8vw;
+    height: 1vw;
     left: -6vw;
     margin-bottom: 1.4vw;
     position: relative;
@@ -1825,6 +1827,7 @@
     display: grid;
     grid-template-columns: 1fr;
     font-family: "Quicksand", sans-serif;
+    position: relative;
   }
   .fstFContainer {
     width: 20vw;
@@ -1877,13 +1880,14 @@
   }
   .scdFContainer div {
     display: grid;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     font-weight: 700;
+    margin-bottom: 2vw;
   }
   .scdFContainer {
     position: relative;
     margin-left: 11vw;
-    margin-top: 10vw;
+    margin-top: 2vw;
     height: 15vw;
   }
   .scdFContainer p {
@@ -1900,6 +1904,9 @@
   .trdFContainer {
     margin-top: 3vw;
     display: flex;
+    position: absolute;
+    right: 15vw;
+    bottom: 15vw;
   }
 
   .trdFContainer :first-child {
@@ -1914,8 +1921,8 @@
     height: 4vw;
     margin: 0;
     font-weight: 700;
-    font-size: 2vw;
-    margin-bottom: 0.5vw;
+    font-size: 4vw;
+    margin-bottom: 3.5vw;
   }
   .trdFContainer div {
     display: flex;

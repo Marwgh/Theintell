@@ -58,19 +58,24 @@ const changePage = (destination) => {
   if (destination === "Home") {
     setPage(0);
     window.scrollTo(0,0);
+    
     console.log("yes im home");
   } else if (destination === "About") {
     setPage(1);
     window.scrollTo(0,0);
-  } else if (destination === "Howto") {
+    document.querySelector("#menuToggle > input").click();
+  } else if (destination === "HowTo") {
     setPage(2);
     window.scrollTo(0,0);
+    document.querySelector("#menuToggle > input").click();
   } else if (destination === "Contact") {
     setPage(3);
     window.scrollTo(0,0);
+    document.querySelector("#menuToggle > input").click();
   } else if (destination === "Order") {
     setPage(4);
     window.scrollTo(0,0);
+    document.querySelector("#menuToggle > input").click();
   }
 };
 

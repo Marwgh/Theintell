@@ -129,7 +129,7 @@ export default function Home(props) {
           </p>
           <p>As a part of the Month Group, we are familiar to the community needs and problems and we embarked on a  journey to ease the life of EV owners.
           </p>
-          <div className="getQrBtnWAW" onClick={ () => props.changePage("About")}>Read more about us</div>
+          <div className="getQrBtnWAW" onClick={ () => props.changePage("About")}>Read more</div>
         </div>
         <div className="wawPhones">  <img src="./svg/hawPhones.svg" alt="app show case"></img> </div>
 

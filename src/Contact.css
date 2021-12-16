@@ -308,7 +308,7 @@
   border-radius: 0.5vw;
   border-color: transparent;
   -webkit-box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.35);
-  box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 13px 21px -2px rgba(0, 0, 0, 0.18);
 }
 
 #contactFormBTN {
@@ -550,7 +550,7 @@
   .formTitle {
     top: 10vw;
     width: 68vw;
-    left: 11vw;
+    left: 19vw;
 }
 
   .formTitle h1 {
@@ -634,7 +634,7 @@
     position: absolute;
     width: 56vw;
     height: 30vw;
-    left: 13vw;
+    left: 19vw;
     top: 5vw;
 }
 

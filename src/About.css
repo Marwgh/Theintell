@@ -247,6 +247,7 @@
     top: 14vw;
     color: white;
     overflow: hidden;
+    margin-top: 2vw;
   }
   .aboutHeader > img {
     width: 100vw;
@@ -278,8 +279,8 @@
   }
 
   .aboutMText {
-    width: 35vw;
-    left: 18vw;
+    width: 77vw;
+    left: 10vw;
     top: 50vw;
   }
 
@@ -290,7 +291,7 @@
     padding: 0.75vw 1.7vw 0.75vw 1.7vw;
     width: 20vw;
     border-radius: 2vw;
-    font-size: 2.2vw;
+    font-size: 3.5vw;
     text-decoration: none;
   }
 
@@ -304,7 +305,7 @@
   .aboutMText p {
     top: 20vw;
     left: 11vw;
-    width: 60vw;
+    width: 77vw;
     font-size: 3vw;
     font-weight: 500;
   }
@@ -362,7 +363,7 @@
   .aboutClimate p {
     top: 20vw;
     left: 11vw;
-    width: 60vw;
+    width: 77vw;
     font-size: 3vw;
     font-weight: 500;
     margin-bottom: 6vw;
@@ -372,9 +373,9 @@
     background-color: #ff5252;
     color: white;
     padding: 0.75vw 1.7vw 0.75vw 1.7vw;
-    width: 10.8vw;
+    width: 15.8vw;
     border-radius: 2vw;
-    font-size: 2.2vw;
+    font-size: 3.5vw;
   }
 
   .aboutClimate > div {
@@ -382,8 +383,8 @@
   }
 
   .aboutClimate :last-child {
-    width: 35vw;
-    right: 31vw;
+    width: 77vw;
+    left: -13vw;
     top: 80vw;
   }
 
@@ -414,15 +415,15 @@
   }
 
   .aboutDigital p {
-    width: 60vw;
+    width: 77vw;
     font-size: 3vw;
     text-align: left;
   }
 
   .aboutDigital div:first-child {
     position: absolute;
-    left: 15vw;
-    width: 25vw;
+    left: 10vw;
+    width: 77vw;
     top: 305vw;
     justify-self: none;
   }
