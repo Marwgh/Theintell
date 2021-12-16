@@ -259,15 +259,15 @@
     z-index: 1;
     font-size: 5vw;
     top: 10vw;
-    left: 24vw;
+    left: 20vw;
   }
 
   .aboutHeader p {
     z-index: 1;
     top: 17vw;
-    left: 25vw;
-    width: 50vw;
-    font-size: 2.5vw;
+    left: 20vw;
+    width: 55vw;
+    font-size: 3vw;
   }
 
   /*ABOUT MONTA*/

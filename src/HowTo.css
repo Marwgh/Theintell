@@ -532,12 +532,12 @@
   }
 
   .introText h1 + p {
-    font-size: 2.5vw;
+    font-size: 3vw;
     width: 80vw;
   }
 
   .introText p {
-    font-size: 2.5vw;
+    font-size: 3vw;
     width: 80vw;
   }
 
@@ -621,7 +621,7 @@
     position: absolute;
     width: 26vw;
     top: 7vw;
-    right: 37vw;
+    right: 39vw;
 }
 
   .chargerText h1 {
@@ -629,7 +629,7 @@
   }
 
   .chargerText p {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
   .handPhonePurpleImgHIW img {
     width: 27vw;
@@ -652,7 +652,7 @@
   .confirmImg img {
     width: 29vw;
     position: absolute;
-    top: 1vw;
+    top: 5vw;
     left: 33vw;
 }
 
@@ -673,7 +673,7 @@
   }
 
   .phoneText p {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   .plugImg img {
@@ -716,7 +716,7 @@
   }
 
   .rewardText p {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
 
   .carImg img {
@@ -733,8 +733,8 @@
 
   .rewardImg img {
     width: 38vw;
-    top: 2vw;
-    right: 29vw;
+    top: 5vw;
+    right: 32vw;
 }
 
   .explain span {
@@ -767,7 +767,7 @@
   }
 
   .textExplain p {
-    font-size: 2.5vw;
+    font-size: 3vw;
   }
   
 
@@ -827,7 +827,7 @@
   .kpsSection div {
     width: 20vw;
     height: 20vw;
-    font-size: 1.6vw;
+    font-size: 2vw;
   }
   .kpsSection div img {
     height: 12vw;
@@ -845,17 +845,17 @@
   .kpsGetYourCode p {
     top: 10vw;
     right: 12vw;
-    width: 40vw;
-    font-size: 2.5vw;
+    width: 55vw;
+    font-size: 3vw;
   }
   .kpsGetYourCode div {
     top: 28vw;
     right: 12vw;
-    width: 23vw;
-    font-size: 2.5vw;
+    width: 30vw;
+    font-size: 3vw;
   }
   .statusFalse .explain {
-    min-height: 400vw;
+    min-height: 410vw;
   }
   .statusTrue .explain {
     min-height: 300vw;
