@@ -85,6 +85,7 @@ const changePage = (destination) => {
   if (page === 0) {
     return (
       <div className="App">
+        
         <Navbar  changePage={changePage}/>
         <Home changePage={changePage}/>
         
