@@ -1604,17 +1604,10 @@
   .getCodeButton {
     bottom: -5vw;
     left: 0vw;
-<<<<<<< HEAD
     width: 17vw;
     font-size: 3vw;
     padding: 0.7vw 1.7vw 0.7vw 1.7vw;
-}
-=======
-    width: 13vw;
-    font-size: 2vw;
-    padding: 0.7vw 1vw 0.7vw 1vw;
   }
->>>>>>> 445b3271b011f2ca48894988271f3b2950cddf88
 
   .homeGetCodeText h1 {
     font-size: 5vw;
@@ -1704,7 +1697,7 @@
     font-size: 3vw;
     padding: 0.7vw 1.7vw 0.7vw 1.7vw;
     width: 14vw;
-}
+  }
 
   .homeContact img {
     position: absolute;
