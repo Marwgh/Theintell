@@ -106,7 +106,7 @@
   position: absolute;
 }
 
-.homeVideoPhone{
+.homeVideoPhone {
   display: none;
 }
 .homeTitle {
@@ -151,20 +151,21 @@
   margin: 0 0 3vw 0;
 }
 
-.filter{
+.filter {
   position: absolute;
-  background: rgb(0,0,0);
-background: linear-gradient(151deg, rgba(0, 0, 0, 0.712) 0%, rgba(255,255,255,0) 100%);
-z-index: 1;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    151deg,
+    rgba(0, 0, 0, 0.712) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  z-index: 1;
 }
-
-
 
 .homeBackgroundImg video {
   width: 110%;
   height: auto;
   border: none;
-  
 }
 
 .standingHome {
@@ -821,7 +822,6 @@ z-index: 1;
   font-size: 1.4vw;
   font-weight: 500;
   width: 32vw;
-
 }
 
 .homeGetCode .getCodeEnvelope img {
@@ -835,7 +835,7 @@ z-index: 1;
   position: absolute;
   width: 17vw;
   top: 9vw;
-  left:  13vw;
+  left: 13vw;
 }
 
 .homeGetApp {
@@ -1302,18 +1302,29 @@ z-index: 1;
   }
 
   /* HOMETITLE HOMETITLE  HOMETITLE HOMETITLE  HOMETITLE HOMETITLE  HOMETITLE HOMETITLE  HOMETITLE HOMETITLE  HOMETITLE HOMETITLE  HOMETITLE HOMETITLE  HOMETITLE HOMETITLE*/
-  .homeTitle {
-   display: none;
-  }
-  .homeVideoPhone{
-    display:block;
-  }
-  .homeVideoPhone video{
-    height: 150vw;
-    width: 100vw;
+  #scrollMorepls {
+    color: white;
+    z-index: inherit;
+    position: absolute;
+    bottom: 8vw;
+    right: -5vw;
+    width: 15vw;
+    height: 5vw;
   }
 
-  .filter{
+  .homeTitle {
+    display: none;
+  }
+  .homeVideoPhone {
+    display: block;
+  }
+  .homeVideoPhone video {
+    height: 190vw;
+    width: 110vw;
+    margin-left: -8vw;
+  }
+
+  .filter {
     margin-top: 0;
   }
 
@@ -1593,10 +1604,17 @@ z-index: 1;
   .getCodeButton {
     bottom: -5vw;
     left: 0vw;
+<<<<<<< HEAD
     width: 17vw;
     font-size: 3vw;
     padding: 0.7vw 1.7vw 0.7vw 1.7vw;
 }
+=======
+    width: 13vw;
+    font-size: 2vw;
+    padding: 0.7vw 1vw 0.7vw 1vw;
+  }
+>>>>>>> 445b3271b011f2ca48894988271f3b2950cddf88
 
   .homeGetCodeText h1 {
     font-size: 5vw;
@@ -1928,7 +1946,6 @@ z-index: 1;
     margin-bottom: 1vw;
   }
   #scrollMorepls p {
-    font-size: 2.5vw;
+    font-size: 4.5vw;
   }
-  
 }
