@@ -1359,7 +1359,7 @@
 
   /* HOMEWAW */
   .homeWAW {
-    height: 145vw;
+    height: 158vw;
     margin-top: 25vw;
   }
 
@@ -1371,17 +1371,17 @@
   .getQrBtnWAW {
     left: 0vw;
     bottom: -15vw;
-    width: 20vw;
-    font-size: 3.5vw;
+    width: 25vw;
+    font-size: 4vw;
     padding: 0.7vw 2.4vw 0.7vw 2.4vw;
+    border-radius: 3vw;
   }
-
   .wawText h1 {
     font-size: 5vw;
     text-align: left;
   }
   .wawText p {
-    font-size: 3vw;
+    font-size: 4vw;
     width: 80vw;
     text-align: left;
   }
@@ -1402,17 +1402,17 @@
 
   .WAWgooglePlay {
     left: 7vw;
-    top: 111vw;
+    top: 130vw;
   }
 
   .WAWappStore {
     left: 33vw;
-    top: 111vw;
+    top: 130vw;
   }
 
   /* HOMEDATA */
   .homeData {
-    height: 110vw;
+    height: 120vw;
   }
 
   .homeDataHeader {
@@ -1426,12 +1426,12 @@
   }
 
   .homeDataHeader p {
-    font-size: 3vw;
+    font-size: 4vw;
     margin-top: 5vw;
   }
 
   .homeDataInfo {
-    top: 45vw;
+    top: 52vw;
     left: 7vw;
   }
 
@@ -1442,9 +1442,10 @@
 
   .text1 h1 {
     font-size: 3vw;
+    font-weight: 700;
   }
   .text1 p {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 
   .chart1 {
@@ -1472,9 +1473,10 @@
 
   .text2 h1 {
     font-size: 3vw;
+    font-weight: 700;
   }
   .text2 p {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 
   .chart2 {
@@ -1502,9 +1504,10 @@
 
   .text3 h1 {
     font-size: 3vw;
+    font-weight: 700;
   }
   .text3 p {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 
   .chart3 {
@@ -1530,10 +1533,11 @@
   }
 
   .text4 h1 {
+    font-weight: 700;
     font-size: 3vw;
   }
   .text4 p {
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
 
   .chart4 {
@@ -1561,7 +1565,7 @@
 
   /* HOMEHIW */
   .homeHIW {
-    height: 120vw;
+    height: 130vw;
   }
 
   .homeHIWText {
@@ -1575,7 +1579,7 @@
   }
 
   .homeHIWText p {
-    font-size: 3vw;
+    font-size: 4vw;
     width: 80vw;
     text-align: left;
   }
@@ -1589,14 +1593,15 @@
   .homeHIWButton {
     bottom: -5vw;
     left: 0vw;
-    width: 20vw;
-    font-size: 3.5vw;
+    width: 25vw;
+    border-radius: 3vw;
+    font-size: 4vw;
     padding: 0.7vw 1.7vw 0.7vw 1.7vw;
   }
 
   /* HOMEGETCODE */
   .homeGetCode {
-    height: 195vw;
+    height: 212vw;
   }
 
   .homeGetCodeText {
@@ -1607,8 +1612,8 @@
   .getCodeButton {
     bottom: -5vw;
     left: 0vw;
-    width: 20vw;
-    font-size: 3.5vw;
+    width: 25vw;
+    font-size: 4vw;
     padding: 0.7vw 1.7vw 0.7vw 1.7vw;
   }
 
@@ -1617,7 +1622,7 @@
     text-align: left;
   }
   .homeGetCodeText p {
-    font-size: 3vw;
+    font-size: 4vw;
     width: 80vw;
     text-align: left;
   }
@@ -1640,9 +1645,9 @@
   }
 
   .homeGetAppinfo {
-    top: -55vw;
-    width: 80vw;
-    left: 10vw;
+    top: -61vw;
+    width: 90vw;
+    left: 5vw;
   }
 
   .homeGetAppinfo h1 {
@@ -1654,9 +1659,9 @@
   }
 
   .homeGetAppinfo p {
-    width: 60vw;
-    margin: 0 10vw 0 10vw;
-    font-size: 3vw;
+    width: 80vw;
+    margin: 0 5vw 0 5 vw;
+    font-size: 4vw;
   }
 
   .Getapps img {
@@ -1679,8 +1684,8 @@
   }
 
   .contactText {
-    top: 14vw;
-    left: 10vw;
+    top: 4vw;
+    left: 7vw;
   }
 
   .contactText h1 {
@@ -1689,9 +1694,9 @@
   }
 
   .contactText p {
-    font-size: 2.5vw;
+    font-size: 4vw;
     font-weight: 500;
-    width: 55vw;
+    width: 63vw;
   }
 
   .contactButton {
