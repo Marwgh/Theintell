@@ -9,7 +9,7 @@ export default function Home(props) {
         */
   return (
     <div className="home">
- <div className="homeTitle filter"></div>
+      <div className="homeTitle filter"></div>
       <div className="homeTitle">
         <div className="homeText">
           <h1>SCAN A CODE GET A SPOT</h1>

@@ -12,11 +12,12 @@ import Howto from './HowTo';
 
 
 function App() {
-
+  
 
 function treateData () {
   const form = document.querySelector("form");
   console.log(form.checkValidity());
+  
   if (form.checkValidity() === true) {
     console.log("i am here ");
     post( {

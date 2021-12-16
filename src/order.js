@@ -1,6 +1,11 @@
 import BarCharts from './BarCharts.js';
 import './Order.css';
 export default function Order(props) {
+  const onSubmit = (e) => {
+    e.preventDefault();
+    console.log("refresh prevented");
+  };
+  
   return (
     <div id="order">
     <div className="hero">
@@ -20,7 +25,7 @@ export default function Order(props) {
     </div>
 
     <div id="orderForm">
-        <form>
+        <form  onSubmit={onSubmit}>
           <fieldset>
             <div id="car_brand_selection" className="arrangeOrder">
               <label for="car_brand">Select your car from the list</label>
@@ -75,11 +80,11 @@ export default function Order(props) {
             <div id="address2">
               <div id="zipcode" className="arrangeOrder">
                 <label for="zipcode">Zip Code</label>
-                <input type="number" id="zipcode" placeholder="2300"></input>
+                <input type="number" id="zipcode" placeholder="2300" required="required"></input>
               </div>
               <div id="city" className="arrangeOrder">
                 <label for="city">City</label>
-                <input type="text" id="city" placeholder="Soborg"></input>
+                <input type="text" id="city" placeholder="Soborg" required="required"></input>
               </div>
             </div>
 
@@ -91,7 +96,7 @@ export default function Order(props) {
               </div>             
             </div>
 
-            <button type="button" onClick={ () => {props.treateData()}}>Order QR Code</button>
+            <button type="submit" onClick={ () => {props.treateData()}}>Order QR Code</button>
           </fieldset>
         </form>
     </div>
