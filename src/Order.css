@@ -273,11 +273,12 @@
 
   #orderForm fieldset {
     border: none;
+    padding: 4vw;
   }
 
   #orderForm #fullname input {
     width: 18vw;
-    width: 39.25vw;
+    width: 36.5vw;
   }
 
   #orderForm #lastname {
@@ -305,7 +306,7 @@
     background-color: white;
     font-size: 2.15vw;
     font-weight: 500;
-    width: 84vw;
+    width: 78vw;
   }
 
   .arrangeOrder {
@@ -338,9 +339,10 @@
   #orderForm #address2 {
     display: flex;
     justify-content: space-between;
+    width: 79.5vw;
   }
   #address2 input {
-    width: 39vw;
+    width: 35vw;
   }
 
   #termsncond {
@@ -363,7 +365,7 @@
 
   #orderForm button {
     position: absolute;
-    right: 15vw;
+    right: 7vw;
     bottom: 5vw;
     border: none;
     font-size: 2.7vw;
@@ -375,19 +377,19 @@
   }
 
   #orderForm #e_mail {
-    width: 82vw;
+    width: 77vw;
   }
 
   #orderForm #phonenumber {
-    width: 82vw;
+    width: 77vw;
   }
 
   #orderForm #c_name {
-    width: 82vw;
+    width: 77vw;
   }
 
   #orderForm #address {
-    width: 82vw;
+    width: 77vw;
   }
   #termsncond input[type="checkbox"]:checked ~ ::after {
     font-size: 5vw;
