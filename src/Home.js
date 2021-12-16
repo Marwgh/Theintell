@@ -46,7 +46,7 @@ export default function Home(props) {
             <span id="longBarPls"></span>
             </div>
         </div>
-      <video autoPlay loop muted playsinline>
+      <video autoPlay loop muted playsInline>
             <source src='./video/montaVideoPhone.mp4'></source>
           </video>  
       </div>
