@@ -43,7 +43,7 @@ export default function BarCharts (props) {
               <p>55.9%</p>
             </div>
             <div className="text4">
-              <h1>100% Charged</h1>
+              <h1>Charged</h1>
               <p>Move car right after finished charging.</p>
             </div>
           </div>
