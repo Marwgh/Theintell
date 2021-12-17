@@ -37,7 +37,7 @@ export default function About() {
           <div>
             <h1>Climate Friendly</h1>
             <p>Driving an EV is more ecologically friendly using approximately 45% less Co2 than other vehicles. The goals is to produce 0grams Co2 in Denmark by 2030.  </p>
-            <a href="">More information</a>
+            <a href="https://fdm.dk/nyheder/bilist/2019-06-er-en-elbil-en-miljoevenlig-bil">More information</a>
           </div>
           
         </div>
